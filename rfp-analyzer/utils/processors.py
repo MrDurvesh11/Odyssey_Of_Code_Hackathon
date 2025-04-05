@@ -194,7 +194,9 @@ class EligibilityAgent:
             "matches": [],
             "gaps": [],
             "partial_matches": [],
-            "recommendations": []
+            "recommendations": [],
+            "deal_breakers": [],  # New: Track deal-breakers
+            "mandatory_criteria": []  # New: Track mandatory criteria
         }
         
         # Get eligibility criteria from RFP
@@ -212,6 +214,10 @@ class EligibilityAgent:
             eligibility_results["notes"] = "No explicit eligibility criteria found in RFP"
             return eligibility_results
         
+        # NEW: Extract and classify mandatory criteria
+        mandatory_criteria = self._extract_mandatory_criteria(criteria)
+        eligibility_results["mandatory_criteria"] = mandatory_criteria
+        
         # Prepare company capabilities from multiple fields
         company_capabilities = []
         for field in ["certifications", "experience", "expertise", "past_projects", "qualifications"]:
@@ -225,6 +231,9 @@ class EligibilityAgent:
         total_confidence = 0
         
         for criterion in criteria:
+            # Check if this is a mandatory criterion
+            is_mandatory = any(mandatory["criterion"] == criterion for mandatory in mandatory_criteria)
+            
             # Encode the criterion
             criterion_embedding = self.model.encode(criterion, convert_to_tensor=True)
             
@@ -245,23 +254,35 @@ class EligibilityAgent:
                 eligibility_results["matches"].append({
                     "criterion": criterion,
                     "match": best_match,
-                    "confidence": best_score
+                    "confidence": best_score,
+                    "mandatory": is_mandatory  # New: Flag if this is a mandatory criterion
                 })
                 total_confidence += best_score
             elif best_score > 0.5:  # Partial match
                 eligibility_results["partial_matches"].append({
                     "criterion": criterion,
                     "partial_match": best_match,
-                    "confidence": best_score
+                    "confidence": best_score,
+                    "mandatory": is_mandatory  # New: Flag if this is a mandatory criterion
                 })
                 total_confidence += best_score * 0.5  # Count partial matches with half weight
             else:  # Gap - not eligible
                 eligibility_results["gaps"].append(criterion)
+                
+                # NEW: If this is a mandatory criterion, add to deal-breakers
+                if is_mandatory:
+                    eligibility_results["deal_breakers"].append({
+                        "criterion": criterion,
+                        "requirement_type": self._classify_requirement_type(criterion),
+                        "impact": "Critical - Required for eligibility"
+                    })
+                    
                 eligibility_results["eligible"] = False
                 # Generate recommendation for this gap
                 eligibility_results["recommendations"].append({
                     "gap": criterion,
-                    "recommendation": f"Consider partnering with a firm that has: {criterion}"
+                    "recommendation": f"Consider partnering with a firm that has: {criterion}",
+                    "critical": is_mandatory  # New: Flag if this recommendation is critical
                 })
         
         # Calculate overall confidence score
@@ -269,6 +290,73 @@ class EligibilityAgent:
             eligibility_results["confidence_score"] = total_confidence / len(criteria)
         
         return eligibility_results
+    
+    # NEW: Method to extract mandatory criteria
+    def _extract_mandatory_criteria(self, criteria):
+        """Extract criteria that are mandatory requirements"""
+        mandatory_criteria = []
+        
+        for criterion in criteria:
+            if not isinstance(criterion, str):
+                continue
+                
+            criterion_lower = criterion.lower()
+            
+            # Check for mandatory language
+            is_mandatory = any(term in criterion_lower for term in [
+                "must ", "shall ", "required", "mandatory", "essential",
+                "minimum requirement", "minimum qualification", "prerequisite",
+                "only those", "eligibility criteria", "qualified bidders"
+            ])
+            
+            # Check for negative exclusion language
+            is_exclusion = any(term in criterion_lower for term in [
+                "will not be considered", "will be disqualified", "not eligible",
+                "will be rejected", "non-compliance", "disqualification"
+            ])
+            
+            if is_mandatory or is_exclusion:
+                requirement_type = self._classify_requirement_type(criterion)
+                
+                mandatory_criteria.append({
+                    "criterion": criterion,
+                    "requirement_type": requirement_type,
+                    "exclusionary": is_exclusion
+                })
+        
+        return mandatory_criteria
+    
+    # NEW: Method to classify requirement types
+    def _classify_requirement_type(self, criterion):
+        """Classify the type of requirement based on text content"""
+        criterion_lower = criterion.lower()
+        
+        if any(term in criterion_lower for term in [
+            "certification", "certified", "license", "accreditation", "iso", "cmmi"
+        ]):
+            return "certification"
+            
+        if any(term in criterion_lower for term in [
+            "experience", "years", "completed project", "similar work", "track record"
+        ]):
+            return "experience"
+            
+        if any(term in criterion_lower for term in [
+            "financial", "revenue", "turnover", "net worth", "annual sales", "budget"
+        ]):
+            return "financial"
+            
+        if any(term in criterion_lower for term in [
+            "degree", "education", "qualification", "trained", "skilled"
+        ]):
+            return "qualification"
+            
+        if any(term in criterion_lower for term in [
+            "registered", "registration", "incorporated", "legal entity"
+        ]):
+            return "registration"
+            
+        return "general"
 
 class LegalRiskAnalyzer:
     """Agent specialized in assessing legal risks in RFP documents"""

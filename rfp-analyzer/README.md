@@ -5,6 +5,8 @@ A comprehensive tool for analyzing Request for Proposal (RFP) documents using a 
 ## Features
 
 - **Document Processing**: Extract and structure data from PDF and DOCX files
+- **Deal-Breaker Identification**: Early detection of critical requirements that could disqualify your bid
+- **Mandatory Criteria Extraction**: Clear summary of must-have qualifications and requirements
 - **Eligibility Analysis**: Determine if your company meets the RFP requirements
 - **Legal Risk Assessment**: Identify potential legal issues in the RFP
 - **Submission Requirements**: Analyze timeline and checklist for proposal submission
@@ -40,8 +42,10 @@ streamlit run app_enhanced.py
 1. Upload your company data document (PDF/DOCX)
 2. Upload the RFP document you want to analyze (PDF/DOCX)
 3. Click "Run Comprehensive Analysis"
-4. Navigate through the tabs to view different aspects of the analysis
-5. Use the "Ask RFP Agent" tab to ask specific questions
+4. Check the "Deal-Breakers" tab first to identify any critical issues
+5. Review mandatory criteria to ensure your company qualifies
+6. Navigate through other tabs to view detailed analyses
+7. Use the "Ask RFP Agent" tab to ask specific questions
 
 ## Model Information
 
