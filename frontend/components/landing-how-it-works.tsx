@@ -41,28 +41,28 @@ export function LandingHowItWorks() {
       title: "Upload Your RFP",
       description:
         "Simply drag and drop your RFP documents into our secure platform. We support all common file formats including PDF, DOCX, and TXT.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/step1.jpg",
     },
     {
       icon: Sparkles,
       title: "AI Analysis",
       description:
         "Our advanced AI analyzes the entire document, extracting key requirements, deadlines, and compliance criteria with remarkable accuracy.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/step2.jpg",
     },
     {
       icon: LineChart,
       title: "Review Insights",
       description:
         "Explore comprehensive visualizations of requirements, risks, and opportunities. Our platform highlights critical areas that need attention.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/step3.webp",
     },
     {
       icon: ListChecks,
       title: "Take Action",
       description:
         "Use our interactive tools to create submission checklists, assess risks, and get AI-powered assistance throughout your bid process.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/step4.jpg",
     },
   ]
 

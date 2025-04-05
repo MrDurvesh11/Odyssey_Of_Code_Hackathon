@@ -65,38 +65,38 @@ export function LandingFeatures() {
       description:
         "Our advanced AI analyzes complex RFP documents to extract key requirements, deadlines, and compliance criteria.",
       icon: Sparkles,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/feat1.avif",
     },
     {
       title: "Risk Assessment Visualization",
       description:
         "Identify high-risk contract clauses with our intuitive heatmap and get AI-suggested mitigation strategies.",
       icon: AlertCircle,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/feat2.webp",
     },
     {
       title: "Interactive Submission Checklist",
       description: "Track your proposal preparation with dynamic checklists that ensure you meet every requirement.",
       icon: ListChecks,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/feat3.avif",
     },
     {
       title: "Eligibility Comparison",
       description: "See how your company's capabilities match up against RFP requirements with visual gap analysis.",
       icon: CheckCircle,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/feat3.webp",
     },
     {
       title: "AI Assistant",
       description: "Get instant answers to your questions about the RFP with our intelligent AI assistant.",
       icon: Bot,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/feat5.avif",
     },
     {
       title: "Compliance Tracking",
       description: "Monitor your compliance status in real-time and receive alerts for critical requirements.",
       icon: Shield,
-      image: "/placeholder.svg?height=400&width=600",
+      image: "/feat6.webp",
     },
   ]
 
@@ -159,21 +159,22 @@ export function LandingFeatures() {
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="relative rounded-xl border border-teal-500/20 bg-background/50 shadow-xl backdrop-blur-sm overflow-hidden"
+            className="relative rounded-xl border border-teal-500/20 bg-background/50 shadow-xl backdrop-blur-sm overflow-hidden h-96" // Added fixed height for better presentation
           >
             {features.map((feature, index) => (
               <div
                 key={index}
                 className={`absolute inset-0 transition-opacity duration-500 ${
-                  activeFeature === index ? "opacity-100" : "opacity-0"
+                  activeFeature === index ? "opacity-100" : "opacity-0 pointer-events-none"
                 }`}
               >
                 <Image
-                  src={feature.image || "/placeholder.svg"}
+                  src={feature.image}
                   alt={feature.title}
-                  width={600}
-                  height={400}
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 600px"
+                  priority={index === 0}
                 />
               </div>
             ))}
@@ -197,4 +198,3 @@ export function LandingFeatures() {
     </section>
   )
 }
-

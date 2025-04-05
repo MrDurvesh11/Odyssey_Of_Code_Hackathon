@@ -77,7 +77,7 @@ export function LandingTestimonials() {
   ]
 
   return (
-    <section ref={testimonialsRef} className="relative py-20 overflow-hidden">
+    <section ref={testimonialsRef} className="relative py-20 overflow-hidden" id="testimonials">
       {/* Background elements */}
       <div className="absolute inset-0 bg-gradient-to-b from-background to-background/90 z-0"></div>
       <div className="absolute top-0 left-0 w-full h-1/2 bg-[radial-gradient(ellipse_at_center,rgba(13,148,136,0.15),transparent_50%)]"></div>

@@ -2,180 +2,241 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { SignInButton, SignUpButton, useUser } from "@clerk/nextjs";
-import { Menu, X, BarChart, FileText, Settings, Home, User, LogOut } from "lucide-react";
-import { useState, useEffect } from "react";
-
-import { Button } from "@/components/ui/button";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { UserButton } from "@/components/user-button";
 import { cn } from "@/lib/utils";
+import {
+  BarChart2,
+  FileText,
+  Search,
+  Settings,
+  Zap,
+  LayoutDashboard,
+  Bell,
+  User,
+  LogOut,
+  HelpCircle,
+  Calendar,
+  CheckCircle,
+  Users,
+  ChevronRight,
+  AlertTriangle,
+  Menu,
+  X
+} from "lucide-react";
+import { Button } from "@/components/ui/button";
+import {
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuLabel,
+  DropdownMenuSeparator,
+  DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { useState } from "react";
+import { useUser, UserButton, SignInButton } from "@clerk/nextjs";
+
+interface NavItem {
+  title: string;
+  href: string;
+  icon: React.ReactNode;
+}
 
 export function DashboardNav() {
-  const { isSignedIn, user, isLoaded } = useUser();
-  const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
-  const [mounted, setMounted] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+  const { isSignedIn, user } = useUser();
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mainNavItems: NavItem[] = [
+    {
+      title: "Dashboard",
+      href: "/dashboard",
+      icon: <LayoutDashboard className="h-4 w-4" />,
+    },
+    {
+      title: "RFPs",
+      href: "/dashboard/rfps",
+      icon: <FileText className="h-4 w-4" />,
+    },
+    {
+      title: "Analyze",
+      href: "/dashboard/analyze",
+      icon: <Zap className="h-4 w-4" />,
+    },
+    {
+      title: "Reports",
+      href: "/dashboard/reports",
+      icon: <BarChart2 className="h-4 w-4" />,
+    },
+    {
+      title: "Calendar",
+      href: "/dashboard/calendar",
+      icon: <Calendar className="h-4 w-4" />,
+    },
+    {
+      title: "Checklists",
+      href: "/dashboard/checklists",
+      icon: <CheckCircle className="h-4 w-4" />,
+    },
+    {
+      title: "Team",
+      href: "/dashboard/team",
+      icon: <Users className="h-4 w-4" />,
+    },
+  ];
 
-  // Close sheet when path changes
-  useEffect(() => {
-    setIsOpen(false);
-  }, [pathname]);
-
-  // Wait for auth to load and component to mount
-  if (!mounted || !isLoaded) return null;
+  const secondaryNavItems: NavItem[] = [
+    {
+      title: "Settings",
+      href: "/dashboard/settings",
+      icon: <Settings className="h-4 w-4" />,
+    },
+    {
+      title: "Help",
+      href: "/dashboard/help",
+      icon: <HelpCircle className="h-4 w-4" />,
+    },
+  ];
 
   return (
-    <header className="sticky top-0 z-50 flex h-16 w-full shrink-0 items-center justify-between border-b bg-background/95 px-4 backdrop-blur-sm md:px-6">
-      <div className="flex items-center gap-2 md:gap-4">
-        <Sheet open={isOpen} onOpenChange={setIsOpen}>
-          <SheetTrigger asChild>
-            <Button variant="outline" size="icon" className="md:hidden">
-              <Menu className="h-5 w-5" />
-              <span className="sr-only">Toggle Menu</span>
-            </Button>
-          </SheetTrigger>
-          <SheetContent side="left" className="w-72">
-            <nav className="flex flex-col gap-4 pt-4">
-              <Link 
-                href="/" 
-                className="flex items-center gap-2 text-lg font-semibold"
-                onClick={() => setIsOpen(false)}
-              >
-                <FileText className="h-5 w-5 text-teal-500" />
-                <span>RFP Analysis</span>
-              </Link>
-              
-              <div className="grid gap-2 pt-2">
-                <Link 
-                  href="/" 
+    <div className={cn(
+      "fixed inset-y-0 z-30 h-full border-r bg-background/95 backdrop-blur transition-all duration-300", 
+      collapsed ? "w-16" : "w-60"
+    )}>
+      <div className="flex h-full flex-col">
+        <div className="sticky top-0 z-10 flex items-center justify-between px-4 h-16 border-b">
+          <Link href="/dashboard" className={cn("flex items-center", collapsed && "justify-center")}>
+            {!collapsed ? (
+              <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-teal-600">
+                RFP AI
+              </span>
+            ) : (
+              <span className="text-2xl font-bold text-teal-500">R</span>
+            )}
+          </Link>
+          <Button 
+            variant="ghost" 
+            size="icon" 
+            onClick={() => setCollapsed(!collapsed)}
+            className="h-8 w-8"
+          >
+            {collapsed ? <ChevronRight className="h-4 w-4" /> : <Menu className="h-4 w-4" />}
+          </Button>
+        </div>
+
+        <div className="flex-1 overflow-auto">
+          <div className="px-3 py-4">
+            <div className="space-y-1">
+              {mainNavItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
                   className={cn(
-                    "flex items-center gap-2 rounded-md px-3 py-2 text-sm transition-colors",
-                    pathname === "/" 
-                      ? "bg-muted font-medium text-foreground" 
-                      : "hover:bg-muted hover:text-foreground"
+                    "flex items-center rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-muted hover:text-foreground",
+                    pathname === item.href || pathname.startsWith(`${item.href}/`)
+                      ? "bg-teal-500/10 text-teal-500"
+                      : "text-muted-foreground",
+                    collapsed && "justify-center p-2"
                   )}
                 >
-                  <Home className="h-4 w-4" />
-                  Home
+                  {item.icon}
+                  {!collapsed && <span className="ml-3">{item.title}</span>}
+                  {collapsed && <span className="sr-only">{item.title}</span>}
                 </Link>
-                
-                {isSignedIn && (
-                  <>
-                    <Link 
-                      href="/dashboard" 
-                      className={cn(
-                        "flex items-center gap-2 rounded-md px-3 py-2 text-sm transition-colors",
-                        pathname === "/dashboard" 
-                          ? "bg-muted font-medium text-foreground" 
-                          : "hover:bg-muted hover:text-foreground"
-                      )}
-                    >
-                      <BarChart className="h-4 w-4" />
-                      Dashboard
-                    </Link>
-                    <Link 
-                      href="/settings" 
-                      className={cn(
-                        "flex items-center gap-2 rounded-md px-3 py-2 text-sm transition-colors",
-                        pathname === "/settings" 
-                          ? "bg-muted font-medium text-foreground" 
-                          : "hover:bg-muted hover:text-foreground"
-                      )}
-                    >
-                      <Settings className="h-4 w-4" />
-                      Settings
-                    </Link>
-                  </>
-                )}
-              </div>
+              ))}
+            </div>
+          </div>
 
-              <div className="mt-auto">
-                {isSignedIn ? (
-                  <div className="flex flex-col gap-4 pt-4 border-t">
-                    <div className="flex items-center gap-2 p-2">
-                      <UserButton />
-                      <div className="grid gap-0.5">
-                        <p className="text-sm font-medium">{user.fullName || user.username}</p>
-                        <p className="text-xs text-muted-foreground">{user.primaryEmailAddress?.emailAddress}</p>
-                      </div>
-                    </div>
+          <div className="px-3 py-2">
+            <div className="space-y-1">
+              {secondaryNavItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  className={cn(
+                    "flex items-center rounded-md px-3 py-2 text-sm font-medium transition-colors hover:bg-muted hover:text-foreground",
+                    pathname === item.href
+                      ? "bg-teal-500/10 text-teal-500"
+                      : "text-muted-foreground",
+                    collapsed && "justify-center p-2"
+                  )}
+                >
+                  {item.icon}
+                  {!collapsed && <span className="ml-3">{item.title}</span>}
+                  {collapsed && <span className="sr-only">{item.title}</span>}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-auto p-4 border-t">
+          {!collapsed ? (
+            <div className="flex items-center justify-between">
+              {isSignedIn ? (
+                <div className="flex items-center gap-2">
+                  <UserButton afterSignOutUrl="/" />
+                  <div className="text-sm">
+                    <p className="font-medium">{user?.fullName || user?.firstName}</p>
+                    <p className="text-xs text-muted-foreground">{user?.publicMetadata?.role || "user"}</p>
                   </div>
-                ) : (
-                  <div className="flex flex-col gap-2 pt-4 border-t">
+                </div>
+              ) : (
+                <div className="flex items-center gap-2">
+                  <Avatar className="h-8 w-8">
+                    <AvatarFallback>?</AvatarFallback>
+                  </Avatar>
+                  <div className="text-sm">
                     <SignInButton mode="modal">
-                      <Button variant="outline" className="w-full justify-start">
-                        <User className="mr-2 h-4 w-4" />
+                      <Button variant="ghost" size="sm" className="px-0">
                         Sign In
                       </Button>
                     </SignInButton>
-                    <SignUpButton mode="modal">
-                      <Button className="w-full justify-start">
-                        Sign Up
-                      </Button>
-                    </SignUpButton>
                   </div>
-                )}
-              </div>
-            </nav>
-          </SheetContent>
-        </Sheet>
-        
-        <Link href="/" className="flex items-center gap-2">
-          <FileText className="h-5 w-5 text-teal-500" />
-          <span className="font-semibold inline-block">RFP Analysis</span>
-        </Link>
-      </div>
-      
-      <nav className="hidden md:flex items-center gap-5">
-        <Link 
-          href="/" 
-          className={cn(
-            "text-sm font-medium transition-colors hover:text-foreground/80",
-            pathname === "/" ? "text-foreground" : "text-foreground/60"
+                </div>
+              )}
+              
+              <DropdownMenu>
+                <DropdownMenuTrigger asChild>
+                  <Button variant="ghost" size="icon" className="h-8 w-8 rounded-full">
+                    <Settings className="h-4 w-4" />
+                  </Button>
+                </DropdownMenuTrigger>
+                <DropdownMenuContent align="end">
+                  <DropdownMenuLabel>My Account</DropdownMenuLabel>
+                  <DropdownMenuSeparator />
+                  <DropdownMenuItem>
+                    <User className="mr-2 h-4 w-4" /> Profile
+                  </DropdownMenuItem>
+                  <DropdownMenuItem>
+                    <Settings className="mr-2 h-4 w-4" /> Settings
+                  </DropdownMenuItem>
+                  {isSignedIn && (
+                    <>
+                      <DropdownMenuSeparator />
+                      <DropdownMenuItem>
+                        <LogOut className="mr-2 h-4 w-4" /> Log out
+                      </DropdownMenuItem>
+                    </>
+                  )}
+                </DropdownMenuContent>
+              </DropdownMenu>
+            </div>
+          ) : (
+            <div className="flex justify-center">
+              {isSignedIn ? (
+                <UserButton afterSignOutUrl="/" />
+              ) : (
+                <SignInButton mode="modal">
+                  <Button variant="ghost" size="icon" className="h-8 w-8 rounded-full">
+                    <User className="h-4 w-4" />
+                  </Button>
+                </SignInButton>
+              )}
+            </div>
           )}
-        >
-          Home
-        </Link>
-        
-        {isSignedIn ? (
-          <>
-            <Link 
-              href="/dashboard" 
-              className={cn(
-                "text-sm font-medium transition-colors hover:text-foreground/80",
-                pathname === "/dashboard" ? "text-foreground" : "text-foreground/60"
-              )}
-            >
-              Dashboard
-            </Link>
-            <Link 
-              href="/settings" 
-              className={cn(
-                "text-sm font-medium transition-colors hover:text-foreground/80",
-                pathname === "/settings" ? "text-foreground" : "text-foreground/60"
-              )}
-            >
-              Settings
-            </Link>
-            <UserButton />
-          </>
-        ) : (
-          <div className="flex items-center gap-2">
-            <SignInButton mode="modal">
-              <Button variant="ghost" size="sm">Sign In</Button>
-            </SignInButton>
-            <SignUpButton mode="modal">
-              <Button size="sm">Sign Up</Button>
-            </SignUpButton>
-          </div>
-        )}
-      </nav>
-    </header>
+        </div>
+      </div>
+    </div>
   );
 }
 

@@ -52,7 +52,7 @@ export function LandingNav() {
                 </Link>
                 <div className="flex flex-col gap-2">
                   <Link 
-                    href="/features" 
+                    href="/#features" 
                     className={cn(
                       "flex items-center rounded-md px-3 py-2 text-sm transition-colors",
                       pathname === "/features" ? "bg-muted font-medium" : "hover:bg-muted"
@@ -61,28 +61,28 @@ export function LandingNav() {
                     Features
                   </Link>
                   <Link 
-                    href="/pricing" 
+                    href="#pricing" 
                     className={cn(
                       "flex items-center rounded-md px-3 py-2 text-sm transition-colors",
-                      pathname === "/pricing" ? "bg-muted font-medium" : "hover:bg-muted"
+                      pathname === "#pricing" ? "bg-muted font-medium" : "hover:bg-muted"
                     )}
                   >
                     Pricing
                   </Link>
                   <Link 
-                    href="/testimonials" 
+                    href="#testimonials" 
                     className={cn(
                       "flex items-center rounded-md px-3 py-2 text-sm transition-colors",
-                      pathname === "/testimonials" ? "bg-muted font-medium" : "hover:bg-muted"
+                      pathname === "#testimonials" ? "bg-muted font-medium" : "hover:bg-muted"
                     )}
                   >
                     Testimonials
                   </Link>
                   <Link 
-                    href="/faq" 
+                    href="#faq" 
                     className={cn(
                       "flex items-center rounded-md px-3 py-2 text-sm transition-colors",
-                      pathname === "/faq" ? "bg-muted font-medium" : "hover:bg-muted"
+                      pathname === "#faq" ? "bg-muted font-medium" : "hover:bg-muted"
                     )}
                   >
                     FAQ
@@ -130,37 +130,37 @@ export function LandingNav() {
 
         <nav className="hidden md:flex items-center gap-6">
           <Link
-            href="/features"
+            href="#features"
             className={cn(
               "text-sm font-medium transition-colors hover:text-foreground/80",
-              pathname === "/features" ? "text-foreground" : "text-foreground/60"
+              pathname === "#features" ? "text-foreground" : "text-foreground/60"
             )}
           >
             Features
           </Link>
           <Link
-            href="/pricing"
+            href="#pricing"
             className={cn(
               "text-sm font-medium transition-colors hover:text-foreground/80",
-              pathname === "/pricing" ? "text-foreground" : "text-foreground/60"
+              pathname === "#pricing" ? "text-foreground" : "text-foreground/60"
             )}
           >
             Pricing
           </Link>
           <Link
-            href="/testimonials"
+            href="#testimonials"
             className={cn(
               "text-sm font-medium transition-colors hover:text-foreground/80",
-              pathname === "/testimonials" ? "text-foreground" : "text-foreground/60"
+              pathname === "#testimonials" ? "text-foreground" : "text-foreground/60"
             )}
           >
             Testimonials
           </Link>
           <Link
-            href="/faq"
+            href="#faq"
             className={cn(
               "text-sm font-medium transition-colors hover:text-foreground/80",
-              pathname === "/faq" ? "text-foreground" : "text-foreground/60"
+              pathname === "#faq" ? "text-foreground" : "text-foreground/60"
             )}
           >
             FAQ

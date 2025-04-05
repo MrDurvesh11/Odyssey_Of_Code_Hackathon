@@ -144,8 +144,8 @@ export function LandingHero() {
           </div>
           <div className="overflow-hidden rounded-xl">
             <Image
-              src="/placeholder.svg?height=600&width=1200"
-              width={1200}
+              src="/home.png"
+              width={600}
               height={600}
               alt="Dashboard Preview"
               className="w-full object-cover"

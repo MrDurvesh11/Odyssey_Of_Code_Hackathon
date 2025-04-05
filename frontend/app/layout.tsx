@@ -14,8 +14,8 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "RFP Analysis Platform",
-  description: "AI-powered RFP analysis and response platform",
+  title: "RFP AI - AI-Powered RFP Analysis & Response Platform",
+  description: "Analyze RFPs, extract requirements, and generate winning responses with AI.",
   generator: 'v0.dev'
 }
 
