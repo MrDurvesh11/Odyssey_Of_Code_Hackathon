@@ -7,7 +7,11 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Checkbox } from "@/components/ui/checkbox";
-import { Zap, GitHub, Google, AlertCircle } from "lucide-react";
+import { 
+  AlertCircle, 
+  Github as GitHub, // Corrected import name
+  Mail as Google // Changed to Mail as Google might not be available
+} from "lucide-react";
 
 export default function LoginPage() {
   const router = useRouter();
@@ -136,7 +140,7 @@ export default function LoginPage() {
               Don't have an account?{" "}
             </span>
             <Link
-              href="/signup"
+              href="/sign-up"
               className="text-blue-600 hover:text-blue-500 dark:text-blue-400 dark:hover:text-blue-300 font-medium"
             >
               Sign up
