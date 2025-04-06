@@ -1,0 +1,15 @@
+```json
+{
+  "Eligibility Criteria": [
+    "Contractors must be experienced in software development and have a proven track record of successfully delivering projects on time and within budget.",
+    "Contractors must have a team of developers with the necessary skills and expertise to deliver the project requirements.",
+    "Contractors must have a strong understanding of the organization's business needs and requirements for the application."
+  ],
+  "Submission Guidelines": [
+    "Proposals must be submitted electronically by the specified deadline.",
+    "Proposals must include a detailed outline of the proposed solution, including technical details and timelines.",
+    "Proposals must include a detailed budget breakdown outlining the costs associated with the project.",
+    "Proposals must include contact information for the proposer, including name, address, phone number, and email address."
+  ]
+}
+```

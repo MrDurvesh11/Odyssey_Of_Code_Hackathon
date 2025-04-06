@@ -1,0 +1,14 @@
+Okay, I'm ready to analyze contract clauses and provide a JSON output structured as requested.  I'll need the actual contract clauses to perform the analysis.  Please provide the text of the contract clauses you want me to review.
+
+**Once you provide the contract clauses, I will:**
+
+1.  **Read and Understand:**  I will carefully read each clause to understand its meaning and implications.
+2.  **Identify Risks:** I will analyze each clause based on the criteria you provided (biased clauses, unbalanced risk allocation, unreasonable obligations, unclear terms, and excessive penalties).
+3.  **Provide Analysis:** For each risky clause, I'll provide:
+    *   **Explanation:** Why the clause is risky.
+    *   **Risk Level:** High/Medium/Low based on the potential impact and likelihood of the risk.
+    *   **Alternative:** A suggestion for a more balanced and less risky alternative.
+4.  **Generate JSON Output:** I will format my analysis into a JSON structure exactly as you specified.
+5.  **Offer a Summary:** I will summarize the overall risk assessment of the contract.
+
+**I am now waiting for the contract clauses.**  Please provide the text, and I will begin the analysis.

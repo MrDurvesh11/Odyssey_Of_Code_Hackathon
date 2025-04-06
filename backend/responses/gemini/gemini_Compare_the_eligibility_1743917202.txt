@@ -1,0 +1,52 @@
+Okay, I need the following to create the JSON output you requested:
+
+1.  **`eligibility_criteria`**:  The criteria specified in the Request for Proposal (RFP). This should be a structured representation (e.g., a list of dictionaries, where each dictionary represents a criterion and contains fields like "criterion_name", "description" or "requirement_details").  **Provide this data!**  Example:
+
+    ```json
+    {
+      "eligibility_criteria": [
+        {
+          "criterion_name": "Years in Business",
+          "description": "Must have been in business for at least 5 years.",
+          "requirement_details": "Provide proof of registration/incorporation."
+        },
+        {
+          "criterion_name": "Financial Stability",
+          "description": "Must demonstrate financial stability.",
+          "requirement_details": "Provide audited financial statements for the last 3 years."
+        },
+        {
+          "criterion_name": "Relevant Experience",
+          "description": "Must have experience in providing similar services.",
+          "requirement_details": "Provide 3 client references with contact information."
+        }
+      ],
+      "company_qualifications": {
+        "years_in_business": 7,
+        "financial_statements": {
+          "audited": true,
+          "years_available": 2
+        },
+        "client_references": [
+          {
+            "client_name": "Client A",
+            "service_provided": "Service X"
+          },
+          {
+            "client_name": "Client B",
+            "service_provided": "Service Y"
+          }
+        ]
+      }
+    }
+    ```
+
+2.  **`company_qualifications`**:  The qualifications and capabilities of the company seeking to respond to the RFP. This should also be a structured representation. Include all relevant information such as the company's years in business, financial information, experience details, certifications, etc.  **Provide this data!** It needs to be in a format that allows it to be easily compared to the `eligibility_criteria`.
+
+**Once you provide this information, I can generate the JSON output.** I will:
+
+*   Iterate through the RFP criteria.
+*   Compare each criterion against the company's qualifications.
+*   Determine "Yes", "No", or "Partial" based on the comparison.
+*   Provide evidence and suggestions for improvement.
+*   Compile a summary to determine the overall eligibility.

@@ -1,0 +1,137 @@
+Okay, I'm ready to help you analyze the RFP requirements against your company's capabilities.  I need you to provide the following information:
+
+1.  **`rfp_requirements`**: A JSON object containing the requirements outlined in the RFP. This could be structured in various ways, but ideally, it's broken down into key areas (e.g., "Technical Expertise", "Project Management", "Pricing", "Experience").  Within each area, list the specific requirements or criteria.  Example structure:
+
+    ```json
+    {
+      "rfp_requirements": {
+        "Technical Expertise": [
+          "Proficiency in Cloud Computing",
+          "Experience with AWS Services",
+          "Expertise in Data Analytics"
+        ],
+        "Project Management": [
+          "Agile Methodology",
+          "Project Reporting",
+          "Risk Management Plan"
+        ],
+        "Pricing": [
+          "Competitive Pricing",
+          "Transparent Cost Breakdown",
+          "Fixed-Price Option"
+        ],
+        "Experience": [
+          "5+ Years of Experience in the Industry",
+          "Successful Projects of Similar Scope",
+          "Client References"
+        ]
+      }
+    }
+    ```
+
+2.  **`company_capabilities`**: A JSON object describing your company's capabilities.  This should mirror the structure of your `rfp_requirements`, listing the areas where your company has strengths, with details on the capabilities within those areas. Example structure:
+
+    ```json
+    {
+      "company_capabilities": {
+        "Technical Expertise": [
+          "Strong in Cloud Computing (Expertise with Azure and AWS)",
+          "Experience with AWS Services (EC2, S3, Lambda)",
+          "Good Understanding of Data Analytics"
+        ],
+        "Project Management": [
+          "Agile Methodology (Certified Scrum Masters)",
+          "Project Reporting (Weekly Status Reports)",
+          "Risk Management Plan (Robust Risk Mitigation Processes)"
+        ],
+        "Pricing": [
+          "Competitive Pricing (Competitive Analysis)",
+          "Transparent Cost Breakdown (Detailed breakdown)",
+          "Fixed-Price Option (Available for projects with defined scope)"
+        ],
+        "Experience": [
+          "7+ Years of Experience in the Industry",
+          "Successful Projects of Similar Scope (Case Studies Available)",
+          "Client References (Available Upon Request)"
+        ]
+      }
+    }
+    ```
+
+**Once you provide this data, I can generate the structured JSON output you requested, including:**
+
+*   **Capability Match Ratings:** For each requirement area (Strong, Moderate, Weak).
+*   **Competitive Advantages:** What makes your company stand out.
+*   **Capability Gaps:** Areas where your company needs improvement.
+*   **Overall Fit:** A score and explanation.
+*   **Strength Areas:** List of key strengths.
+*   **Gap Areas:** List of key weaknesses.
+*   **Opportunity Assessment:** Strategic evaluation (e.g., "High Potential," "Moderate Risk," "Low Probability").
+*   **Win Strategy:** Recommendations for how to improve the proposal and increase your chances of success.
+
+**Example Output Structure (What I'll Generate):**
+
+```json
+{
+  "overall_fit": 7,
+  "overall_fit_explanation": "A solid fit overall.  The company excels in several key areas, but some gaps exist that need to be addressed in the proposal.",
+  "strength_areas": [
+    "Technical Expertise: Strong Cloud Computing and AWS experience.",
+    "Project Management:  Mature Agile processes and reporting."
+  ],
+  "gap_areas": [
+    "Data Analytics:  Needs to strengthen expertise.",
+    "Pricing: Competitive analysis still needs work"
+  ],
+  "opportunity_assessment": "Moderate Risk/Moderate Reward.  With targeted improvements in the proposal, the company has a good chance of winning.",
+  "win_strategy": [
+    "Highlight AWS experience in detail.",
+    "Provide a more comprehensive cost breakdown.",
+    "Supplement data analytics expertise with strategic partnership.",
+    "Focus on strong project management capabilities in the proposal.",
+    "Provide client references showcasing previous success."
+  ],
+  "requirement_analysis": {
+    "Technical Expertise": {
+      "capability_match": "Strong",
+      "competitive_advantages": [
+        "Expertise in AWS cloud services",
+        "Proven experience in cloud implementations"
+      ],
+      "capability_gaps": [
+        "Limited specific AWS certifications"
+      ]
+    },
+    "Project Management": {
+      "capability_match": "Strong",
+      "competitive_advantages": [
+        "Agile methodology",
+        "Strong reporting procedures"
+      ],
+      "capability_gaps": [
+         "None"
+      ]
+    },
+    "Pricing": {
+      "capability_match": "Moderate",
+      "competitive_advantages": [
+       "Fixed-Price Option (Available for projects with defined scope)"
+      ],
+      "capability_gaps": [
+         "Competitive analysis could be stronger."
+      ]
+    },
+    "Experience": {
+      "capability_match": "Strong",
+      "competitive_advantages": [
+        "Established company with a history of success."
+      ],
+      "capability_gaps": [
+          "None"
+      ]
+    }
+  }
+}
+```
+
+**I'm ready when you are! Please provide the `rfp_requirements` and `company_capabilities` JSON objects.**

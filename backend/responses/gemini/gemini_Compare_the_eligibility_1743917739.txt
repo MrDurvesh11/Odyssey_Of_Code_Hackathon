@@ -1,0 +1,103 @@
+```json
+{
+  "overall_eligible": false,
+  "criteria_analysis": [
+    {
+      "criterion": "Contractors must be experienced in software development and have a proven track record of successfully delivering projects on time and within budget.",
+      "meets_requirement": "Partial",
+      "evidence": "The provided company qualifications do not explicitly mention software development experience or a proven track record. The 'Past Performance' section references experience in temporary staffing services, not software development.  This suggests the company might staff software developers but doesn't guarantee their own expertise.",
+      "needed_to_become_eligible": "Provide documentation demonstrating past software development projects, including successful on-time and within-budget delivery.  This could include case studies, client testimonials, and project summaries.",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Contractors must have a team of developers with the necessary skills and expertise to deliver the project requirements.",
+      "meets_requirement": "Partial",
+      "evidence": "The 'Other Qualifications and Capabilities' section mentions a 'proposed staffing plan.' This implies the *ability* to assemble a team. However, the qualifications do *not* explicitly state the *team's* expertise or how the company ensures the team possesses the required skills for software development.  It is dependent on the staffing plan.",
+      "needed_to_become_eligible": "Provide specific details about the team of developers. This includes resumes, skill matrices, certifications, and examples of relevant projects completed by the proposed team members.  A clear process for ensuring the team's skills match the project requirements is also needed.",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Contractors must have a strong understanding of the organization's business needs and requirements for the application.",
+      "meets_requirement": "No",
+      "evidence": "The provided company qualifications do not address this criterion.  There is no mention of the company's capacity to understand business needs or requirement gathering processes.",
+      "needed_to_become_eligible": "Demonstrate the ability to understand business needs and requirements. This could include examples of prior projects where these needs were identified and met; outlining a project methodology that emphasizes stakeholder engagement and requirements gathering; and describing processes for eliciting, documenting, and validating application requirements.",
+      "relevance_to_submission_guidelines": "A detailed outline of the proposed solution, which includes a understanding of the needs, would be needed.  This would involve clearly demonstrating how the company will elicit, document, and validate requirements."
+    },
+    {
+      "criterion": "Must be a legal entity organized under the laws of the United States or any state thereof.",
+      "meets_requirement": "Yes",
+      "evidence": "Implicitly met, as the company seems to be operating in the USA based on legal status such as SAM registration and valid Texas employment agency license.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Valid Texas Employment Agency license.",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Registered in the System for Award Management (SAM).",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Minimum of 7 years of experience in temporary staffing services.",
+      "meets_requirement": "Yes",
+      "evidence": "The Past Performance section explicitly states this.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Must provide a letter of creditworthiness from a recognized financial institution.",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "This needs to be submitted in the proposal"
+    },
+    {
+      "criterion": "Must have a DUNS number.",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "N/A"
+    },
+    {
+      "criterion": "Must provide detailed information on organizational structure, including names and roles of key personnel.",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "This needs to be included in the proposal"
+    },
+    {
+      "criterion": "Must provide a proposed staffing plan and timeline.",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "This needs to be included in the proposal"
+    },
+    {
+      "criterion": "Appropriate insurance coverage, including workers' compensation, liability, and auto insurance.",
+      "meets_requirement": "Yes",
+      "evidence": "Explicitly stated in company qualifications.",
+      "needed_to_become_eligible": "N/A",
+      "relevance_to_submission_guidelines": "This needs to be included in the proposal"
+    }
+  ],
+  "missing_requirements": [
+    "Demonstrated experience in software development projects with successful on-time and on-budget delivery.",
+    "Documentation of developers' specific skills and experience.",
+    "A clear process for ensuring developers' skills match project requirements.",
+    "Demonstrated understanding of business needs and requirements gathering."
+  ],
+  "recommendations": [
+    "Gather and provide evidence of past software development projects, including case studies, client testimonials, and project summaries that demonstrate on-time and within-budget delivery.",
+    "Provide detailed information on the team of developers, including resumes, skill matrices, certifications, and examples of relevant projects completed by team members.",
+    "Define a process for matching developer skills with project requirements.",
+    "Outline a project methodology that emphasizes stakeholder engagement and requirements gathering, including examples of successful projects where these needs were met."
+  ]
+}
+```

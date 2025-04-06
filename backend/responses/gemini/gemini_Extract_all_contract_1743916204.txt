@@ -1,0 +1,1 @@
+Okay, I'm ready to extract the contract clauses from the provided RFP chunk. Please provide the text of the RFP chunk. I will analyze it and return a JSON response structured as you requested.

@@ -1,0 +1,32 @@
+```json
+{
+  "Standard Contract Terms": {
+    "Contract Term": "5 years, with the option to renew for an additional 2 years.",
+    "Services Provided": "Administrative, IT, legal, and credentialing staffing services.",
+    "Contract Value": "$10 million (estimated)",
+    "Award Process": "Awarded to a single bidder based on technical acceptability and reasonable bid price."
+  },
+  "Payment Terms": "Not explicitly stated in the provided information.  Details would be found in the formal contract document, but not provided in the prompt.",
+  "Liability Limitations": "Not explicitly stated in the provided information.  Details would be found in the formal contract document, but not provided in the prompt.",
+  "IP Ownership Policies": "Not explicitly stated in the provided information.  Details would be found in the formal contract document, but not provided in the prompt.",
+  "Insurance Coverage": {
+    "Mandatory Coverage": "Workers' compensation, liability, and auto insurance."
+  },
+  "Red Lines/Non-Negotiable Points": {
+    "Eligibility Requirements": [
+      "DUNS number required.",
+      "Registration in System for Award Management (SAM) required.",
+      "Letter of creditworthiness from a recognized financial institution required.",
+      "Valid Texas Employment Agency license required.",
+      "Appropriate insurance coverage (workers' compensation, liability, and auto) required.",
+      "Legal entity organized under the laws of the United States or any state thereof"
+    ],
+    "Experience Requirement": "Minimum of 7 years of experience in temporary staffing services.",
+    "Submission Requirements": [
+      "Bids must be in writing.",
+      "All required documentation must be included (bid proposal, proof of insurance, evidence of experience and capability).",
+      "Late bids will not be accepted."
+    ]
+  }
+}
+```

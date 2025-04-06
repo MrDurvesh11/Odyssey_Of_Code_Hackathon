@@ -1,0 +1,138 @@
+Okay, I need the "contract_terms" and "company_policies" data to provide a meaningful analysis.  I will simulate that data here to demonstrate how the JSON output should look.  Please provide the actual RFP contract terms and your company's policies for a real assessment.
+
+**Simulated Data**
+
+```json
+{
+  "contract_terms": {
+    "payment_terms": "Net 30 days after invoice approval.  Invoices must be submitted within 14 days of service completion. Late payment penalties are 1.5% per month.",
+    "liability": "Supplier is solely liable for all damages arising from its services.  Liability is capped at the total contract value.",
+    "intellectual_property": "All intellectual property created under this contract belongs to the client. Supplier grants a perpetual, irrevocable license to the client for any pre-existing IP used.",
+    "insurance": "Supplier must maintain $5 million in Commercial General Liability insurance and $1 million in Professional Liability (Errors & Omissions) insurance.",
+    "termination": "Client can terminate the contract for convenience with 30 days written notice.  Supplier can terminate for material breach only after 60 days to cure.",
+    "confidentiality": "Supplier agrees to protect all client confidential information. Confidentiality obligations survive the contract term for 5 years.",
+    "data_security": "Supplier must comply with all applicable data privacy regulations and industry best practices. Supplier must notify the client of any data breach within 24 hours.",
+    "governing_law": "The contract is governed by the laws of the State of Delaware.",
+     "warranty": "Supplier warrants its services for a period of 90 days from service completion.",
+     "audit": "Client has the right to audit Supplier's books and records related to the contract, with 15 days notice."
+  },
+  "company_policies": {
+    "payment_terms": "Standard is Net 45 days. Invoices are submitted within 30 days of service completion.",
+    "liability": "Our standard liability cap is twice the contract value. We negotiate limitations of liability on a project-by-project basis.",
+    "intellectual_property": "We retain ownership of our pre-existing intellectual property, but grant the client a license. We generally strive to retain ownership of all newly created IP.",
+    "insurance": "Our insurance coverage meets the requirements. We don't hold professional liability insurance.",
+    "termination": "We prefer a mutual termination clause, with a shorter notice period for breach by either party.",
+    "confidentiality": "Our standard confidentiality obligations survive for 3 years after contract completion.",
+    "data_security": "We adhere to industry best practices and GDPR. Breach notification is within 48 hours.",
+    "governing_law": "We prefer contracts to be governed by the laws of the State of California.",
+    "warranty": "Our standard warranty is 180 days.",
+     "audit": "We don't generally allow audits. We might allow it but with specific requirements like not notifying our competitors."
+  }
+}
+```
+
+**Analysis and JSON Output**
+
+```json
+{
+  "has_dealbreakers": true,
+  "dealbreakers": [
+    {
+      "contract_term": "intellectual_property",
+      "problem": "All intellectual property created under this contract belongs to the client. Supplier grants a perpetual, irrevocable license to the client for any pre-existing IP used.",
+      "reason": "This is a complete transfer of IP ownership.  This is not our standard practice. Granting a perpetual license on pre-existing IP is acceptable, but assigning ownership of ALL new IP is unacceptable without significant price adjustment or other benefits.",
+      "risk_level": "High",
+      "recommendation": "Negotiate a change to retain ownership of new IP and grant the client a license. If the client is insistent on ownership,  negotiate a significantly increased price or other favorable terms to offset the loss of IP rights."
+    },
+    {
+      "contract_term": "audit",
+      "problem": "Client has the right to audit Supplier's books and records related to the contract, with 15 days notice.",
+      "reason": "Allowing audits is against our standard. It exposes confidential financial information. We might accept it under specific requirements.",
+      "risk_level": "High",
+      "recommendation": "Negotiate a clause that outlines the requirements and scope of the audit, including safeguards for our sensitive information, such as not including competitors in the audit team. Consider refusing the audit or charging a substantial audit fee."
+    },
+    {
+        "contract_term": "Professional Liability Insurance",
+        "problem": "Supplier must maintain $1 million in Professional Liability (Errors & Omissions) insurance.",
+        "reason": "We do not hold professional liability insurance. The cost to secure this type of insurance may be too high, resulting in decreased profit margins.",
+        "risk_level": "High",
+        "recommendation": "Inquire with our insurance broker if we can secure this type of insurance. If not, we should decline the contract."
+    }
+  ],
+  "concerns": [
+    {
+      "contract_term": "payment_terms",
+      "problem": "Net 30 days vs. our standard Net 45 days and 14 day invoicing",
+      "reason": "Shorter payment terms than standard, potentially impacting cash flow. Strict 14 day invoice period limits.",
+      "risk_level": "Medium",
+      "recommendation": "Attempt to negotiate the payment terms to Net 45. If not possible, assess whether the tighter terms are acceptable based on the overall profitability and risk profile of the project.  Attempt to renegotiate the invoice period."
+    },
+    {
+      "contract_term": "liability",
+      "problem": "Liability capped at the total contract value",
+      "reason": "Lower liability cap than our preferred position.",
+      "risk_level": "Medium",
+      "recommendation": "Negotiate a higher liability cap.  If client is not willing to increase the cap, assess whether the reduced coverage is acceptable given project risk."
+    },
+    {
+      "contract_term": "termination",
+      "problem": "Client can terminate for convenience with 30 days notice vs. our preference for mutual termination and shorter notice periods.",
+      "reason": "May leave the supplier with significant uncompensated costs and work. The short 30 day notice period is not beneficial.",
+      "risk_level": "Medium",
+      "recommendation": "Try to negotiate a mutual termination clause with a shorter notice period. If the client insists on a long notice period and is otherwise unwilling to negotiate, calculate the associated risk with the potential project fees."
+    },
+    {
+      "contract_term": "confidentiality",
+      "problem": "Confidentiality obligations survive for 5 years.",
+      "reason": "Longer survival period than our standard.",
+      "risk_level": "Low",
+      "recommendation": "Attempt to negotiate a shorter survival period, matching our standard of 3 years.  If the client is unwilling, this is unlikely to be a deal-breaker, but should be noted as a concession."
+    },
+    {
+      "contract_term": "data_security",
+      "problem": "Supplier must notify the client of any data breach within 24 hours",
+      "reason": "Shorter breach notification time than internal standard of 48 hours.",
+      "risk_level": "Low",
+      "recommendation": "In this instance, it's possible to adhere to the clause, but note the shorter deadline and make sure the company can follow the deadline. If you cannot, attempt to renegotiate."
+    },
+    {
+      "contract_term": "governing_law",
+      "problem": "Governing Law is Delaware.",
+      "reason": "This differs from our preference for California, which could add additional legal costs.",
+      "risk_level": "Low",
+      "recommendation": "If this is a small deal, accept as-is. If this is a big deal, attempt to negotiate to California law. If you fail to negotiate, be prepared for extra expenses."
+    },
+    {
+       "contract_term": "warranty",
+       "problem": "Warranty period of 90 days",
+       "reason": "Shorter than our standard 180 day warranty",
+       "risk_level": "Low",
+       "recommendation": "Attempt to negotiate the warranty to 180 days. If you cannot, document that you will need to be more stringent with your checks and reviews."
+    }
+  ],
+  "recommendations": [
+      "Before submitting a bid, review the dealbreakers with leadership to decide on a course of action.",
+      "Develop negotiation points to address the concerns."
+  ]
+}
+```
+
+**Explanation of the Output:**
+
+*   `has_dealbreakers`:  `true` indicates that the analysis identified dealbreakers.
+*   `dealbreakers`: Lists the high-risk issues.  For each dealbreaker, it includes:
+    *   `contract_term`: The specific contract clause.
+    *   `problem`: A concise description of the issue.
+    *   `reason`:  Why the issue is problematic based on company policy.
+    *   `risk_level`:  "High" for dealbreakers (will prevent the company from bidding.)
+    *   `recommendation`:  Suggests a course of action (e.g., negotiation, or walking away from the deal).
+*   `concerns`: Lists the medium- and low-risk issues that require attention. For each concern, it includes the same format as the dealbreakers, but the risk levels are "Medium" or "Low".
+*   `recommendations`: Additional suggestions.
+
+**Important Notes:**
+
+*   This analysis is *highly* dependent on the actual data.  The example JSON is a placeholder.
+*   The assignment of risk levels is subjective and depends on your company's risk tolerance and the specific project.
+*   The recommendations are general. The best course of action depends on your specific business context and negotiation power.
+*   Always involve legal counsel in reviewing the contract and making final decisions.  This analysis is for informational purposes only and is not legal advice.
+*   For a real analysis, replace the simulated `contract_terms` and `company_policies` with the data from the RFP and your company's policies.  Consider including specific monetary implications when possible (e.g., the cost of professional liability insurance).

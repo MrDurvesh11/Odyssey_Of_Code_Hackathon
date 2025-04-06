@@ -1,0 +1,76 @@
+Okay, I understand.  I need the `eligibility_criteria` from the RFP and the `company_qualifications` to be able to perform the comparison and provide the structured JSON output you requested.
+
+**Please provide the following JSON data:**
+
+1.  **`eligibility_criteria`**:  A JSON object representing the eligibility criteria outlined in the RFP.  Each key should be a descriptive name for the criterion, and the value should be a string describing the requirement.  For example:
+
+    ```json
+    {
+      "years_in_business": "Must have been in business for a minimum of 5 years.",
+      "financial_stability": "Must demonstrate financial stability with a debt-to-equity ratio below 1.0.",
+      "past_performance": "Must provide three references demonstrating successful completion of similar projects.",
+      "certifications": "Must possess a valid ISO 9001 certification."
+    }
+    ```
+
+2.  **`company_qualifications`**: A JSON object representing the qualifications of your company.  Each key should correspond to a similar descriptive name to the `eligibility_criteria`, and the value should be a string describing your company's relevant qualifications.  For example:
+
+    ```json
+    {
+      "years_in_business": "Established in 2018.",
+      "financial_stability": "Debt-to-equity ratio: 1.5",
+      "past_performance": "Provided references for similar projects.",
+      "certifications": "Holds a valid ISO 9001 certification."
+    }
+    ```
+
+**Once you provide this data, I will generate the JSON output as requested, including:**
+
+*   `overall_eligible`:  True or False (based on whether all criteria are met).
+*   `criteria_analysis`: An array of objects, one for each eligibility criterion, detailing the comparison.
+*   `missing_requirements`:  A list of any unmet requirements.
+*   `recommendations`: Specific, actionable steps to help the company meet the unmet requirements and improve eligibility.
+
+**Example of the output format (after I receive your data):**
+
+```json
+{
+  "overall_eligible": false,
+  "criteria_analysis": [
+    {
+      "criterion": "years_in_business",
+      "meets_requirement": "No",
+      "evidence": "Established in 2018.  RFP requires 5 years minimum.",
+      "needed_to_become_eligible": null
+    },
+    {
+      "criterion": "financial_stability",
+      "meets_requirement": "No",
+      "evidence": "Debt-to-equity ratio: 1.5. RFP requires below 1.0.",
+      "needed_to_become_eligible": "Reduce debt or increase equity to achieve a debt-to-equity ratio below 1.0."
+    },
+    {
+      "criterion": "past_performance",
+      "meets_requirement": "Yes",
+      "evidence": "Provided references for similar projects.",
+      "needed_to_become_eligible": null
+    },
+    {
+      "criterion": "certifications",
+      "meets_requirement": "Yes",
+      "evidence": "Holds a valid ISO 9001 certification.",
+      "needed_to_become_eligible": null
+    }
+  ],
+  "missing_requirements": [
+    "years_in_business",
+    "financial_stability"
+  ],
+  "recommendations": [
+    "Company needs to have been in business for the minimum 5 years required by the RFP.",
+    "Company needs to take steps to improve the debt-to-equity ratio and drop below 1.0."
+  ]
+}
+```
+
+**Please provide the `eligibility_criteria` and `company_qualifications` JSON data so I can begin the analysis.**

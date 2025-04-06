@@ -1,0 +1,20 @@
+```json
+{
+  "overall_fit": "2/10. The company's capabilities are primarily focused on staffing and temporary services, with very limited technical expertise. The RFP requires significant software development skills, creating a substantial mismatch. This opportunity is highly unfavorable.",
+  "strength_areas": [
+    "Ability to provide staffing plans.",
+    "Experience in creating timelines for projects (though this is generic and not specific to software development)."
+  ],
+  "gap_areas": [
+    "Software development (HTML, CSS, JavaScript, backend frameworks like Node.js or Ruby on Rails)",
+    "User database management",
+    "Scalable architecture design",
+    "Integration with other software tools",
+    "User interface design and development",
+    "Understanding of the RFP organization's business needs (beyond staffing)",
+    "Overall technical expertise to deliver a software application."
+  ],
+  "opportunity_assessment": "This is a very poor strategic fit. The company's core competencies are in staffing. This RFP requires significant software development expertise, which the company demonstrably lacks. Pursuing this opportunity would likely lead to failure and damage the company's reputation. It would require substantial and risky outsourcing which would be difficult to manage, given the company’s experience profile.",
+  "win_strategy": "Do not pursue this opportunity.  The company is not equipped to win this project. Focus on opportunities aligned with core competencies, such as providing temporary staffing for roles within the organization that is issuing the RFP or within the IT sector in general."
+}
+```

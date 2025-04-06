@@ -1,0 +1,22 @@
+```json
+{
+  "bid_recommendation": "Do Not Proceed",
+  "confidence": 9,
+  "key_reasons": [
+    "The company lacks the required software development experience and proven track record.",
+    "The company's expertise is primarily in staffing, not software development.",
+    "Significant gaps exist in understanding the organization's business needs and requirement gathering.",
+    "Risk of project failure is extremely high due to the mismatch between the RFP requirements and the company's core competencies."
+  ],
+  "risk_assessment": {
+    "overall_risk_level": "High",
+    "explanation": "The company's lack of software development expertise and experience, combined with potential contract risks, makes this a high-risk opportunity. Proceeding would likely lead to project failure and reputational damage."
+  },
+  "next_steps": [
+    "Focus on opportunities that align with the company's core competencies, such as staffing and temporary services.",
+    "Avoid pursuing projects that require significant software development expertise.",
+    "Review and update marketing materials to accurately reflect the company's core services.",
+    "Consider developing internal capabilities or forming partnerships to expand service offerings (if appropriate, but not for this specific RFP)."
+  ]
+}
+```

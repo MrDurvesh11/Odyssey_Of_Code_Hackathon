@@ -1,0 +1,17 @@
+```json
+{
+  "Payment terms": [],
+  "Liability clauses": [],
+  "Termination conditions": [
+    "The organization reserves the right to reject any proposal that does not meet the requirements outlined in the RFP."
+  ],
+  "Intellectual property rights": [],
+  "Performance guarantees": [],
+  "SLAs and penalties": [],
+  "Insurance requirements": [],
+  "Other contractual obligations": [
+    "Contractors who are selected for the project will be required to sign a contract agreeing to the terms and conditions outlined in the RFP.",
+    "Contractors must submit their proposals by the specified deadline in order to be considered for the project."
+  ]
+}
+```

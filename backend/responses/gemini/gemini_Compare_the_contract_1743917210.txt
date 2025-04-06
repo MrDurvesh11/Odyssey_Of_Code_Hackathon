@@ -1,0 +1,88 @@
+Okay, I need the content of the `contract_terms` (from the RFP) and the `company_policies` to perform the analysis.  I will need to analyze both of these and identify any conflicts.
+
+**Here's how I'll approach this, and the structure of the JSON output:**
+
+1.  **Input:** You'll provide two JSON objects as input:
+
+    *   `contract_terms`: This will contain the key contract terms from the RFP. Ideally, each term should be clearly identified (e.g., "Payment Terms", "Liability Clause", "Data Security Requirements").  Within each term, include its specific requirements or language.
+    *   `company_policies`: This will contain relevant company policies.  Examples include: Payment terms, insurance coverage, data privacy, acceptable use, etc.
+
+2.  **Analysis:** I'll compare the contract terms with the company policies. I'll look for discrepancies, conflicts, or anything that would put the company at risk.
+
+3.  **Dealbreaker Identification:** Based on the analysis, I'll identify any high-risk issues that represent *dealbreakers* (things that the company cannot accept). These will typically involve significant financial risk, legal liability, or violations of fundamental company values or legal requirements.
+
+4.  **Concern Identification:** I'll identify medium and low-risk issues that warrant attention or require negotiation.  These might involve less severe financial risks, operational challenges, or areas where the company could gain more favorable terms.
+
+5.  **Risk Assessment:** I'll classify each issue as High, Medium, or Low risk, based on its potential impact on the company.
+
+6.  **Alternative/Compromise Suggestions:** For each issue, I will suggest possible alternatives or compromises that the company could propose during negotiations to mitigate the risk.
+
+7.  **JSON Output:**  I will then structure the results in a JSON format as described in your instructions.
+
+**Example (Illustrative - You need to provide the actual content to work):**
+
+Let's *pretend* you've provided the following (this is just to show the format):
+
+```json
+{
+  "contract_terms": {
+    "Payment Terms": "Net 60 days after invoice",
+    "Liability Clause": "Supplier's liability capped at 5% of the contract value.",
+    "Data Security Requirements": "Supplier must comply with all applicable GDPR regulations.",
+    "Insurance Requirements": "Supplier must maintain $1 million in general liability insurance."
+  },
+  "company_policies": {
+    "Payment Terms": "Net 30 days",
+    "Liability Clause": "Company's liability capped at 10% of contract value.",
+    "Data Security Requirements": "Company maintains internal data protection policies and procedures and only complies with GDPR if there are customers within the EU.",
+    "Insurance Requirements": "Company maintains $2 million in general liability insurance."
+  }
+}
+```
+
+**My Response (Illustrative based on the example above):**
+
+```json
+{
+  "has_dealbreakers": false,
+  "dealbreakers": [],
+  "concerns": [
+    {
+      "issue": "Payment Terms",
+      "contract_term": "Net 60 days after invoice",
+      "problem": "Longer payment terms than company policy",
+      "risk_level": "Medium",
+      "potential_alternative": "Negotiate to Net 30 or Net 45 days.  Offer a discount for earlier payment."
+    },
+    {
+      "issue": "Liability Cap",
+      "contract_term": "Supplier's liability capped at 5% of the contract value.",
+      "problem": "Company's liability higher than contract liability",
+      "risk_level": "Medium",
+      "potential_alternative": "Try to increase the supplier liability cap to match company policies."
+    },
+    {
+      "issue": "Data Security Requirements - GDPR compliance",
+      "contract_term": "Supplier must comply with all applicable GDPR regulations.",
+      "problem": "Company does not have internal procedures for GDPR unless EU customers",
+      "risk_level": "Medium",
+      "potential_alternative": "Clarify applicability of GDPR or limit the compliance to EU customers only"
+    },
+    {
+      "issue": "Insurance Requirements",
+      "contract_term": "Supplier must maintain $1 million in general liability insurance.",
+      "problem": "Company's standard policy is for $2 million in coverage",
+      "risk_level": "Low",
+      "potential_alternative": "Confirm whether the $1M policy covers the risk adequately, or attempt to get higher insurance from the supplier"
+    }
+  ],
+  "recommendations": [
+    "Negotiate better payment terms.",
+    "Request an increase in supplier liability",
+    "Clarify the requirement regarding GDPR if applicable to company.",
+    "Confirm insurance coverage"
+  ]
+}
+```
+
+**Now, provide your `contract_terms` and `company_policies` data so I can perform the analysis for your specific situation.**
