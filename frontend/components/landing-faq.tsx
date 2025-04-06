@@ -90,7 +90,7 @@ export function LandingFAQ() {
             Frequently Asked Questions
           </motion.h2>
           <motion.p variants={itemVariants} className="mx-auto max-w-[42rem] text-muted-foreground sm:text-xl">
-            Everything you need to know about the RFP Analysis Suite
+            Everything you need to know about the RFP Nexus Suite
           </motion.p>
         </motion.div>
 

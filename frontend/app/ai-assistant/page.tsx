@@ -18,7 +18,7 @@ export default function AIAssistantPage() {
     {
       role: "assistant",
       content:
-        "Hello! I'm your RFP Analysis Assistant. I can help you understand the requirements, assess risks, and prepare your proposal. What would you like to know about the Federal IT Modernization RFP?",
+        "Hello! I'm your RFP Nexus Assistant. I can help you understand the requirements, assess risks, and prepare your proposal. What would you like to know about the Federal IT Modernization RFP?",
     },
   ])
 
@@ -69,14 +69,14 @@ export default function AIAssistantPage() {
             <span className="sr-only">Back to dashboard</span>
           </Link>
         </Button>
-        <DashboardHeader heading="AI Assistant" subheading="Get help with your RFP analysis and proposal preparation" />
+        <DashboardHeader heading="AI Assistant" subheading="Get help with your RFP Nexus and proposal preparation" />
       </div>
 
       <div className="grid gap-4 md:grid-cols-3">
         <div className="md:col-span-2">
           <Card className="h-[calc(100vh-12rem)]">
             <CardHeader>
-              <CardTitle>RFP Analysis Assistant</CardTitle>
+              <CardTitle>RFP Nexus Assistant</CardTitle>
               <CardDescription>Ask questions about the Federal IT Modernization RFP</CardDescription>
             </CardHeader>
             <CardContent className="flex-1 overflow-auto">

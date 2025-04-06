@@ -45,7 +45,7 @@ export function LandingStats() {
       icon: Clock,
       value: "85%",
       label: "Time Saved",
-      description: "Customers report massive time savings in RFP analysis",
+      description: "Customers report massive time savings in RFP Nexus",
     },
     {
       icon: TrendingUp,

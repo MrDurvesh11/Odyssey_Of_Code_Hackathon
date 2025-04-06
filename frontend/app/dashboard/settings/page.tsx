@@ -39,7 +39,7 @@ import {
   Clock,
   CreditCardIcon,
   Badge ,
-  Progress 
+  
 } from "lucide-react";
 
 export default function SettingsPage() {
@@ -251,7 +251,7 @@ export default function SettingsPage() {
                   <div className="space-y-0.5">
                     <Label className="text-base">Default analysis depth</Label>
                     <p className="text-sm text-muted-foreground">
-                      Choose the level of detail for RFP analysis
+                      Choose the level of detail for RFP Nexus
                     </p>
                   </div>
                   <Select defaultValue="detailed">
@@ -721,7 +721,7 @@ export default function SettingsPage() {
                   <h3 className="font-medium">RFP Analyses</h3>
                   <span className="text-sm text-muted-foreground">78 / Unlimited</span>
                 </div>
-                <Progress value={30} className="h-2" />
+                {/* <Progress value={30} className="h-2" /> */}
               </div>
 
               <div>
@@ -729,7 +729,7 @@ export default function SettingsPage() {
                   <h3 className="font-medium">Team Members</h3>
                   <span className="text-sm text-muted-foreground">12 / 25</span>
                 </div>
-                <Progress value={48} className="h-2" />
+                {/* <Progress value={48} className="h-2" /> */}
               </div>
 
               <div>
@@ -737,7 +737,7 @@ export default function SettingsPage() {
                   <h3 className="font-medium">Storage Used</h3>
                   <span className="text-sm text-muted-foreground">2.1 GB / 50 GB</span>
                 </div>
-                <Progress value={4} className="h-2" />
+                {/* <Progress value={4} className="h-2" /> */}
               </div>
 
               <div>
@@ -745,7 +745,7 @@ export default function SettingsPage() {
                   <h3 className="font-medium">API Calls</h3>
                   <span className="text-sm text-muted-foreground">8,724 / 50,000</span>
                 </div>
-                <Progress value={17} className="h-2" />
+                {/* <Progress value={17} className="h-2" /> */}
               </div>
             </CardContent>
           </Card>

@@ -123,7 +123,7 @@ export function LandingFeatures() {
             Everything You Need to Win More Contracts
           </motion.h2>
           <motion.p variants={itemVariants} className="mx-auto max-w-[42rem] text-muted-foreground sm:text-xl">
-            Our comprehensive suite of tools transforms the RFP analysis process from overwhelming to manageable.
+            Our comprehensive suite of tools transforms the RFP Nexus process from overwhelming to manageable.
           </motion.p>
         </motion.div>
 

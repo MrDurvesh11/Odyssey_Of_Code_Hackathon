@@ -5,7 +5,7 @@ import { LineChart } from '@/components/charts/line-chart'
 import { PieChart } from '@/components/charts/pie-chart'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
-// Dummy data for RFP analysis
+// Dummy data for RFP Nexus
 const rfpStatusData = {
   title: 'RFP Status',
   labels: ['Pending', 'In Progress', 'Submitted', 'Won', 'Lost'],

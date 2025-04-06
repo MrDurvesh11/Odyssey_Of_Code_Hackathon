@@ -108,7 +108,7 @@ const faqData = [
 const videoTutorials = [
   {
     id: "1",
-    title: "Getting Started with RFP AI",
+    title: "Getting Started with RFP Nexus",
     description: "Learn the basics of navigating the platform and uploading your first RFP.",
     duration: "5:24",
     thumbnail: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
@@ -116,7 +116,7 @@ const videoTutorials = [
   },
   {
     id: "2",
-    title: "Advanced RFP Analysis Techniques",
+    title: "Advanced RFP Nexus Techniques",
     description: "Dive deeper into analysis features and learn how to extract maximum insights.",
     duration: "8:12",
     thumbnail: "https://images.unsplash.com/photo-1560472355-536de3962603?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80",
@@ -201,7 +201,7 @@ export default function HelpPage() {
     <div className="space-y-6">
       <DashboardHeader
         heading="Help & Support"
-        subheading="Find answers to common questions and learn how to use RFP AI effectively."
+        subheading="Find answers to common questions and learn how to use RFP Nexus effectively."
       />
 
       <div className="grid gap-4 md:grid-cols-3">
@@ -422,7 +422,7 @@ export default function HelpPage() {
                       </CardHeader>
                       <CardContent className="pb-2">
                         <p className="text-sm text-muted-foreground">
-                          Connect RFP AI with your CRM, project management, and document systems.
+                          Connect RFP Nexus with your CRM, project management, and document systems.
                         </p>
                       </CardContent>
                       <CardFooter>

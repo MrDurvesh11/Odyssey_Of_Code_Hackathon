@@ -102,7 +102,7 @@ export function LandingCTA() {
             <div className="flex items-start gap-2">
               <CheckCircle className="mt-1 h-5 w-5 shrink-0 text-teal-500" />
               <div>
-                <h3 className="font-medium">Unlimited RFP analysis</h3>
+                <h3 className="font-medium">Unlimited RFP Nexus</h3>
                 <p className="text-sm text-muted-foreground">During your trial period</p>
               </div>
             </div>

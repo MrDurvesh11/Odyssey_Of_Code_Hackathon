@@ -45,7 +45,7 @@ export default function DashboardPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <DashboardHeader
-          heading="RFP Analysis Suite"
+          heading="RFP Nexus Suite"
           subheading="Upload and analyze RFP documents to get actionable insights."
         />
         <Button className="hidden md:flex">

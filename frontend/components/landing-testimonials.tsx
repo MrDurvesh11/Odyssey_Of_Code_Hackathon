@@ -55,7 +55,7 @@ export function LandingTestimonials() {
   const testimonials = [
     {
       quote:
-        "The RFP Analysis Suite has transformed our bid process. We've increased our win rate by 35% and cut analysis time in half.",
+        "The RFP Nexus Suite has transformed our bid process. We've increased our win rate by 35% and cut analysis time in half.",
       name: "Sarah Johnson",
       title: "Proposal Manager, TechSolutions Inc.",
       avatar: "SJ",

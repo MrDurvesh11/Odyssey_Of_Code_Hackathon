@@ -48,7 +48,7 @@ export function LandingNav() {
                   onClick={() => setIsOpen(false)}
                 >
                   <FileText className="h-5 w-5 text-teal-500" />
-                  <span>RFP Analysis</span>
+                  <span>RFP Nexus</span>
                 </Link>
                 <div className="flex flex-col gap-2">
                   <Link 
@@ -124,7 +124,7 @@ export function LandingNav() {
 
           <Link href="/" className="flex items-center gap-2">
             <FileText className="h-6 w-6 text-teal-500" />
-            <span className="text-xl font-bold">RFP Analysis</span>
+            <span className="text-xl font-bold">RFP Nexus</span>
           </Link>
         </div>
 

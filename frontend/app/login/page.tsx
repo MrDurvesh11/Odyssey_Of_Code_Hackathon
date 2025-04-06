@@ -50,7 +50,7 @@ export default function LoginPage() {
           <div className="text-center">
             <Link href="/" className="inline-block">
               <div className="flex items-center justify-center">
-                <span className="font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-600">RFP AI</span>
+                <span className="font-bold text-2xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-indigo-600">RFP Nexus</span>
               </div>
             </Link>
             <h1 className="mt-6 text-2xl font-bold text-gray-900 dark:text-gray-100">
@@ -150,7 +150,7 @@ export default function LoginPage() {
       </div>
 
       <footer className="mt-auto py-4 text-center text-sm text-gray-500 dark:text-gray-400">
-        © 2023 RFP AI. All rights reserved.
+        © 2023 RFP Nexus. All rights reserved.
       </footer>
     </div>
   );

@@ -79,7 +79,7 @@ export function LandingHero() {
             className="inline-flex items-center rounded-full border border-teal-600/20 bg-teal-50/10 px-3 py-1 text-sm text-teal-500 backdrop-blur-md dark:bg-teal-900/10 mb-6"
           >
             <Sparkles className="mr-1 h-3.5 w-3.5" />
-            <span>AI-Powered RFP Analysis</span>
+            <span>AI-Powered RFP Nexus</span>
           </motion.div>
 
           <motion.h1
@@ -140,7 +140,7 @@ export function LandingHero() {
           className="relative mx-auto mt-16 max-w-[58rem] rounded-xl border border-teal-500/20 bg-background/50 shadow-2xl backdrop-blur-sm overflow-hidden"
         >
           <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-background px-4 text-sm font-medium text-muted-foreground">
-            Intelligent RFP Analysis Dashboard
+            Intelligent RFP Nexus Dashboard
           </div>
           <div className="overflow-hidden rounded-xl">
             <Image

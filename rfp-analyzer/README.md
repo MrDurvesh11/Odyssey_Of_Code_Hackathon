@@ -1,4 +1,4 @@
-# RFP Analysis Suite
+# RFP Nexus Suite
 
 A comprehensive tool for analyzing Request for Proposal (RFP) documents using a multi-agent AI system.
 

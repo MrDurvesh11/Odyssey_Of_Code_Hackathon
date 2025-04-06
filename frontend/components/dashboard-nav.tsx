@@ -107,7 +107,7 @@ export function DashboardNav() {
           <Link href="/dashboard" className={cn("flex items-center", collapsed && "justify-center")}>
             {!collapsed ? (
               <span className="font-bold text-xl bg-clip-text text-transparent bg-gradient-to-r from-teal-500 to-teal-600">
-                RFP AI
+                RFP Nexus
               </span>
             ) : (
               <span className="text-2xl font-bold text-teal-500">R</span>

@@ -36,7 +36,7 @@ load_dotenv()
 
 # Set page configuration for a more professional look
 st.set_page_config(
-    page_title="RFP Analysis Suite", 
+    page_title="RFP Nexus Suite", 
     page_icon="📊", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -68,9 +68,9 @@ if not HF_TOKEN:
 # Model configuration
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
-# Define custom prompt template for RFP analysis
+# Define custom prompt template for RFP Nexus
 RFP_PROMPT_TEMPLATE = """
-You are an expert RFP analyst for ConsultAdd, working with a multi-agent system. Use the provided context to answer questions about RFP analysis.
+You are an expert RFP analyst for ConsultAdd, working with a multi-agent system. Use the provided context to answer questions about RFP Nexus.
 
 Context about the RFP and company data: {context}
 
@@ -614,7 +614,7 @@ def main():
     </style>
     """, unsafe_allow_html=True)
     
-    st.title("RFP Analysis Suite with Multi-Agent System 🤖")
+    st.title("RFP Nexus Suite with Multi-Agent System 🤖")
     st.markdown("---")
     
     # File upload section
@@ -655,7 +655,7 @@ def main():
         st.sidebar.info("""
         ### About This Tool
         
-        The RFP Analysis Suite uses multiple specialized AI agents to analyze RFPs and company data:
+        The RFP Nexus Suite uses multiple specialized AI agents to analyze RFPs and company data:
         
         1. **Eligibility Agent**: Evaluates qualification match
         2. **Legal Risk Agent**: Identifies contract risks
@@ -740,7 +740,7 @@ def main():
     else:
         # Show welcome message and instructions
         st.markdown("""
-        ## Welcome to the RFP Analysis Suite with Multi-Agent System
+        ## Welcome to the RFP Nexus Suite with Multi-Agent System
 
         This enhanced tool helps you analyze Request for Proposal (RFP) documents using multiple specialized AI agents, each focused on a specific aspect of RFP evaluation.
 

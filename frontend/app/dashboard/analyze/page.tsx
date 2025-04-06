@@ -167,7 +167,7 @@ export default function AnalyzePage() {
             <CardHeader>
               <CardTitle>RFP Insights</CardTitle>
               <CardDescription>
-                AI-generated insights based on RFP analysis
+                AI-generated insights based on RFP Nexus
               </CardDescription>
             </CardHeader>
             <CardContent>

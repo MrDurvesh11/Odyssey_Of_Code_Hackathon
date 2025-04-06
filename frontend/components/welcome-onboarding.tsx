@@ -30,7 +30,7 @@ export function WelcomeOnboarding({ onClose }: WelcomeOnboardingProps) {
 
   const steps = [
     {
-      title: "Welcome to RFP Analysis Suite",
+      title: "Welcome to RFP Nexus Suite",
       description:
         "Transform complex government contract documents into clear, actionable insights with our AI-powered analysis tool.",
       image: "/placeholder.svg?height=300&width=500",
