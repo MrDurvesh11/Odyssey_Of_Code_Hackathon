@@ -1,0 +1,14 @@
+streamlit
+langchain
+langchain_community
+pdfplumber
+python-docx
+faiss-cpu
+sentence-transformers
+accelerate
+transformers
+torch
+bitsandbytes
+plotly
+python-dotenv
+tqdm
