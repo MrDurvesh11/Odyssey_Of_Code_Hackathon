@@ -1,0 +1,25 @@
+```json
+{
+  "overall_fit": 5,
+  "explanation": "The company's capabilities are currently undefined. Without information on the company's technical expertise, service delivery processes, and industry knowledge, it is impossible to assess the strategic fit accurately.  A score of 5 reflects a neutral position, assuming the company has *some* relevant capabilities but the extent is unknown.",
+  "strength_areas": [
+    "Cannot be determined without company capabilities."
+  ],
+  "gap_areas": [
+    "All areas. Without understanding the company's existing capabilities, all requirements represent potential gaps.",
+    "Technical Expertise:  The company's ability to design, construct, test, and deliver the specified product/service. This includes its knowledge of specific technical areas and its access to specialized tools and equipment.",
+    "Service Delivery:  The company's ability to create and execute detailed plans, manage timelines and budgets, comply with regulations, and provide a high-quality proposal.  This includes its project management capabilities.",
+    "Industry-Specific Knowledge: The company's familiarity with the product/service's target industry, its regulations, and its standards."
+  ],
+  "opportunity_assessment": "This RFP presents a moderate opportunity *if* the company possesses the necessary skills and resources.  The company needs to carefully assess its capabilities against each RFP requirement.  If significant gaps exist, the company should consider a 'go/no-go' decision or explore partnerships to address those gaps. This is a potentially complex project requiring a strong understanding of technical specifications and a robust service delivery process.",
+  "win_strategy": [
+    "**Capability Assessment:** The company *must* conduct a thorough and honest assessment of its capabilities compared to the RFP requirements.  This should be done for each technical area, service delivery aspect, and required expertise.",
+    "**Gap Analysis:** Identify all capability gaps. Prioritize these gaps based on their impact on project success and the ease of mitigation (e.g., hiring, training, partnering).",
+    "**Partnership Strategy:** Explore strategic partnerships with companies that can fill identified gaps. This can strengthen the proposal and increase the chances of winning.",
+    "**Go/No-Go Decision:** Based on the assessment, gaps, and partnership opportunities, make a 'go/no-go' decision.  If the gaps are too significant or the cost/risk of filling them is too high, the company should decline to bid.",
+    "**Develop a Compelling Proposal:** If bidding, create a proposal that: (a) Clearly articulates the company's strengths (b) Addresses all RFP requirements in detail (c) Provides a realistic and achievable plan (d) Highlights how partnerships will address any gaps (e) Demonstrate a strong understanding of the project's objectives and a commitment to successful delivery.",
+    "**Risk Management:** Identify potential project risks and develop a risk mitigation plan.  This should be included in the proposal.",
+    "**Competitive Analysis:** Research competitors and tailor the proposal to differentiate the company and demonstrate a unique value proposition."
+  ]
+}
+```

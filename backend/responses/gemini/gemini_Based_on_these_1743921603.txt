@@ -1,0 +1,134 @@
+```json
+{
+  "high_priority_questions": [
+    "1",
+    "4",
+    "6",
+    "12",
+    "15"
+  ],
+  "medium_priority_questions": [
+    "0",
+    "2",
+    "3",
+    "5",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "13",
+    "14"
+  ],
+  "low_priority_questions": [
+  ],
+  "question_categories": {
+    "Vague Requirements or Specifications": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "Undefined Terms or Metrics": [
+      4,
+      5
+    ],
+    "Missing Critical Details": [
+      6,
+      7,
+      8
+    ],
+    "Unclear Expectations or Deliverables": [
+      9
+    ]
+  },
+  "submission_advice": "Submit these questions promptly.  Organize your questions logically, referencing the section of the RFP that prompted each question. Number each question for easy reference.  If possible, include a table summarizing your questions for easy review by the RFP issuer."
+}
+```
+
+```json
+{
+  "questions": [
+    {
+      "id": "0",
+      "category": "Vague Requirements or Specifications",
+      "text": "Regarding the statement: 'The product or service must meet specific technical requirements and standards.' Could you please provide a list, or reference a document containing, the specific technical requirements and standards that the product or service must meet?  Are there any compliance regulations that apply here?"
+    },
+    {
+      "id": "1",
+      "category": "Vague Requirements or Specifications",
+      "text": "The RFP states: 'The project must be completed within a specified timeframe and budget.' Could you please clarify the specified timeframe (e.g., start and end dates, or a project duration) and the allocated budget for this project?  Are there any project phases with separate budget allocations?"
+    },
+    {
+      "id": "2",
+      "category": "Vague Requirements or Specifications",
+      "text": "The RFP states: 'The project requires a high level of technical expertise and knowledge in specific areas.' Could you please enumerate the specific technical areas where expertise and knowledge are required for this project?"
+    },
+    {
+      "id": "3",
+      "category": "Vague Requirements or Specifications",
+      "text": "The RFP states: 'The bidder must demonstrate experience and capabilities in these areas.'  Referring to the expertise areas, could you please clarify the level of experience and the specific capabilities the bidder needs to demonstrate to be considered a strong candidate?"
+    },
+    {
+      "id": "4",
+      "category": "Undefined Terms or Metrics",
+      "text": "The RFP mentions 'experience' and 'qualifications.' Could you please specify the minimum years of relevant experience required and any specific certifications or degrees that would be considered essential or beneficial for the project?"
+    },
+    {
+      "id": "5",
+      "category": "Undefined Terms or Metrics",
+      "text": "The RFP mentions 'net worth' and 'revenue.' Could you please specify the minimum acceptable values for net worth and annual revenue required for a bidder to be considered eligible for this project?"
+    },
+    {
+      "id": "6",
+      "category": "Missing Critical Details",
+      "text": "The RFP states 'The project must be completed within a specified timeframe and budget.'  Could you please provide details on the budget allocated for this project?"
+    },
+    {
+      "id": "7",
+      "category": "Missing Critical Details",
+      "text": "The project involves the use of specialized tools and equipment, which the bidder must provide or make available.  Could you please provide a comprehensive list of the specific tools and equipment required for this project?"
+    },
+    {
+      "id": "8",
+      "category": "Missing Critical Details",
+      "text": "Could you please provide the deadline for the proposal submission?  Also, what is the intended evaluation and award timeline?"
+    },
+    {
+      "id": "9",
+      "category": "Unclear Expectations or Deliverables",
+      "text": "The RFP calls for a 'detailed design and implementation plan.' Could you please clarify the expected deliverables? Should the plan include, for example, a prototype, user guide, training materials, or any other specific deliverables and, for each, a desired level of detail?"
+    },
+    {
+      "id": "10",
+      "category": "Vague Requirements or Specifications",
+      "text": "Are there any specific testing and validation requirements that the final product or service must undergo to ensure it meets the specified technical standards?"
+    },
+    {
+      "id": "11",
+      "category": "Undefined Terms or Metrics",
+      "text": "Are there any specific key performance indicators (KPIs) that will be used to measure the success of this project?"
+    },
+    {
+      "id": "12",
+      "category": "Missing Critical Details",
+      "text": "Could you please specify the desired start date for the project and any key milestones that must be met during the project's lifecycle?"
+    },
+    {
+      "id": "13",
+      "category": "Vague Requirements or Specifications",
+      "text": "Are there any specific data security or privacy requirements that the product or service must adhere to, such as compliance with GDPR, HIPAA, or other relevant regulations?"
+    },
+    {
+      "id": "14",
+      "category": "Unclear Expectations or Deliverables",
+      "text": "Regarding the implementation plan, what level of project management oversight will be expected from the bidder, and what reporting requirements are anticipated?"
+    },
+    {
+      "id": "15",
+      "category": "Undefined Terms or Metrics",
+      "text": "Could you provide information on the evaluation criteria and the relative weight assigned to each criterion to which the proposals will be judged?"
+    }
+  ]
+}
+```

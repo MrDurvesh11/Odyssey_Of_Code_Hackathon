@@ -1,0 +1,390 @@
+<mxfile host="app.diagrams.net" modified="2023-12-02T14:33:21.678Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36" etag="frontend-architecture-123" version="21.1.3">
+  <diagram id="frontend-architecture" name="RFP Nexus Frontend Architecture">
+    <mxGraphModel dx="1422" dy="798" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- Title -->
+        <mxCell id="title" value="RFP Nexus Frontend Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="490" height="40" as="geometry" />
+        </mxCell>
+        
+        <!-- Core Sections -->
+        <mxCell id="fe_framework" value="Next.js Framework" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;verticalAlign=top;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="1090" height="670" as="geometry" />
+        </mxCell>
+        
+        <!-- Authentication Layer -->
+        <mxCell id="auth_layer" value="Authentication Layer (Clerk)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="1050" height="60" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="clerk_components" value="SignInButton | SignUpButton | UserButton | useUser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="140" y="145" width="890" height="25" as="geometry" />
+        </mxCell>
+        
+        <!-- Page Layer -->
+        <mxCell id="pages_layer" value="Pages" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="250" height="530" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="landing_page" value="Landing Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="230" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dashboard_page" value="Dashboard Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="rfps_page" value="RFPs Management Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="rfp_detail_page" value="RFP Detail Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="analyze_page" value="Analyze RFP Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="390" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="analysis_detail_page" value="Analysis Detail Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="reports_page" value="Reports Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="470" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="calendar_page" value="Calendar Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="checklists_page" value="Checklists Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="550" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="team_page" value="Team Management Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="590" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="settings_page" value="Settings Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="ai_assistant_page" value="AI Assistant Page" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="80" y="670" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Navigation Components -->
+        <mxCell id="navigation_layer" value="Navigation Components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="210" height="170" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="landing_nav" value="LandingNav" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dashboard_nav" value="DashboardNav" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="270" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dashboard_header" value="DashboardHeader" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="310" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dashboard_shell" value="DashboardShell" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="350" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Layout Components -->
+        <mxCell id="layout_components" value="Layout Components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="330" y="390" width="210" height="130" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="layouts" value="RootLayout | DashboardLayout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="420" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="cards" value="Card Components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="tabs" value="Tabs Components" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="350" y="500" width="170" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Feature Components -->
+        <mxCell id="feature_components" value="Feature Components" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="200" width="250" height="310" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="eligibility_comparison" value="EligibilityComparison" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="230" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="submission_checklist" value="SubmissionChecklist" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="270" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="risk_heatmap" value="RiskHeatmap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="310" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="recent_documents" value="RecentDocuments" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="350" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="upload_dropzone" value="UploadDropzone" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="390" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="rfp_analysis_charts" value="RfpAnalysisCharts" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="430" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="reports_dashboard" value="ReportsDashboard" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="580" y="470" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- UI Components -->
+        <mxCell id="ui_components" value="UI Components (shadcn/ui)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="560" y="530" width="250" height="200" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="input_components" value="Input | Textarea | Select" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="560" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="dialog_components" value="Dialog | Sheet | Popover" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="button_components" value="Button | Badge | Progress" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="640" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="feedback_components" value="Toast | Alert | Checkbox" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="580" y="680" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Data Visualization Components -->
+        <mxCell id="data_viz_components" value="Data Visualization" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="830" y="200" width="280" height="170" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="bar_chart" value="BarChart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="850" y="230" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="line_chart" value="LineChart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="850" y="270" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="pie_chart" value="PieChart" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="850" y="310" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="heat_map" value="HeatMap" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="850" y="350" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- API Integration -->
+        <mxCell id="api_integration" value="API Integration" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;verticalAlign=top;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="830" y="390" width="280" height="170" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="api_hooks" value="Custom API Hooks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="850" y="420" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="api_utils" value="API Utility Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="850" y="460" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="mock_data" value="Mock Data Providers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="850" y="500" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Utility Layer -->
+        <mxCell id="utility_layer" value="Utility Layer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;verticalAlign=top;fontSize=12;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="830" y="580" width="280" height="150" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="utils" value="Utility Functions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="850" y="610" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="context_providers" value="Context Providers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="850" y="650" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="hooks" value="Custom React Hooks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="850" y="690" width="240" height="30" as="geometry" />
+        </mxCell>
+        
+        <!-- Flow Arrows -->
+        <mxCell id="landing_to_dashboard" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="landing_page" target="landing_nav">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="dashboard_to_dash_nav" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dashboard_page" target="dashboard_nav">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="layout_to_shell" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dashboard_shell" target="layout_components">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="440" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="analyze_to_charts" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="analyze_page" target="rfp_analysis_charts">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="350" y="405" />
+              <mxPoint x="350" y="445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="analysis_to_eligibility" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="analysis_detail_page" target="eligibility_comparison">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="445" />
+              <mxPoint x="470" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="reports_to_dashboard" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="reports_page" target="reports_dashboard">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="analysis_detail_to_risk" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="analysis_detail_page" target="risk_heatmap">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="445" />
+              <mxPoint x="480" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="analysis_detail_to_checklist" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="analysis_detail_page" target="submission_checklist">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="445" />
+              <mxPoint x="490" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="dashboard_to_recent" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dashboard_page" target="recent_documents">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="285" />
+              <mxPoint x="500" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="dashboard_to_upload" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dashboard_page" target="upload_dropzone">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="450" as="sourcePoint" />
+            <mxPoint x="440" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="285" />
+              <mxPoint x="510" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="charts_to_bar" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rfp_analysis_charts" target="bar_chart">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="370" as="sourcePoint" />
+            <mxPoint x="760" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="820" y="445" />
+              <mxPoint x="820" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="charts_to_line" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rfp_analysis_charts" target="line_chart">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="370" as="sourcePoint" />
+            <mxPoint x="760" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="810" y="445" />
+              <mxPoint x="810" y="285" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="reports_to_line" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="reports_dashboard" target="pie_chart">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="370" as="sourcePoint" />
+            <mxPoint x="760" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="485" />
+              <mxPoint x="830" y="325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="risk_to_heat" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="risk_heatmap" target="heat_map">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="710" y="370" as="sourcePoint" />
+            <mxPoint x="760" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend" value="Component Legend" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="330" y="550" width="210" height="180" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_pages" value="Pages" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="legend">
+          <mxGeometry y="30" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_nav" value="Navigation Components" style="text;strokeColor=#d6b656;fillColor=#fff2cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="legend">
+          <mxGeometry y="60" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_feature" value="Feature Components" style="text;strokeColor=#b85450;fillColor=#f8cecc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="legend">
+          <mxGeometry y="90" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_ui" value="UI Components" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="legend">
+          <mxGeometry y="120" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+        <mxCell id="legend_viz" value="Data Visualization" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="legend">
+          <mxGeometry y="150" width="210" height="30" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

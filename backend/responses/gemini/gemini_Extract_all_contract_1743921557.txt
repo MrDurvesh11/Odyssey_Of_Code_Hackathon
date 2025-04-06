@@ -1,0 +1,41 @@
+```json
+{
+  "Payment terms": [
+    "The bidder must provide detailed financial information, including costs and pricing."
+  ],
+  "Liability clauses": [
+    "The bidder must comply with all applicable laws and regulations."
+  ],
+  "Termination conditions": [
+    "The bidder must agree to the terms and conditions of the RFP."
+  ],
+  "Intellectual property rights": [
+    "Not explicitly mentioned in the provided text."
+  ],
+  "Performance guarantees": [
+    "The project must be completed within a specified timeframe and budget.",
+    "The product or service must meet specific technical requirements and standards."
+  ],
+  "SLAs and penalties": [
+    "Not explicitly mentioned in the provided text."
+  ],
+  "Insurance requirements": [
+    "Not explicitly mentioned in the provided text."
+  ],
+  "Other contractual obligations": [
+    "The bidder must comply with all applicable laws and regulations.",
+    "The bidder must meet specific eligibility criteria, such as experience and qualifications.",
+    "The bidder must provide detailed financial information, including costs and pricing.",
+    "The bidder must agree to the terms and conditions of the RFP.",
+    "The bidder must provide a detailed design and implementation plan, including timelines and milestones.",
+    "The bidder must demonstrate experience and capabilities in specific areas.",
+    "The bidder must provide or make available the necessary specialized tools and equipment.",
+    "The bidder must be a legal entity registered in the jurisdiction where the project is located.",
+    "The bidder must have experience and qualifications relevant to the project.",
+    "The bidder must meet specific financial criteria, such as net worth and revenue.",
+    "The bidder must submit a detailed proposal, including a written document and any supporting materials.",
+    "The proposal must be submitted by a specified deadline.",
+    "The bidder must provide contact information and a point of contact for all communication related to the project."
+  ]
+}
+```

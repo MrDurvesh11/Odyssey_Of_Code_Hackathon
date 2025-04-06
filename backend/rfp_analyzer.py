@@ -935,6 +935,450 @@ class StrategicFitAgent(BaseAgent):
             
         return combined_chunks
 
+class QuestionnaireAgent(BaseAgent):
+    """Agent that generates clarification questions about the RFP"""
+    async def run(self, rfp_chunks: List[str]) -> Dict[str, Any]:
+        """Generate clarification questions about the RFP"""
+        # Identify areas that need clarification
+        unclear_areas = await self._identify_unclear_areas(rfp_chunks)
+        
+        # Generate specific questions
+        questions = await self._generate_questions(unclear_areas)
+        
+        # Store results in shared context
+        self.shared_context.add_analysis_result("clarification_questions", questions)
+        
+        return questions
+    
+    async def _identify_unclear_areas(self, rfp_chunks: List[str]) -> Dict[str, List[str]]:
+        """Identify areas in the RFP that need clarification"""
+        combined_chunks = self._combine_chunks(rfp_chunks, max_tokens=7000)
+        
+        all_unclear_areas = {}
+        for chunk in combined_chunks:
+            prompt = """
+            Identify areas in this RFP chunk that need clarification or are ambiguous. Focus on:
+            1. Vague requirements or specifications
+            2. Undefined terms or metrics
+            3. Conflicting information
+            4. Missing critical details
+            5. Unclear expectations or deliverables
+            
+            Return a structured JSON with categories as keys and lists of unclear items as values.
+            For each item, provide the specific text that needs clarification and why it's unclear.
+            """
+            
+            response = await self.call_gemini(prompt, chunk)
+            try:
+                unclear_areas = json.loads(response)
+                # Merge areas
+                for category, items in unclear_areas.items():
+                    if category in all_unclear_areas:
+                        all_unclear_areas[category].extend(items)
+                    else:
+                        all_unclear_areas[category] = items
+            except json.JSONDecodeError:
+                print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+        
+        # Store in shared context
+        self.shared_context.add_extracted_data("unclear_areas", all_unclear_areas)
+        
+        return all_unclear_areas
+    
+    async def _generate_questions(self, unclear_areas: Dict[str, List[str]]) -> Dict[str, Any]:
+        """Generate specific questions for clarification"""
+        prompt = """
+        Based on these unclear areas in the RFP, generate specific questions to ask the RFP issuer.
+        
+        Create questions that:
+        1. Are specific and directly address the ambiguity
+        2. Are phrased professionally and constructively
+        3. Show understanding of the subject matter
+        4. Would provide valuable information for the proposal
+        5. Are prioritized by importance
+        
+        Return a structured JSON with:
+        1. "high_priority_questions": [list of most critical questions]
+        2. "medium_priority_questions": [list of important but not critical questions]
+        3. "low_priority_questions": [list of nice-to-have clarifications]
+        4. "question_categories": {category names with arrays of question indices}
+        5. "submission_advice": suggestions on how to submit these questions
+        """
+        
+        response = await self.call_gemini(prompt, json.dumps(unclear_areas))
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+            return {"error": "Failed to generate clarification questions"}
+    
+    def _combine_chunks(self, chunks: List[str], max_tokens: int = 7000) -> List[str]:
+        """Combine small chunks to reduce API calls while staying under token limits"""
+        combined_chunks = []
+        current_chunk = ""
+        
+        for chunk in chunks:
+            # Rough token estimation (characters / 4)
+            estimated_tokens = len(current_chunk) / 4
+            chunk_tokens = len(chunk) / 4
+            
+            if estimated_tokens + chunk_tokens > max_tokens:
+                combined_chunks.append(current_chunk)
+                current_chunk = chunk
+            else:
+                current_chunk += "\n" + chunk
+                
+        if current_chunk:
+            combined_chunks.append(current_chunk)
+            
+        return combined_chunks
+
+class ProposalOutlineAgent(BaseAgent):
+    """Agent that creates a proposal outline and suggestions"""
+    async def run(self, rfp_chunks: List[str], company_data_chunks: List[str]) -> Dict[str, Any]:
+        """Create a proposal outline and strategy suggestions"""
+        # Extract proposal requirements from RFP
+        proposal_requirements = await self._extract_proposal_requirements(rfp_chunks)
+        
+        # Extract company strengths for proposal
+        company_strengths = await self._extract_company_strengths(company_data_chunks)
+        
+        # Generate proposal outline and suggestions
+        proposal_outline = await self._generate_proposal_outline(proposal_requirements, company_strengths)
+        
+        # Generate quality checklist for the proposal
+        quality_checklist = await self._generate_quality_checklist(proposal_requirements)
+        
+        # Combine results
+        results = {
+            "proposal_outline": proposal_outline,
+            "quality_checklist": quality_checklist
+        }
+        
+        # Store results in shared context
+        self.shared_context.add_analysis_result("proposal_strategy", results)
+        
+        return results
+    
+    async def _extract_proposal_requirements(self, rfp_chunks: List[str]) -> Dict[str, Any]:
+        """Extract proposal structure requirements from RFP"""
+        combined_chunks = self._combine_chunks(rfp_chunks, max_tokens=7000)
+        
+        all_requirements = {}
+        for chunk in combined_chunks:
+            prompt = """
+            Extract all requirements for proposal structure, content, and format from this RFP chunk. Focus on:
+            1. Required proposal sections and their order
+            2. Content requirements for each section
+            3. Format specifications (page limits, fonts, margins, etc.)
+            4. Evaluation criteria that will be used to score the proposal
+            5. Any unique or special requirements for this RFP
+            
+            Return a structured JSON with categories as keys and requirements as values.
+            """
+            
+            response = await self.call_gemini(prompt, chunk)
+            try:
+                requirements = json.loads(response)
+                # Merge requirements
+                for category, reqs in requirements.items():
+                    if category in all_requirements:
+                        all_requirements[category].extend(reqs)
+                    else:
+                        all_requirements[category] = reqs
+            except json.JSONDecodeError:
+                print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+        
+        # Store in shared context
+        self.shared_context.add_extracted_data("proposal_requirements", all_requirements)
+        
+        return all_requirements
+    
+    async def _extract_company_strengths(self, company_data_chunks: List[str]) -> Dict[str, Any]:
+        """Extract company strengths for proposal highlighting"""
+        combined_chunks = self._combine_chunks(company_data_chunks, max_tokens=7000)
+        
+        all_strengths = {}
+        for chunk in combined_chunks:
+            prompt = """
+            Extract key company strengths that should be highlighted in a proposal. Focus on:
+            1. Core competencies and expertise
+            2. Past performance and success stories
+            3. Unique selling points and differentiators
+            4. Certifications, awards, and recognition
+            5. Client testimonials and references
+            
+            Return a structured JSON with categories as keys and specific strengths as values.
+            """
+            
+            response = await self.call_gemini(prompt, chunk)
+            try:
+                strengths = json.loads(response)
+                # Merge strengths
+                for category, strength_list in strengths.items():
+                    if category in all_strengths:
+                        all_strengths[category].extend(strength_list)
+                    else:
+                        all_strengths[category] = strength_list
+            except json.JSONDecodeError:
+                print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+        
+        # Store in shared context
+        self.shared_context.add_extracted_data("company_strengths", all_strengths)
+        
+        return all_strengths
+    
+    async def _generate_proposal_outline(self, requirements: Dict[str, Any], strengths: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate proposal outline and strategy suggestions"""
+        data = {
+            "proposal_requirements": requirements,
+            "company_strengths": strengths
+        }
+        
+        prompt = """
+        Create a detailed proposal outline based on the RFP requirements and company strengths.
+        
+        For each section of the proposal:
+        1. Provide a clear title and purpose
+        2. Outline key content to include
+        3. Suggest how to highlight relevant company strengths
+        4. Note any specific RFP requirements to address
+        5. Recommend approximate length and emphasis
+        
+        Return a structured JSON with:
+        1. "executive_summary": guidance for the executive summary
+        2. "sections": [array of proposal sections with details]
+        3. "strategic_emphasis": areas to emphasize in the proposal
+        4. "win_themes": key themes to weave throughout the proposal
+        5. "visual_elements": suggestions for graphics, tables, etc.
+        """
+        
+        response = await self.call_gemini(prompt, json.dumps(data))
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+            return {"error": "Failed to generate proposal outline"}
+    
+    async def _generate_quality_checklist(self, requirements: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate quality checklist for the proposal"""
+        prompt = """
+        Create a comprehensive quality checklist for the proposal based on these RFP requirements.
+        
+        The checklist should verify that the proposal:
+        1. Complies with all RFP instructions and requirements
+        2. Addresses all evaluation criteria effectively
+        3. Is clear, consistent, and well-organized
+        4. Contains all required elements and attachments
+        5. Is free of common proposal weaknesses and errors
+        
+        Return a structured JSON with:
+        1. "compliance_checks": [checks to ensure RFP compliance]
+        2. "content_checks": [checks to ensure complete and effective content]
+        3. "quality_checks": [checks for overall proposal quality]
+        4. "final_review_process": recommended review process steps
+        """
+        
+        response = await self.call_gemini(prompt, json.dumps(requirements))
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+            return {"error": "Failed to generate quality checklist"}
+    
+    def _combine_chunks(self, chunks: List[str], max_tokens: int = 7000) -> List[str]:
+        """Combine small chunks to reduce API calls while staying under token limits"""
+        combined_chunks = []
+        current_chunk = ""
+        
+        for chunk in chunks:
+            # Rough token estimation (characters / 4)
+            estimated_tokens = len(current_chunk) / 4
+            chunk_tokens = len(chunk) / 4
+            
+            if estimated_tokens + chunk_tokens > max_tokens:
+                combined_chunks.append(current_chunk)
+                current_chunk = chunk
+            else:
+                current_chunk += "\n" + chunk
+                
+        if current_chunk:
+            combined_chunks.append(current_chunk)
+            
+        return combined_chunks
+
+class CompetitiveAnalysisAgent(BaseAgent):
+    """Agent that analyzes competitive aspects of the RFP"""
+    async def run(self, rfp_chunks: List[str], company_data_chunks: List[str]) -> Dict[str, Any]:
+        """Analyze competitive positioning for this RFP"""
+        # Extract competitive factors from RFP
+        competitive_factors = await self._extract_competitive_factors(rfp_chunks)
+        
+        # Analyze company's competitive position
+        competitive_position = await self._analyze_competitive_position(competitive_factors, company_data_chunks)
+        
+        # Generate competitive strategy
+        competitive_strategy = await self._generate_competitive_strategy(competitive_position)
+        
+        # Store results in shared context
+        self.shared_context.add_analysis_result("competitive_analysis", {
+            "competitive_factors": competitive_factors,
+            "competitive_position": competitive_position,
+            "competitive_strategy": competitive_strategy
+        })
+        
+        return {
+            "competitive_factors": competitive_factors,
+            "competitive_position": competitive_position,
+            "competitive_strategy": competitive_strategy
+        }
+    
+    async def _extract_competitive_factors(self, rfp_chunks: List[str]) -> Dict[str, Any]:
+        """Extract competitive factors from the RFP"""
+        combined_chunks = self._combine_chunks(rfp_chunks, max_tokens=7000)
+        
+        all_factors = {}
+        for chunk in combined_chunks:
+            prompt = """
+            Identify competitive factors in this RFP that would influence vendor selection. Focus on:
+            1. Explicit evaluation criteria and their weights
+            2. Implicit preferences or requirements that favor certain vendors
+            3. Past contract awards for similar work (if mentioned)
+            4. Key differentiators that would set vendors apart
+            5. Price sensitivity and budget considerations
+            
+            Return a structured JSON with factor categories as keys and specific factors as values.
+            Include relative importance if indicated in the RFP.
+            """
+            
+            response = await self.call_gemini(prompt, chunk)
+            try:
+                factors = json.loads(response)
+                # Merge factors
+                for category, factor_list in factors.items():
+                    if category in all_factors:
+                        all_factors[category].extend(factor_list)
+                    else:
+                        all_factors[category] = factor_list
+            except json.JSONDecodeError:
+                print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+        
+        # Store in shared context
+        self.shared_context.add_extracted_data("competitive_factors", all_factors)
+        
+        return all_factors
+    
+    async def _analyze_competitive_position(self, factors: Dict[str, Any], company_chunks: List[str]) -> Dict[str, Any]:
+        """Analyze company's competitive position"""
+        # First, extract company capabilities relevant to competition
+        combined_chunks = self._combine_chunks(company_chunks, max_tokens=7000)
+        company_capabilities = self.shared_context.extracted_data.get("company_capabilities", {})
+        
+        if not company_capabilities:
+            for chunk in combined_chunks:
+                prompt = """
+                Extract key competitive capabilities of this company. Focus on:
+                1. Differentiators and unique selling points
+                2. Past performance metrics and success stories
+                3. Notable expertise, qualifications, and certifications
+                4. Cost structure and pricing advantages (if mentioned)
+                5. Strategic partnerships and alliances
+                
+                Return a structured JSON with capability categories as keys and specific capabilities as values.
+                """
+                
+                response = await self.call_gemini(prompt, chunk)
+                try:
+                    capabilities = json.loads(response)
+                    # Merge capabilities
+                    for category, cap_list in capabilities.items():
+                        if category in company_capabilities:
+                            company_capabilities[category].extend(cap_list)
+                        else:
+                            company_capabilities[category] = cap_list
+                except json.JSONDecodeError:
+                    print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+            
+            # Store in shared context if not already there
+            self.shared_context.add_extracted_data("company_capabilities", company_capabilities)
+        
+        # Now analyze competitive position
+        data = {
+            "competitive_factors": factors,
+            "company_capabilities": company_capabilities
+        }
+        
+        prompt = """
+        Analyze the company's competitive position for this RFP based on the competitive factors and company capabilities.
+        
+        For each competitive factor:
+        1. Rate the company's position (Strong/Moderate/Weak)
+        2. Identify supporting evidence from company capabilities
+        3. Note potential competitors' advantages in this area
+        4. Suggest how to strengthen position if needed
+        
+        Return a structured JSON with:
+        1. "overall_position": general assessment with strengths and weaknesses
+        2. "factor_analysis": [detailed analysis of each competitive factor]
+        3. "key_strengths": [competitive strengths to emphasize]
+        4. "key_weaknesses": [competitive weaknesses to mitigate]
+        """
+        
+        response = await self.call_gemini(prompt, json.dumps(data))
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+            return {"error": "Failed to analyze competitive position"}
+    
+    async def _generate_competitive_strategy(self, position: Dict[str, Any]) -> Dict[str, Any]:
+        """Generate competitive strategy recommendations"""
+        prompt = """
+        Based on this competitive position analysis, develop a competitive strategy for this RFP.
+        
+        The strategy should include:
+        1. Positioning approach to highlight strengths and mitigate weaknesses
+        2. Pricing strategy recommendations
+        3. Key differentiators to emphasize
+        4. How to counter likely competitors' advantages
+        5. Teaming suggestions if applicable
+        
+        Return a structured JSON with:
+        1. "positioning_strategy": overall approach to positioning
+        2. "pricing_strategy": recommendations on pricing approach
+        3. "differentiation_strategy": how to stand out from competitors
+        4. "risk_mitigation": how to address competitive weaknesses
+        5. "win_themes": key competitive messages to emphasize
+        """
+        
+        response = await self.call_gemini(prompt, json.dumps(position))
+        try:
+            return json.loads(response)
+        except json.JSONDecodeError:
+            print(f"Failed to parse JSON from Gemini response: {response[:100]}...")
+            return {"error": "Failed to generate competitive strategy"}
+    
+    def _combine_chunks(self, chunks: List[str], max_tokens: int = 7000) -> List[str]:
+        """Combine small chunks to reduce API calls while staying under token limits"""
+        combined_chunks = []
+        current_chunk = ""
+        
+        for chunk in chunks:
+            # Rough token estimation (characters / 4)
+            estimated_tokens = len(current_chunk) / 4
+            chunk_tokens = len(chunk) / 4
+            
+            if estimated_tokens + chunk_tokens > max_tokens:
+                combined_chunks.append(current_chunk)
+                current_chunk = chunk
+            else:
+                current_chunk += "\n" + chunk
+                
+        if current_chunk:
+            combined_chunks.append(current_chunk)
+            
+        return combined_chunks
+
 class RFPManager:
     """Main class that orchestrates the RFP analysis process"""
     def __init__(self):
@@ -946,6 +1390,10 @@ class RFPManager:
         self.checklist_agent = SubmissionChecklistAgent(self.shared_context)
         self.risk_agent = ContractRiskAgent(self.shared_context)
         self.strategic_agent = StrategicFitAgent(self.shared_context)
+        # New agents
+        self.questionnaire_agent = QuestionnaireAgent(self.shared_context)
+        self.proposal_agent = ProposalOutlineAgent(self.shared_context)
+        self.competitive_agent = CompetitiveAnalysisAgent(self.shared_context)
         
     async def analyze_rfp(self, rfp_path: str, company_data_path: str) -> Dict[str, Any]:
         """Analyze RFP and company data"""
@@ -1004,7 +1452,11 @@ class RFPManager:
             self.dealbreaker_agent.run(rfp_chunks, company_data_chunks),
             self.checklist_agent.run(rfp_chunks),
             self.risk_agent.run(rfp_chunks),
-            self.strategic_agent.run(rfp_chunks, company_data_chunks)
+            self.strategic_agent.run(rfp_chunks, company_data_chunks),
+            # New agent tasks
+            self.questionnaire_agent.run(rfp_chunks),
+            self.proposal_agent.run(rfp_chunks, company_data_chunks),
+            self.competitive_agent.run(rfp_chunks, company_data_chunks)
         ]
         
         results = await asyncio.gather(*tasks)
@@ -1016,6 +1468,9 @@ class RFPManager:
             "submission_checklist": results[2],
             "contract_risk_analysis": results[3],
             "strategic_fit_analysis": results[4],
+            "clarification_questions": results[5],
+            "proposal_strategy": results[6],
+            "competitive_analysis": results[7],
             "overall_recommendation": await self._generate_overall_recommendation()
         }
         

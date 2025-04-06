@@ -1,0 +1,19 @@
+```json
+{
+  "Legal requirements (state registration, licenses)": [
+    "The bidder must be a legal entity registered in the jurisdiction where the project is located."
+  ],
+  "Certifications required": [],
+  "Past performance requirements": [
+    "The bidder must have experience and qualifications relevant to the project."
+  ],
+  "Financial requirements": [
+    "The bidder must meet specific financial criteria, such as net worth and revenue.",
+    "The bidder must provide detailed financial information, including costs and pricing."
+  ],
+  "Any other mandatory qualifications": [
+    "The bidder must comply with all applicable laws and regulations.",
+    "The bidder must meet specific eligibility criteria, such as experience and qualifications."
+  ]
+}
+```

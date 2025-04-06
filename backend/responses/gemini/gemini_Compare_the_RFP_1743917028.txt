@@ -1,5 +1,3 @@
-Okay, I'm ready to help you analyze the RFP requirements against your company's capabilities.  I need you to provide the following information:
-
 1.  **`rfp_requirements`**: A JSON object containing the requirements outlined in the RFP. This could be structured in various ways, but ideally, it's broken down into key areas (e.g., "Technical Expertise", "Project Management", "Pricing", "Experience").  Within each area, list the specific requirements or criteria.  Example structure:
 
     ```json

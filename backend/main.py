@@ -92,6 +92,22 @@ async def analyze_rfp(rfp_path, company_data_path, output_path=None):
             print(f"- {reason}")
         print(f"\nRisk Assessment: {recommendation.get('risk_assessment', 'N/A')}")
         
+        # Display clarification questions summary
+        questions = results.get("clarification_questions", {})
+        if questions and "high_priority_questions" in questions:
+            print("\nTop Clarification Questions:")
+            for i, question in enumerate(questions.get("high_priority_questions", [])[:3], 1):
+                print(f"  {i}. {question}")
+            if len(questions.get("high_priority_questions", [])) > 3:
+                print(f"  ...and {len(questions.get('high_priority_questions', [])) - 3} more high priority questions")
+        
+        # Display proposal strategy summary
+        proposal = results.get("proposal_strategy", {}).get("proposal_outline", {})
+        if proposal and "win_themes" in proposal:
+            print("\nKey Win Themes:")
+            for theme in proposal.get("win_themes", [])[:3]:
+                print(f"- {theme}")
+        
         eligibility = results.get("eligibility_analysis", {})
         if eligibility.get("overall_eligible") == False:
             print("\nWARNING: Company does not meet eligibility requirements!")
