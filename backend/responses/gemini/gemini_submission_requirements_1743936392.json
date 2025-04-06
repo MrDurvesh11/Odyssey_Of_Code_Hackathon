@@ -1,0 +1,75 @@
+{
+  "submission_requirements": {
+    "forms": [
+      "HSD FORM A \u2013 MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B \u2013 MBE/WBE Subcontractor Solicitation Form",
+      "Proposal Response Sheet",
+      "E-Verify Affidavits",
+      "Completed W-9",
+      "Agreement for Contracted Services",
+      "RFP Proposal"
+    ],
+    "e_verify_documentation": [
+      {
+        "option1": "E-Verify Employment Eligibility Verification page listing the consultant\u2019s/contractor\u2019s name and company ID",
+        "option2": "A page from the E-Verify Memorandum of Understanding (MOU) listing the consultant\u2019s/contractor\u2019s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security \u2013 Verification Division"
+      },
+      "Notarized Affidavit of Work Authorization"
+    ],
+    "business_entity_certification": {
+      "box_b": "Certification that (Business Entity Name) meets the definition of a business entity as defined in section 285.525, RSMo, pertaining to section 285.530.",
+      "box_c": "Certification that (Business Entity Name) meets the definition of a business entity, participates in E-Verify, and has previously submitted E-Verify documentation to a Missouri state agency or public university within the past twelve months.  Includes providing name of agency/university, date of submission, and previous RFP/RFQ number (if known)."
+    }
+  },
+  "deadlines": {
+    "general": "Not specified in this chunk."
+  },
+  "Submission Requirements": {
+    "Format Requirements": [
+      "Form A: Subcontractor Utilization Form (details work to be subcontracted with MBE/WBE firms, including amounts)",
+      "Form B: MBE/WBE Subcontractor Solicitation Report (lists contacted minority and women business enterprises and reasons for not subcontracting with them)",
+      "Business Entity Certification, Enrollment Documentation, and Affidavit of Work Authorization (certification of current business status using Box A, B, or C)"
+    ],
+    "Required Sections": [
+      "Subcontractor Utilization Form (Form A)",
+      "MBE/WBE Subcontractor Solicitation Report (Form B)",
+      "Business Entity Certification",
+      "Affidavit of Work Authorization",
+      "Client References (at least three for completed work in the last 1-2 years with organization name, address, phone, contact person, project description, and contract amount)",
+      "Documentation of 10-hour OSHA construction safety program completion for workers (if applicable)"
+    ],
+    "MBE/WBE Certification": [
+      "Acceptance of MBE/WBE certification from specified agencies (City of St. Louis, SLMSDC, MRCC, State Certifications, NMSDC, WBENC and affiliates, state division of purchasing for manufacturers)",
+      "Only certified MBE/WBE firms on or before the proposal opening date are eligible",
+      "A MBE or WBE Subcontractor may be included as a Joint Venture with a Non-Certified MBE/WBE on Form A. However, only the portion of work to be managed and performed by the Certified MBE/WBE may be counted towards the goal."
+    ],
+    "Other Requirements": [
+      "E-Verify affidavit for contracts exceeding $5,000",
+      "Twenty-five percent (25%) MBE and five percent (5%) WBE participation goals for construction projects",
+      "Twenty-five percent (25%) minority and five percent (5%) women workforce goals",
+      "Proposals may not be withdrawn for 60 days after the proposal receipt deadline"
+    ]
+  },
+  "Deadlines": {
+    "Proposal Opening Date": "MBE/WBE firms must be certified by one or more of the specified agencies on or before the proposal opening date."
+  },
+  "Submission Process": {
+    "Download Forms": "The Hazelwood School District Supplier Diversity Program, including Forms A and B, can be downloaded from www.hazelwoodschools.org (click on \"Proposals and Proposals\", then \"Documentation\")"
+  },
+  "Award Criteria": [
+    "Responsiveness and completeness of the vendor\u2019s proposal",
+    "Proposer\u2019s understanding of and ability to address the RFP requirements",
+    "Proposer\u2019s experience and reference of similar sized school district clients",
+    "Cost",
+    "Proposer\u2019s ability to provide the requested services",
+    "Project approach: Logical, organized, innovative understanding, and experience with similar projects",
+    "MBE/WBE participation"
+  ],
+  "format_requirements": {
+    "affidavits": "Completed and notarized",
+    "w9": "Completed"
+  },
+  "submission_process": {
+    "method": "Not specified in this chunk, but implied to be with the proposal response."
+  }
+}

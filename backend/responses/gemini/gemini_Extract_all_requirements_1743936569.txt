@@ -1,0 +1,82 @@
+```json
+{
+  "Proposal Structure": {
+    "Required Sections and Order": [
+      "Letter of Transmittal",
+      "Executive Summary",
+      "Organization, Staffing and Qualifications",
+      "Other Information",
+      "Scope of Work",
+      "Proposal Requirements",
+      "Company Identification Form (Attachment 1)",
+      "References and Experience (Attachment 2)"
+    ]
+  },
+  "Content Requirements": {
+    "Letter of Transmittal": "Introduction to the Company, ability to meet the requirements of the RFP, under signature of a Company officer.",
+    "Executive Summary": "Briefly describes the Company’s approach, indicates any major requirements that cannot be met, highlights the major features of the Proposal. Must be no longer than three (3) pages.",
+    "Organization, Staffing and Qualifications": [
+      "Names, titles and specific responsibilities of team members.",
+      "Company’s prior experience in school district information technology audits.",
+      "Address of the specific office responsible for the work.",
+      "Qualifications of personnel by discipline.",
+      "Reason why the Company is especially qualified.",
+      "Unique qualifications of the Company that would benefit the District.",
+      "Recent examples of the Company’s school information technology audit experience during the last five (5) years, including the name of school district, contact person, and phone number.",
+      "References from other School Districts with name, address, and phone number of contact person. Only include references for which the Company has completed projects in the past five (5) years."
+    ],
+    "Other Information": [
+      "Whether the company has been the subject of any litigation and provide a detailed description,  the subject matter, and the disposition of the arbitration or lawsuit. The District pledges absolute confidentiality on all litigation disclosed.",
+      "Company must complete Attachment 1, “Company Identification Form.”",
+      "Company must complete Attachment 2, “References and Experience,” including a listing of all Missouri school districts for which the company has provided services. The Company should provide information on projects of a similar nature to that described in this RFP. Information on projects shall include the year the work was completed."
+    ],
+    "Scope of Work": "The selected firm will conduct a comprehensive audit that includes, but is not limited to, the items specified in the RFP and any items the proposer believes should be assessed or improved. Must complete Bid Pricing sheet.",
+    "Proposal Requirements": [
+      "Introduction of your company, history, and qualifications for this project.",
+      "Description of methods and processes to be used in acquiring data.",
+      "Describe work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and e-mail addresses of at least three (3) clients.",
+      "Briefly describe the services the firm provides and how those services will benefit the District.",
+      "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+      "Detailed description of the audit process and methodology with data collection and analysis techniques.",
+      "Proposed timeline for completion of the audit.",
+      "A sample technology audit report from a previous client (with confidential information redacted)."
+    ],
+    "Deliverables": [
+      "A comprehensive written report detailing findings and recommendations",
+      "An executive summary for district leadership and school board",
+      "A presentation of findings to district leadership (and school board if required)",
+      "Prioritized recommendations that are broken into the areas covered in the scope of work",
+      "Suggested Key Performance Indicators (KPI) for measuring future success"
+    ],
+    "Company Identification Form (Attachment 1)": "Designate one individual as the Company’s representative, legal name, address, years in operation,  and acknowledgement of RFP terms.",
+    "References and Experience (Attachment 2)": "Minimum of five (5) references, current contracts with public school districts, and details of any contract terminations for default within the last five (5) years."
+  },
+  "Format Specifications": {
+    "Page Limit": "Proposals shall be limited to twelve (12) pages (not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes).",
+    "Letter of Transmittal": "Should be under the signature of a Company officer."
+  },
+  "Evaluation Criteria": {
+    "Factors": [
+      "Responsiveness and completeness of the vendor’s proposal.",
+      "Proposers understanding of and ability to address the RFP requirements.",
+      "Proposers experience and reference of similar sized school district clients",
+      "Cost",
+      "Proposers ability to provide the requested services.",
+      "Project approach: Logical, organized, innovative understanding, and experience with similar projects.",
+      "MBE/WBE participation."
+    ]
+  },
+  "Unique or Special Requirements": {
+    "Forms": [
+      "HSD Form A – MBE/WBE Subcontractor Utilization Form",
+      "HSD Form B - MBE/WBE Subcontractor Solicitation Form",
+      "Agreement for Contracted Services"
+    ],
+    "Submission Method": "Proposals must be submitted through the District’s Vendor Registry online portal via the district’s website at https://www.hazelwoodschools.org/Page/2238.",
+    "Questions": "Questions must be submitted through the Vendor Registry online question submission process via the district’s website at https://www.hazelwoodschools.org/Page/2238 no later than 2:00 pm on Tuesday, February 18, 2025.",
+    "Confidentiality": "Technical data can be marked for evaluation purposes only, restricting its use and disclosure.",
+    "Code Integrity Warranty": "Vendor warrants that its software will not contain any disabling procedures.",
+    "Negotiations": "The District reserves the right to hold negotiations and negotiate final contract terms."
+  }
+}
+```

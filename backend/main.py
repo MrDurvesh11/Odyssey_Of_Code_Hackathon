@@ -126,7 +126,7 @@ def main():
     
     # If no arguments were provided, use default files in the backend folder
     if args.rfp_document is None or args.company_data is None:
-        rfp_path = "S:\\Odyssey_Of_Code_Hackathon\\backend\\rpf_document.pdf"
+        rfp_path = "S:\\Odyssey_Of_Code_Hackathon\\backend\\rpfs2.pdf"
         company_data_path = "S:\\Odyssey_Of_Code_Hackathon\\backend\\company_data.docx"
     else:
         rfp_path = args.rfp_document

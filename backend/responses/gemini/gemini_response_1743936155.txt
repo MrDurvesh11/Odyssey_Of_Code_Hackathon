@@ -1,0 +1,27 @@
+```json
+{
+  "Insurance Requirements": {
+    "Comprehensive General Liability": {
+      "per_person_per_occurrence": "$1,000,000",
+      "property_damage_per_occurrence": "$1,000,000",
+      "aggregate_all_claims_per_occurrence": "$1,000,000"
+    },
+    "Workers' Compensation": "As required by applicable law",
+    "Employer's Liability": "$1,000,000 per occurrence",
+    "Automotive Liability": "$1,000,000 per occurrence",
+    "Professional Errors and Omissions": "$1,000,000 per occurrence"
+  },
+  "Financial Requirements": {
+    "Taxes": "Proposers shall NOT INCLUDE FEDERAL EXCISE TAX, TRANSPORTATION TAX, or STATE RETAIL SALES TAX in their cost proposal",
+    "Payment Terms": "Net 45 days",
+    "Contract Approval": "Hazelwood School Board of Education approval anticipated within 60 days of submission",
+    "Contract Return": "Vendor shall return properly executed contract copies with required certificates of insurance, bonds, etc. within seven (7) working days of receipt"
+  },
+  "Other Requirements": {
+    "Confidentiality": "Successful Proposer shall follow all District policies, including those regarding confidentiality of student records",
+    "Permits and Fees": "Vendor shall secure and pay for all permits and governmental fees necessary for the work",
+    "Compliance": "Vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work",
+    "Non-Participation": "Successful Proposer shall not participate as a proposer, bidder, or subcontractor on any bids or RFPs related to the projects in this RFP"
+  }
+}
+```

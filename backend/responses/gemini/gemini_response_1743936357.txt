@@ -1,0 +1,66 @@
+```json
+{
+  "Financial Requirements": {
+    "Payment Terms": "Net 45 days",
+    "Invoice Submission": "accountspayable@hazelwoodschools.org or 15955 New Halls Ferry Road, Florissant, MO 63031.  Include purchase order number, date of shipment, quantity, price, and item(s) shipped.",
+    "Price Increase": "No increase in costs will be permitted during the term of the contract.",
+    "Taxes": "Proposers shall NOT INCLUDE FEDERAL EXCISE TAX, TRANSPORTATION TAX, or STATE RETAIL SALES TAX in their cost proposal.",
+    "Contract Approval": "Hazelwood School Board of Education approval anticipated within 60 days of submission.",
+    "Contract Execution": "Vendor shall return properly executed contract copies and required certificates within seven (7) working days of receipt."
+  },
+  "Insurance Requirements": {
+    "Comprehensive General Liability": "$1,000,000 per person per occurrence (Including Contractual Liability), $1,000,000 property damage per occurrence, $1,000,000 aggregate all claims per occurrence",
+    "Workers' Compensation": "As required by applicable law",
+    "Employer's Liability": "$1,000,000 per occurrence",
+    "Automotive Liability": "$1,000,000 per occurrence",
+    "Professional Errors and Omissions": "$1,000,000 per occurrence"
+  },
+  "Technical Requirements and Deliverables": {
+    "Deliverables": [
+      {
+        "Name": "Current Technology Landscape Assessment",
+        "Description": "Evaluate existing IT infrastructure, hardware, software, network capabilities; assess organizational effectiveness, application support, business continuity; assess classroom and administrative office technology integration; review special program technology needs",
+        "Price": "$12,000"
+      },
+      {
+        "Name": "Device Management and Refresh Planning",
+        "Description": "Assess current device inventory and management; evaluate device refresh cycle and recommend improvements; analyze total cost of ownership (TCO); provide recommendations for a 4-year device refresh plan",
+        "Price": "$9,000"
+      },
+      {
+        "Name": "Infrastructure and Network Evaluation",
+        "Description": "Assess current network infrastructure; evaluate bandwidth capacity and internet connectivity; review network security measures and data protection strategies; assess systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management",
+        "Price": "$11,780"
+      },
+      {
+        "Name": "Professional Development and Training Assessment",
+        "Description": "Review current technology-related professional development offerings; assess effectiveness of existing training programs; recommend improvements for ongoing coaching and support mechanisms",
+        "Price": "$2,410"
+      },
+      {
+        "Name": "Technical Support and Maintenance Evaluation",
+        "Description": "Analyze current IT support structure and staffing levels; assess help desk operations and service delivery; evaluate existing maintenance and repair processes for devices",
+        "Price": "$6,960"
+      },
+      {
+        "Name": "Cybersecurity Readiness and Compliance Review",
+        "Description": "Review for data security and compliance with FERPA and other state policies",
+        "Price": "$6,350"
+      }
+    ],
+    "Total Estimated Cost": "$48,500"
+  },
+  "Legal and Compliance Requirements": {
+    "Confidentiality": "Information furnished or disclosed under this RFP remains the property of the District.  Unless previously known, it shall be held in confidence and used only for the purposes of this RFP.",
+    "Proprietary Information": "Information furnished by interested parties to the District is not considered confidential or proprietary.",
+    "District Policies": "Successful Proposer shall follow all District policies, including those regarding confidentiality of student records.",
+    "Permits and Fees": "Vendor shall secure and pay for all permits and governmental fees.",
+    "Compliance with Laws": "Vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority.",
+    "Non-Participation": "Successful Proposer shall not participate as a proposer, bidder, or subcontractor on any bids or RFPs related to the projects contemplated by this RFP."
+  },
+  "Ownership of Submittal": {
+    "Ownership": "All proposals submitted become the property of the District upon submission."
+  }
+
+}
+```

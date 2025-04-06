@@ -1,0 +1,39 @@
+```json
+{
+  "General Requirements": [
+    {
+      "description": "Conduct a comprehensive information technology audit for the Hazelwood School District (HSD).",
+      "details": "The audit will collect and evaluate evidence of HSD’s information technology systems, practices, and operations to determine if changes are needed in the existing structure to meet current and future needs."
+    },
+    {
+      "description": "Proposal Submission",
+      "details": "Proposals must be submitted through the District’s Vendor Registry online portal by 10:00 am on Tuesday, February 25, 2025.  Late or incorrect proposals will not be considered. The Hazelwood School District reserves the right to accept or reject any and all proposals. The Proposal Submission will represent the contractual agreement unless otherwise communicated."
+    },
+    {
+      "description": "Required Forms",
+      "details": "Proposals must include HSD Form A – MBE/WBE Subcontractor Utilization Form, HSD Form B - MBE/WBE Subcontractor Solicitation Form, and Agreement for Contracted Services."
+    },
+    {
+      "description": "Contract Award",
+      "details": "The District may award a contract based on initial proposals received, or may select a small number of companies for presentations/interviews at their own expense."
+    },
+     {
+      "description": "Data Restriction",
+      "details": "Companies can restrict the use and disclosure of specific data by marking the proposal transmittal letter with a designated statement. The District assumes no liability for disclosure or use of unmarked technical data."
+    },
+    {
+      "description": "Code Integrity Warranty",
+      "details": "The Vendor warrants that their software does not contain any disabling procedures (viruses, malware, etc.).  The vendor must notify the district immediately upon discovery of any such procedures and take action to remove them at their own expense."
+    }
+  ],
+  "Deliverables": [
+    {
+      "description": "Comprehensive Information Technology Audit Report",
+      "details": "The report should identify areas needing improvement and suggest changes to the existing IT structure to meet current and future needs."
+    }
+
+  ],
+  "Service Levels": [],
+  "Performance Metrics": []
+}
+```

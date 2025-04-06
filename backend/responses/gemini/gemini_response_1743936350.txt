@@ -1,0 +1,38 @@
+```json
+{
+  "Deliverables": [
+    "A comprehensive written report detailing findings and recommendations",
+    "An executive summary for district leadership and school board",
+    "A presentation of findings to district leadership (and school board if required)",
+    "Prioritized recommendations that are broken into the areas covered in the scope of work",
+    "Suggested Key Performance Indicators (KPI) for measuring future success"
+  ],
+  "Service Levels": [
+    "Proposal to remain open for at least 90 days from the submission deadline",
+    "All proposals shall be deemed final, conclusive and irrevocable, and no proposal shall be subject to correction or amendment for any error or miscalculation",
+    "All proposals shall be considered valid for a minimum of 60 days"
+  ],
+  "Performance Metrics": [
+    "Key Performance Indicators (KPIs) for measuring future success (to be suggested by the firm)"
+  ],
+  "Other Requirements": [
+    "Description of methods and processes to be used in acquiring data",
+    "Description of data that will need to be provided by the District to assist in the analysis and projections",
+    "Detailed description of the audit process and methodology with data collection and analysis techniques",
+    "Proposed timeline for completion of the audit",
+    "A sample technology audit report from a previous client (with confidential information redacted)",
+    "Minimum of five (5) references, each presently using services similar to those requested in this RFP. No reference may be an affiliate of the Company or the Company’s officers, directors, shareholders or partners.",
+    "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+    "All Contracts terminated for default within the last five (5) years should be noted. Termination for default is defined as notice to stop performance due to Company’s nonperformance or poor performance. Submit full details of all terminations for default experienced."
+  ],
+  "Award Criteria": [
+    "Responsiveness and completeness of the vendor’s proposal",
+    "Proposer’s understanding of and ability to address the RFP requirements",
+    "Proposer’s experience and reference of similar sized school district clients",
+    "Cost",
+    "Proposer’s ability to provide the requested services",
+    "Project approach: Logical, organized, innovative understanding, and experience with similar projects",
+    "MBE/WBE participation"
+  ]
+}
+```

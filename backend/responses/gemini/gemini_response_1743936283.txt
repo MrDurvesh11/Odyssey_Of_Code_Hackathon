@@ -1,0 +1,24 @@
+```json
+{
+  "General Requirements": [
+    "Submit proposals through Vendor Registry via the district’s website at https://www.hazelwoodschools.org/Page/2238 on or before 10:00 am on Tuesday, February 25, 2025.",
+    "Sealed proposals shall contain the following non-amended forms: HSD Form A – MBE/WBE Subcontractor Utilization Form, HSD Form B - MBE/WBE Subcontractor Solicitation Form, Agreement for Contracted Services."
+  ],
+  "Experience Requirements": [
+    "Proposals are sought from experienced firms to conduct a comprehensive information technology audit."
+  ],
+  "Submission Requirements": [
+    "Responses must be submitted by the time and date listed above through the District’s Vendor Registry online portal via the district’s website at https://www.hazelwoodschools.org/Page/2238.",
+    "Proposals may contain data that the Company does not want used or disclosed for any purpose other than evaluation of the Proposal.  Specific statement required on letter of transmittal if data is restricted"
+
+  ],
+  "Other Requirements": [
+    "The District may award a contract based upon the initial Proposals received without discussion.  However, the District may select a small number of Companies to make a presentation/attend an interview at the Company’s own expense.  This may be virtual at the district’s discretion.",
+    "The information presented in the RFP is not to be construed as a commitment of any kind on the part of the District. There is no expressed or implied obligation for the District to reimburse responding firms for any expense incurred in preparing Proposals.",
+    "The District reserves the right to reject any or all Proposals and to waive informalities and minor irregularities in Proposals received.",
+    "The District reserves the right to decline any or all Proposal submissions, or to cancel the RFP call, in whole or in part, at any time prior to making an award, for any reason, or no reason, without liability being incurred by the District.",
+    "The information contained in the RFP is solely as a guideline for proposers.  It is not guaranteed or warranted to be accurate by the District, nor is it necessarily comprehensive or exhaustive.",
+    "Code Integrity Warranty: The Vendor warrants and represents that the Vendor’s software, other than the key software, does not and will not contain any program routine, device, code or instructions (including any code or instructions provided by third parties) or other undisclosed feature, including, without limitation, a time bomb, virus, software lock, drop-dead device, malicious logic, worm, Trojan horse, bug, error, defect or trap door that is capable of accessing, modifying, deleting, damaging, disabling, deactivating, interfering with or otherwise harming the software, any computers, networks, data or other electronically stored information, or computer programs or systems (collectively, “disabling procedures”)."
+  ]
+}
+```

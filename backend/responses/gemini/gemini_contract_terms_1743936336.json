@@ -1,0 +1,231 @@
+{
+  "Payment Terms": [],
+  "Liabilities": [
+    {
+      "clause": "The District reserves the right to decline any or all Proposal submissions, or to cancel the RFP call, in whole or in part, at any time prior to making an award, for any reason, or no reason, without liability being incurred by the District to any Company for any expense, cost, loss or damage incurred or suffered by the Company as a result of such withdrawal.",
+      "description": "The District is not liable for any expenses incurred by proposers if the RFP is cancelled."
+    },
+    {
+      "clause": "The District assumes no liability for disclosure or use of unmarked technical data and may use or disclose the data for any purpose.",
+      "description": "The District is not liable for the use or disclosure of unmarked technical data."
+    },
+    {
+      "clause": "Notwithstanding any other limitations in this agreement, the Vendor agrees to notify the District immediately upon discovery of any disabling procedures that are or may be included in the software, and, if disabling procedures are discovered or reasonably suspected to be present in the Vendor\u2019s software, The Vendor, as its entire liability and District\u2019s sole and exclusive remedy for the breach of the warranty agrees to take action immediately, at its own expense, to identify and eradicate (or to equip the District to identify and eradicate)",
+      "description": "Vendor's liability for disabling procedures in software is limited to notification and remediation at their own expense."
+    }
+  ],
+  "Warranties": [
+    {
+      "clause": "Code Integrity Warranty: The Vendor warrants and represents that the Vendor\u2019s software, other than the key software, does not and will not contain any program routine, device, code or instructions (including any code or instructions provided by third parties) or other undisclosed feature, including, without limitation, a time bomb, virus, software lock, drop-dead device, malicious logic, worm, Trojan horse, bug, error, defect or trap door that is capable of accessing, modifying, deleting, damaging, disabling, deactivating, interfering with or otherwise harming the software, any computers, networks, data or other electronically stored information, or computer programs or systems (collectively, \"disabling procedures\").",
+      "description": "Vendor warrants that their software (excluding key software) is free from malicious code and disabling procedures."
+    }
+  ],
+  "IP Rights": [],
+  "Other Terms": [
+    {
+      "clause": "The District may award a contract based upon the initial Proposals received without discussion of such Proposals. However, the District may select a small number of Companies to make a presentation/attend an interview at the Company\u2019s own expense. Notification will be given to qualified proposers. This may be virtual at the district\u2019s discretion.",
+      "description": "The district may choose to conduct interviews with a select number of proposers at the proposer's expense."
+    },
+    {
+      "clause": "The information presented in the RFP is not to be construed as a commitment of any kind on the part of the District. There is no expressed or implied obligation for the District to reimburse responding firms for any expense incurred in preparing Proposals is response to this request.",
+      "description": "The RFP information does not constitute a commitment from the district, and they are not obligated to reimburse expenses incurred in preparing proposals."
+    },
+    {
+      "clause": "The District reserves the right to reject any or all Proposals and to waive informalities and minor irregularities in Proposals received. The District, in its sole discretion, will determine whether an irregularity is minor.",
+      "description": "The district reserves the right to reject any or all proposals and waive minor irregularities."
+    },
+    {
+      "clause": "Proposals may contain data that the Company does not want used or disclosed for any purpose other than evaluation of the Proposal. The use and disclosure of such data may be so restricted, provided the Company marks the letter of transmittal of the Proposal with the following statement...",
+      "description": "Companies can restrict the use and disclosure of certain data in their proposals by marking the letter of transmittal with a specific statement."
+    },
+    {
+      "clause": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+      "description": "The accepted proposal will serve as the contract unless otherwise stated."
+    },
+    "Award(s) may be made to the responsive and responsible Proposer(s) whose proposal(s) is deemed to be most advantageous to the District, taking into account overall content of the proposal, cost, overall proposal, experience and qualifications of the firm and staff assigned and quality and content of the manner in which the services are proposed to be performed.",
+    "The District reserves the right to split the award or to make multiple awards, and to make award on a part or portion of a proposal.",
+    "The District may request additional information and/or an interview with some or all Proposers as part of the selection process.",
+    "In no event shall the District be required to explain the evaluation process or award selection to any Proposer.",
+    "The District reserves the right to accept any proposal, to reject any and all proposals, and to waive any irregularities or informalities in any proposals.",
+    "Conditional proposals will not be accepted.",
+    "All proposals shall be deemed final, conclusive and irrevocable, and no proposal shall be subject to correction or amendment for any error or miscalculation.",
+    "All proposals shall be considered valid for a minimum of 60 days.",
+    "The cost of preparation..."
+  ],
+  "Contract Terms and Conditions": {
+    "Scope of Services": [
+      "CONTRACTOR, in exchange for the compensation paid by DISTRICT under this contract, agrees to provide the following services:"
+    ],
+    "Term of Contract": [
+      "The term of this contract commences on the day of  , 20 , and terminates on the day of , 20 ."
+    ],
+    "Compensation": [
+      "DISTRICT will pay for the services provided by CONTRACTOR under this contract an amount not to exceed $ per ."
+    ],
+    "Execution of Contract": [
+      "This contract is not effective until fully executed by both parties."
+    ],
+    "E-Verify Participation": [
+      "The successful contractor will be required to enter into a contract with the Owner per the proposal specifications and proposal submission.",
+      "Enroll and participate in the E-Verify federal work authorization program with respect to the employees hired after enrollment in the program who are proposed to work in connection with the services required herein; AND",
+      "Provide documentation affirming said company\u2019s/individual\u2019s enrollment and participation in the E-Verify federal work authorization program. Documentation shall include EITHER the E-Verify Employment Eligibility Verification page listing the consultant\u2019s/contractor\u2019s name and company ID OR a page from the E-Verify Memorandum of Understanding (MOU) listing the consultant\u2019s/contractor\u2019s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security \u2013 Verification Division.",
+      "Submit a completed, notarized Affidavit of Work Authorization."
+    ],
+    "Required Submittals": [
+      "HSD FORM A \u2013 MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B \u2013 MBE/WBE Subcontractor Solicitation Form",
+      "Proposal Response Sheet",
+      "E-Verify Affidavits",
+      "Completed W-9",
+      "Agreement for Contracted Services",
+      "RFP Proposal"
+    ]
+  },
+  "Award Criteria": [
+    "Responsiveness and completeness of the vendor\u2019s proposal, including whether or not the vendor has provided all information requested in the RFP.",
+    "Proposers understanding of and ability to address the RFP requirements.",
+    "Proposers experience and reference of similar sized school district clients",
+    "Cost",
+    "Proposers ability to provide the requested services.",
+    "Project approach: Logical, organized, innovative understanding, and experience with similar projects.",
+    "MBE/WBE participation."
+  ],
+  "Proposal Requirements": [
+    "Introduction of your company, history, and qualifications for this project.",
+    "Description of methods and processes to be used in acquiring data.",
+    "Describe work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and e-mail addresses of at least three (3) clients.",
+    "Briefly describe the services the firm provides and how those services will benefit the District.",
+    "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+    "Detailed description of the audit process and methodology with data collection and analysis techniques",
+    "Proposed timeline for completion of the audit",
+    "A sample technology audit report from a previous client (with confidential information redacted)"
+  ],
+  "Deliverables": [
+    "A comprehensive written report detailing findings and recommendations",
+    "An executive summary for district leadership and school board",
+    "A presentation of findings to district leadership (and school board if required)",
+    "Prioritized recommendations that are broken into the areas covered in the scope of work.",
+    "Suggested Key Performance Indicators (KPI) for measuring future success"
+  ],
+  "Contract Period": [
+    "The terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals"
+  ],
+  "Conflicts of Interest": [
+    "By signing this Company Identification Form, the Company certifies that there are no \u201cPARTIES OF INTEREST\u201d or \u201cCONFLICTS OF INTEREST\u201d, as defined by state and/or federal regulations, existing between the Company and the District or any of its employees, agents or Board of Education members."
+  ],
+  "Reference Requirements": [
+    "Each Company must submit a minimum of five (5) references.",
+    "Each reference must be presently using services similar to those requested in this RFP.",
+    "No reference may be an affiliate of the Company or the Company\u2019s officers, directors, shareholders or partners.",
+    "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+    "All Contracts terminated for default within the last five (5) years should be noted below.",
+    "Termination for default is defined as notice to stop performance due to Company\u2019s nonperformance or poor performance.",
+    "Submit full details of all terminations for default experienced.",
+    "The District will evaluate the facts and may at its sole discretion reject the Company\u2019s Proposal if the facts discovered indicate that the completion of a Contract resulting from this RFP may be jeopardized by selection of the Company.",
+    "If the Company has experienced no such terminations for default in the past five (5) years, so indicate."
+  ],
+  "Ownership of Submittals": {
+    "terms": [
+      "All completed proposals submitted in response to this RFP become the property of the District upon submission.",
+      "The District may use the proposal for any purpose deemed appropriate.",
+      "The proposal material may become part of any contract between the successful Proposer and the District."
+    ]
+  },
+  "RFP Interpretation": {
+    "terms": [
+      "Interpretation of the wording of this RFP will be the responsibility of the District and that interpretation will be final and binding."
+    ]
+  },
+  "Price": {
+    "terms": [
+      "Services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated.",
+      "No increase in costs will be permitted during the term of the contract."
+    ]
+  },
+  "Contract": {
+    "terms": [
+      "The Hazelwood School Board of Education must formally approve the award of any contract(s) or agreement to purchase with approval anticipated to be within 60 days of proposed submission.",
+      "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein.",
+      "Vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt."
+    ]
+  },
+  "Billing & Payment": {
+    "terms": [
+      "Invoices shall be submitted directly to the Hazelwood School District via email at accountspayable@hazelwoodschools.org or mailed to the District\u2019s Finance Office at 15955 New Halls Ferry Road, Florissant, MO 63031.",
+      "Each invoice should contain the District purchase order number, date of shipment, quantity, price and item(s) shipped.",
+      "Invoices will not become due and payable until all times listed on the invoice are received complete.",
+      "Hazelwood School District\u2019s payment terms are Net 45 days."
+    ]
+  },
+  "Insurance": {
+    "terms": [
+      "Comprehensive General Liability $1,000,000 per person per occurrence (Including Contractual Liability)",
+      "$1,000,000 property damage per occurrence",
+      "$1,000,000 aggregate all claims per occurrence",
+      "Workers\u2019 Compensation As required by applicable law",
+      "Employer\u2019s Liability $1,000,000 per occurrence",
+      "Automotive Liability $1,000,000 per occurrence",
+      "Professional Errors and Omissions $1,000,000 per occurrence"
+    ]
+  },
+  "Taxes": {
+    "terms": [
+      "Proposers shall NOT INCLUDE FEDERAL EXCISE TAX, TRANSPORTATION TAX, or STATE RETAIL SALES TAX in their cost proposal, as these taxes do not apply to the District."
+    ]
+  },
+  "No Participation": {
+    "terms": [
+      "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP."
+    ]
+  },
+  "Use of Information": {
+    "terms": [
+      "Any specifications, drawings, sketches, models, samples, data, computer programs or documentation or other technical or business information (\u201cInformation\u201d) furnished or disclosed to interested parties under this RFP, or as the result of this RFP, shall remain the property of the District and, when in tangible form, all copies of such information shall be returned to the District upon request.",
+      "Unless such information was previously known to a party, free of any obligation to keep it confidential, or has been or is subsequently made public by the District or third party, it shall be held in confidence by such party, shall be used only for the purposes of this RFP, and may not be used for other purposes except upon such terms and conditions as may be mutually agreed upon in writing.",
+      "No specifications, drawings, sketches, models, samples, tools, or other apparatus programs, technical information or data, written, oral or otherwise, furnished by any interested party to the District under this RFP shall be considered to be confidential or proprietary."
+    ]
+  },
+  "Policies and Confidentiality": {
+    "terms": [
+      "The successful Proposer shall be required to follow all District policies, including those regarding confidentiality of student records."
+    ]
+  },
+  "Permits and Fees": {
+    "terms": [
+      "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+      "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work."
+    ]
+  },
+  "Supplier Diversity Program": {
+    "MBE/WBE Goals": {
+      "description": "All construction projects must include 25% MBE and 5% WBE participation.  The District strives for a 25% minority and 5% women workforce.",
+      "consequence": "Proposals not meeting program goals may be rejected."
+    },
+    "Payment Terms": {
+      "description": "MBE/WBE contractors will be paid every two weeks for labor costs upon request, verification of need, and presentation of required documentation."
+    },
+    "Eligible MBE/WBE Firms": {
+      "description": "Only firms certified by one or more specified agencies (City of St. Louis, SLMSDC, MRCC, State Certifications, NMSDC, WBENC, and affiliates; for manufacturers, state divisions of purchasing or NMSDC and affiliates) on or before the proposal opening date are eligible."
+    },
+    "Proposal Acceptance/Rejection": {
+      "description": "The District reserves the right to reject any and all proposals, waive informalities, determine the lowest and best proposal, and approve the bond. Proposals cannot be withdrawn for 60 days after the proposal receipt deadline."
+    },
+    "Subcontractor Utilization": {
+      "description": "Prime contractors must utilize MBE/WBE subcontractors, with details to be provided on Form A.  Only the portion of work managed and performed by a certified MBE/WBE counts towards the goal.  Form B details firms not utilized and reasons why."
+    }
+  },
+  "Additional Requirements": {
+    "E-Verify": {
+      "description": "Businesses contracting for services exceeding $5,000 must provide affidavits affirming use of E-Verify and not employing illegal workers."
+    },
+    "OSHA Training": {
+      "description": "Contractors and subcontractors must provide a 10-hour OSHA construction safety program for on-site workers on public works projects. Documentation of completed training suffices."
+    },
+    "Client References": {
+      "description": "Contractors must supply at least three client references for completed work within the last 1-2 years, including organization name, address, phone, contact person, project description, and contract amount."
+    },
+    "Business Entity Certification": {
+      "description": "Proposers must certify their business status using Box A, B, or C on the provided form, defining business entity according to section 285.525, RSMo, pertaining to section 285.530, RSMo.  This includes documentation of work authorization."
+    }
+  }
+}

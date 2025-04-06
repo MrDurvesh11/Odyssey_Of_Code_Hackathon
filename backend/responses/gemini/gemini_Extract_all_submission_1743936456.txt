@@ -1,0 +1,45 @@
+```json
+{
+  "Document Format": {
+    "Page Limit": "Proposals shall be limited to twelve (12) pages (excluding letter of transmittal, executive summary, required attachments, and personnel resumes)",
+    "Font Type/Size": "Not specified",
+    "Line Spacing": "Not specified"
+  },
+  "Required Sections and Content": {
+    "Letter of Transmittal": "Introduction to the Company, expression of ability and desire to meet the RFP requirements, signature of a Company officer",
+    "Executive Summary": "Briefly describes the Company’s approach, indicates any major requirements that cannot be met, highlights the major features of the Proposal (maximum 3 pages)",
+    "Organization, Staffing and Qualifications": "Names, titles, and responsibilities of team members; Company's prior experience in school district IT audits; address of the specific office; qualifications of personnel by discipline; discussion of why the Company is especially qualified; recent examples of the Company's school IT audit experience (last 5 years); references from other School Districts (last 5 years)",
+    "Other Information": "Indicate if the Company has been subject to litigation; complete Attachment 1: Company Identification Form; complete Attachment 2: References and Experience",
+    "Proposal Requirements": "Introduction of your company, history, and qualifications for this project; description of methods and processes to be used in acquiring data; work experience with school districts and IT audits in the last five (5) years; contact names, phone numbers, and e-mail addresses of at least three (3) clients; description of services provided and how they will benefit the District; data that the District must provide; detailed description of the audit process and methodology with data collection and analysis techniques; proposed timeline for completion of the audit; a sample technology audit report from a previous client (with confidential information redacted)",
+    "Attachments": [
+      "HSD Form A – MBE/WBE Subcontractor Utilization Form",
+      "HSD Form B - MBE/WBE Subcontractor Solicitation Form",
+      "Agreement for Contracted Services",
+       "Attachment 1: Company Identification Form",
+      "Attachment 2: References and Experience"
+    ]
+  },
+  "Specific Attachments or Forms": {
+    "Mandatory Forms": [
+      "HSD Form A – MBE/WBE Subcontractor Utilization Form",
+      "HSD Form B - MBE/WBE Subcontractor Solicitation Form",
+      "Agreement for Contracted Services",
+      "Attachment 1: Company Identification Form",
+      "Attachment 2: References and Experience"
+    ]
+  },
+  "Submission Deadlines and Method": {
+    "Deadline": "February 25, 2025, at 10:00 a.m. CDT",
+    "Method": "Through the District’s Vendor Registry online portal via the district’s website at https://www.hazelwoodschools.org/Page/2238"
+  },
+  "Other Submission Instructions": {
+    "Questions": "Questions must be submitted through the Vendor Registry online question submission process via the district’s website by 2:00 pm on Tuesday, February 18, 2025.",
+    "Responsibility": "The Hazelwood School District is not responsible for late or incorrect proposals.",
+    "Confidentiality": "Proposals may contain data that the Company does not want used or disclosed for any purpose other than evaluation (Mark letter of transmittal with the specific statement provided in the RFP).",
+    "Validity": "Proposals shall be considered valid for a minimum of 60 days.",
+    "Negotiations": "The District reserves the right to hold negotiations and/or negotiate final contract terms with any Company.",
+    "Contract Terms": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+    "Conflicts": "In the event of a conflict between the Proposal and the RFP, the District shall resolve any inconsistency in favor of the RFP."
+  }
+}
+```

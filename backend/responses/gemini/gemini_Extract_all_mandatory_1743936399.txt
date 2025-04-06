@@ -1,0 +1,32 @@
+```json
+{
+  "Legal requirements": [
+    "Vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt.",
+    "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+    "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work.",
+    "Business entity, as defined in section 285.525, RSMo, pertaining to section 285.530, RSMo, is any person or group of persons performing or engaging in any activity, enterprise, profession, or occupation for gain, benefit, advantage, or livelihood.",
+    "The consultant/contractor who meets the section 285.525, RSMo, definition of a business entity must complete and return the following Affidavit of Work Authorization."
+  ],
+  "Certifications required": [
+    "The District will accept, as prospective MBE/WBE participants for these projects, only those MBE/WBE firms which have been certified by one or more of the following agencies on or before the date of the proposal opening:",
+    "The successful Proposer will be expected to provide the following types of insurance with the described limits"
+  ],
+  "Past performance requirements": [
+    "Contractors must supply at least three (3) client references for completed work in the last 1-2 years. Please provide the organizations name, address, phone, contact person, project description and contract amount."
+  ],
+  "Financial requirements": [
+    "Proposers are cautioned that services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated.",
+    "No increase in costs will be permitted during the term of the contract."
+  ],
+  "Other mandatory qualifications": [
+    "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+    "The successful Proposer shall be required to follow all District policies, including those regarding confidentiality of student records.",
+    "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein.",
+    "The Proposer must certify their current business status by completing either Box A or Box B or Box C on this Exhibit.",
+    "The consultant/contractor should check each to verify completion/submission of all of the following:",
+    "Enroll and participate in the E -Verify federal work authorization program (Website: www.e -verify.gov ; Phone: 888-464-4218; Email: e-verify@dhs.gov ) with respect to the employees hired after enrollment in the program who are proposed to work in connection with the services required herein; AND",
+    "Provide documentation affirming said company’s/individual’s enrollment and participation in the E- Verify federal work authorization program. Documentation shall include EITHER the E -Verify Employment Eligibility Verification page listing the consultant’s/c ontractor’s name and company ID OR a page from the E -Verify Memorandum of Understanding (MOU) listing the consultant’s/contractor’s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security – Verification Division. If the signature page of the MOU lists the consultant’s/contractor’s name and company ID, then no additional pages of the MOU must be submitted; AND",
+    "Submit a completed, notarized Affidavit of Work Authorization provided on the next page of this document."
+  ]
+}
+```

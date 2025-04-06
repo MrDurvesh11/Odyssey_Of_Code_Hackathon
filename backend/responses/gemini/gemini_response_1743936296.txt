@@ -1,0 +1,33 @@
+```json
+{
+  "Insurance Requirements": {
+    "Comprehensive General Liability": {
+      "per person per occurrence": "$1,000,000",
+      "property damage per occurrence": "$1,000,000",
+      "aggregate all claims per occurrence": "$1,000,000"
+    },
+    "Workers' Compensation": "As required by applicable law",
+    "Employer's Liability": "$1,000,000 per occurrence",
+    "Automotive Liability": "$1,000,000 per occurrence",
+    "Professional Errors and Omissions": "$1,000,000 per occurrence"
+  },
+  "Contractual Requirements": {
+    "Contract Approval": "Hazelwood School Board of Education approval within 60 days of submission.",
+    "Contract Execution": "Return executed contract copies and required certificates within 7 working days of receipt.",
+    "Price": "No cost increase permitted during contract term.",
+    "District Policies": "Adherence to all District policies, including student record confidentiality." ,
+    "Permits and Fees": "Vendor secures and pays for all necessary permits and governmental fees.",
+    "Compliance": "Full compliance with all applicable laws, ordinances, rules, regulations, and orders."
+  },
+  "Financial Requirements": {
+    "Taxes": "Do NOT include Federal Excise Tax, Transportation Tax, or State Retail Sales Tax.",
+    "Billing": "Invoices submitted to accountspayable@hazelwoodschools.org or mailed to 15955 New Halls Ferry Road, Florissant, MO 63031.  Invoices must include purchase order number, date of shipment, quantity, price, and item(s) shipped.",
+    "Payment Terms": "Net 45 days"
+  },
+  "Other Requirements": {
+    "Information Ownership": "All submitted proposals become the property of the District.",
+    "Non-Participation": "Successful Proposer cannot participate in other bids or RFPs related to the project.",
+    "Information Confidentiality": "Information provided under the RFP must be kept confidential unless previously known or publicly released."
+  }
+}
+```

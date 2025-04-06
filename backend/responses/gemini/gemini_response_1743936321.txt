@@ -1,0 +1,62 @@
+```json
+{
+  "Payment Terms": [],
+  "Liabilities": [],
+  "Warranties": [],
+  "IP Rights": [],
+  "Award Criteria": [
+    "Responsiveness and completeness of the vendor’s proposal, including whether or not the vendor has provided all information requested in the RFP.",
+    "Proposers understanding of and ability to address the RFP requirements.",
+    "Proposers experience and reference of similar sized school district clients",
+    "Cost",
+    "Proposers ability to provide the requested services.",
+    "Project approach: Logical, organized, innovative understanding, and experience with similar projects.",
+    "MBE/WBE participation."
+  ],
+  "Proposal Requirements": [
+    "Introduction of your company, history, and qualifications for this project.",
+    "Description of methods and processes to be used in acquiring data.",
+    "Describe work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and e-mail addresses of at least three (3) clients.",
+    "Briefly describe the services the firm provides and how those services will benefit the District.",
+    "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+    "Detailed description of the audit process and methodology with data collection and analysis techniques",
+    "Proposed timeline for completion of the audit",
+    "A sample technology audit report from a previous client (with confidential information redacted)"
+  ],
+  "Deliverables": [
+    "A comprehensive written report detailing findings and recommendations",
+    "An executive summary for district leadership and school board",
+    "A presentation of findings to district leadership (and school board if required)",
+    "Prioritized recommendations that are broken into the areas covered in the scope of work.",
+    "Suggested Key Performance Indicators (KPI) for measuring future success"
+  ],
+  "Other Terms": [
+    "Award(s) may be made to the responsive and responsible Proposer(s) whose proposal(s) is deemed to be most advantageous to the District, taking into account overall content of the proposal, cost, overall proposal, experience and qualifications of the firm and staff assigned and quality and content of the manner in which the services are proposed to be performed.",
+    "The District reserves the right to split the award or to make multiple awards, and to make award on a part or portion of a proposal.",
+    "The District may request additional information and/or an interview with some or all Proposers as part of the selection process.",
+    "In no event shall the District be required to explain the evaluation process or award selection to any Proposer.",
+    "The District reserves the right to accept any proposal, to reject any and all proposals, and to waive any irregularities or informalities in any proposals.",
+    "Conditional proposals will not be accepted.",
+    "All proposals shall be deemed final, conclusive and irrevocable, and no proposal shall be subject to correction or amendment for any error or miscalculation.",
+    "All proposals shall be considered valid for a minimum of 60 days.",
+    "The cost of preparation..."
+  ],
+  "Contract Period": [
+    "The terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals"
+  ],
+  "Conflicts of Interest": [
+    "By signing this Company Identification Form, the Company certifies that there are no “PARTIES OF INTEREST” or “CONFLICTS OF INTEREST”, as defined by state and/or federal regulations, existing between the Company and the District or any of its employees, agents or Board of Education members."
+  ],
+  "Reference Requirements":[
+    "Each Company must submit a minimum of five (5) references.",
+    "Each reference must be presently using services similar to those requested in this RFP.",
+    "No reference may be an affiliate of the Company or the Company’s officers, directors, shareholders or partners.",
+    "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+    "All Contracts terminated for default within the last five (5) years should be noted below.",
+    "Termination for default is defined as notice to stop performance due to Company’s nonperformance or poor performance.",
+    "Submit full details of all terminations for default experienced.",
+    "The District will evaluate the facts and may at its sole discretion reject the Company’s Proposal if the facts discovered indicate that the completion of a Contract resulting from this RFP may be jeopardized by selection of the Company.",
+    "If the Company has experienced no such terminations for default in the past five (5) years, so indicate."
+  ]
+}
+```

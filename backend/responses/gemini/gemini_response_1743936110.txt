@@ -1,0 +1,11 @@
+The Hazelwood School District (HSD) requests proposals for a comprehensive information technology audit.  The deadline is February 25, 2025, at 10:00 a.m. CDT, submitted via the District's Vendor Registry online portal (https://www.hazelwoodschools.org/Page/2238).  Late submissions will not be considered.
+
+**Key Requirements & Specifications:** The audit must evaluate HSD's IT systems, practices, and operations to identify necessary changes for current and future needs.  Proposals must include HSD Forms A (MBE/WBE Subcontractor Utilization) and B (MBE/WBE Subcontractor Solicitation), and an Agreement for Contracted Services.
+
+**Important Terms & Conditions:** HSD may award a contract based solely on initial proposals, potentially followed by presentations/interviews from a select few at their own expense.  HSD bears no responsibility for proposal preparation costs and reserves the right to reject any or all proposals, or cancel the RFP at any time without liability.  Information provided is for guidance only and is not guaranteed accurate or comprehensive.  Specific data confidentiality restrictions can be applied if clearly marked in the proposal.  A code integrity warranty is required, guaranteeing the absence of malicious code in the vendor's software.  The vendor must immediately notify HSD and rectify any discovered malicious code at their own expense.
+
+**Technical Details:**  The audit scope encompasses the entire HSD IT infrastructure supporting approximately 16,500 students and 2,300 employees across multiple school buildings and facilities.
+
+**Eligibility Criteria:**  Experience in conducting comprehensive IT audits is a crucial requirement.  MBE/WBE subcontractor utilization is explicitly addressed via required forms.
+
+**Submission Guidelines:** Proposals must be submitted electronically through the specified online portal by the deadline.  All required forms must be included, and any data confidentiality restrictions must follow the specified format.

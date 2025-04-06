@@ -1,0 +1,49 @@
+```json
+{
+  "Proposal Structure and Content": {
+    "Required Sections and Order": [
+      "Proposal Response Sheet",
+      "Proposal"
+      ,
+      "HSD FORM A – MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B – MBE/WBE Subcontractor Solicitation Form",
+       "E-Verify Affidavits",
+      "Completed W-9",
+      "Agreement for Contracted Services"
+    ],
+    "Content Requirements": {
+      "Proposal Response Sheet": "Includes deliverable/service ability assessment, bid amount for each deliverable, company information (name, address, contact, federal tax ID, authorized official signature and date, email address).",
+      "RFP Proposal": "Address the following:\n*   7.1 Current Technology Landscape Assessment (Evaluation of existing IT infrastructure, hardware, software, network capabilities; assessment of organizational effectiveness, application support, business continuity management, and technology integration including the Student Information System (SIS), special program technology needs)\n*   7.2 Device Management and Refresh Planning (Assessment of current device inventory and management, evaluation of the existing device refresh cycle and recommend improvements, analysis of total cost of ownership (TCO) for various device options, and recommendations for a 4-year device refresh plan)\n*   7.3 Infrastructure and Network Evaluation (Assessment of current network infrastructure, including wired and wireless networks; evaluation of bandwidth capacity and internet connectivity; review of network security measures and data protection strategies, assessment of systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management)\n*   7.4 Professional Development and Training Assessment (Review current technology-related professional development offerings, assessment of the effectiveness of existing training programs, and recommendations for ongoing coaching and support mechanisms)\n*   7.5 Technical Support and Maintenance Evaluation (Analysis of current IT support structure and staffing levels, assessment of help desk operations and service delivery, evaluation of existing maintenance and repair processes for devices, recommendations for comprehensive audit)"
+      ,
+      "HSD FORM A – MBE/WBE Subcontractor Utilization Form": "If awarded this bid, list any MBE/WBE firms to be subcontracted with and the amount.",
+      "HSD FORM B – MBE/WBE Subcontractor Solicitation Form": "If not subcontracting with any minority or women-owned businesses, provide the names and addresses of firms contacted and the reason for not utilizing them.",
+      "E-Verify Affidavits": "Complete and submit the required affidavits as a business entity.",
+      "Completed W-9": "Ensure a complete and accurate W-9 is submitted.",
+       "Agreement for Contracted Services": "Include information like Scope of Services, Term of Contract, and Compensation and Signatures."
+    }
+  },
+  "Format Specifications": {
+    "Page Limits": "No specific page limit mentioned in the provided text.",
+    "Font": "Not specified in the provided text.",
+    "Margins": "Not specified in the provided text.",
+    "Other": "The document states that the successful proposer will be required to enter into a written contract with the district which will include, but not limited to, the scope of services described herein and the contract provisions included herein."
+  },
+  "Evaluation Criteria": {
+    "Explicit Criteria": "Not explicitly stated in the provided text, but the proposal must address each of the deliverables outlined in section 7 of the RFP."
+  },
+  "Unique/Special Requirements": {
+    "Supplier Diversity Program": "The Hazelwood School District has established a Supplier Diversity Program. Proposals must adhere to its requirements. Goals: 25% participation for MBEs and 5% for WBEs on all construction projects. The District may reject proposals that do not meet its program goals. Prospective MBE/WBE participants must be certified by specific agencies.",
+    "Insurance": "The successful Proposer will be expected to provide the following types of insurance with the described limits:\n\n*   Comprehensive General Liability  $1,000,000 per person per occurrence (Including Contractual Liability)\n    *   $1,000,000 property damage per occurrence\n    *   $1,000,000 aggregate all claims per occurrence\n*   Workers’ Compensation As required by applicable law\n*   Employer’s Liability $1,000,000 per occurrence\n*   Automotive Liability $1,000,000 per occurrence\n*   Professional Errors and Omissions $1,000,000 per occurrence",
+    "Taxes": "Proposers must NOT include Federal Excise Tax, Transportation Tax, or State Retail Sales Tax in their cost proposal.",
+    "No Participation": "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+    "Confidentiality": "The successful Proposer shall be required to follow all District policies, including those regarding the confidentiality of student records.",
+    "Permits and Fees": "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+    "Compliance": "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work.",
+    "E-Verify": "Businesses contracting for services over $5,000 must provide affidavits affirming the use of E-Verify and that they do not employ illegal workers.",
+    "OSHA Training": "Contractors and subcontractors must provide a ten (10) hour OSHA construction safety program for on-site workers of public works projects or provide documentation of completion.",
+    "Client References": "Contractors must supply at least three (3) client references for completed work in the last 1-2 years, including organization name, address, phone, contact person, project description, and contract amount.",
+    "Business Entity Certification, Enrollment Documentation, and Affidavit of Work Authorization": "The Proposer must complete and return the following Affidavit of Work Authorization.",
+    "Contract Execution": "The successful contractor is required to enter into a contract with the Owner per the proposal specifications and submission."
+  }
+}
+```

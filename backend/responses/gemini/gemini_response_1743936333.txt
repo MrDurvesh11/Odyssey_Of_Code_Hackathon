@@ -1,0 +1,36 @@
+```json
+{
+  "Supplier Diversity Program": {
+    "MBE/WBE Goals": {
+      "description": "All construction projects must include 25% MBE and 5% WBE participation.  The District strives for a 25% minority and 5% women workforce.",
+      "consequence": "Proposals not meeting program goals may be rejected."
+    },
+    "Payment Terms": {
+      "description": "MBE/WBE contractors will be paid every two weeks for labor costs upon request, verification of need, and presentation of required documentation."
+    },
+    "Eligible MBE/WBE Firms": {
+      "description": "Only firms certified by one or more specified agencies (City of St. Louis, SLMSDC, MRCC, State Certifications, NMSDC, WBENC, and affiliates; for manufacturers, state divisions of purchasing or NMSDC and affiliates) on or before the proposal opening date are eligible."
+    },
+    "Proposal Acceptance/Rejection": {
+      "description": "The District reserves the right to reject any and all proposals, waive informalities, determine the lowest and best proposal, and approve the bond. Proposals cannot be withdrawn for 60 days after the proposal receipt deadline."
+    },
+    "Subcontractor Utilization": {
+      "description": "Prime contractors must utilize MBE/WBE subcontractors, with details to be provided on Form A.  Only the portion of work managed and performed by a certified MBE/WBE counts towards the goal.  Form B details firms not utilized and reasons why."
+    }
+  },
+  "Additional Requirements": {
+    "E-Verify": {
+      "description": "Businesses contracting for services exceeding $5,000 must provide affidavits affirming use of E-Verify and not employing illegal workers."
+    },
+    "OSHA Training": {
+      "description": "Contractors and subcontractors must provide a 10-hour OSHA construction safety program for on-site workers on public works projects. Documentation of completed training suffices."
+    },
+    "Client References": {
+      "description": "Contractors must supply at least three client references for completed work within the last 1-2 years, including organization name, address, phone, contact person, project description, and contract amount."
+    },
+    "Business Entity Certification": {
+      "description": "Proposers must certify their business status using Box A, B, or C on the provided form, defining business entity according to section 285.525, RSMo, pertaining to section 285.530, RSMo.  This includes documentation of work authorization."
+    }
+  }
+}
+```

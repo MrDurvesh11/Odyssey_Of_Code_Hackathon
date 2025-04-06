@@ -1,0 +1,22 @@
+```json
+{
+  "Legal Requirements": [
+    "Sealed proposals shall contain the following non- amended forms: Proposal Forms including: • HSD Form A – MBE/WBE Subcontractor Utilization Form • HSD Form B - MBE/WBE Subcontractor Solicitation Form • Agreement for Contracted Services"
+  ],
+  "Certifications Required": [],
+  "Past Performance Requirements": [
+    "Each Company must submit a minimum of five (5) references.",
+    "Each reference must be presently using services similar to those requested in this RFP.",
+    "All Contracts terminated for default within the last five (5) years should be noted below."
+  ],
+  "Financial Requirements": [],
+  "Other Mandatory Qualifications": [
+    "Proposals must be submitted by the time and date listed above through the District’s Vendor Registry online portal via the district’s website at https://www.hazelwoodschools.org/Page/2238.",
+    "Proposals shall not contain any restrictive language different from the above statement.",
+    "Proposals must be concise and organized. Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+    "The Company must complete Attachment 1, “Company Identification Form.”",
+    "The Company must complete Attachment 2, “References and Experience,” including a listing of all Missouri school districts for which the company has provided services.",
+    "All proposals shall be considered valid for a minimum of 60 days."
+  ]
+}
+```

@@ -1,0 +1,23 @@
+```json
+{
+  "submission_requirements": {
+    "format": [
+      "Sealed proposals containing non-amended forms:",
+      "HSD Form A – MBE/WBE Subcontractor Utilization Form",
+      "HSD Form B - MBE/WBE Subcontractor Solicitation Form",
+      "Agreement for Contracted Services"
+    ],
+    "sections": [],
+    "process": "Submit proposals through Vendor Registry via the district’s website at https://www.hazelwoodschools.org/Page/2238",
+    "additional_requirements": [
+      "Proposals may contain data that the Company does not want used or disclosed for any purpose other than evaluation of the Proposal.  Specific statement required on letter of transmittal if data is restricted.",
+      "Code Integrity Warranty:  Vendor warrants software is free of malicious code etc.",
+      "The Vendor agrees to notify the District immediately upon discovery of any disabling procedures that are or may be included in the software and take action to remedy"
+    ]
+  },
+  "deadlines": {
+    "questions": "2:00 pm on Tuesday, February 18, 2025",
+    "proposal_submission": "10:00 am on Tuesday, February 25, 2025"
+  }
+}
+```

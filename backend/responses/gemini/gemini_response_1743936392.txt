@@ -1,0 +1,37 @@
+```json
+{
+  "submission_requirements": {
+    "forms": [
+      "HSD FORM A – MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B – MBE/WBE Subcontractor Solicitation Form",
+      "Proposal Response Sheet",
+      "E-Verify Affidavits",
+      "Completed W-9",
+      "Agreement for Contracted Services",
+      "RFP Proposal"
+    ],
+    "e_verify_documentation": [
+      {
+        "option1": "E-Verify Employment Eligibility Verification page listing the consultant’s/contractor’s name and company ID",
+        "option2": "A page from the E-Verify Memorandum of Understanding (MOU) listing the consultant’s/contractor’s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security – Verification Division"
+      },
+      "Notarized Affidavit of Work Authorization"
+    ],
+    "business_entity_certification": {
+      "box_b": "Certification that (Business Entity Name) meets the definition of a business entity as defined in section 285.525, RSMo, pertaining to section 285.530.",
+      "box_c": "Certification that (Business Entity Name) meets the definition of a business entity, participates in E-Verify, and has previously submitted E-Verify documentation to a Missouri state agency or public university within the past twelve months.  Includes providing name of agency/university, date of submission, and previous RFP/RFQ number (if known)."
+    }
+
+  },
+  "format_requirements": {
+    "affidavits": "Completed and notarized",
+    "w9": "Completed"
+  },
+  "submission_process": {
+    "method": "Not specified in this chunk, but implied to be with the proposal response."
+  },
+  "deadlines": {
+    "general": "Not specified in this chunk."
+  }
+}
+```

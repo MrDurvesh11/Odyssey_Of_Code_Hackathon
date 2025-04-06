@@ -1,0 +1,42 @@
+```json
+{
+  "MBE/WBE Certification": {
+    "description": "Must be certified by one or more of the following agencies on or before the proposal opening date:",
+    "agencies": [
+      "City of St. Louis (St. Louis Development Corporation/Airport Authority)",
+      "St. Louis Minority Supplier Development Council (SLMSDC)",
+      "Missouri Regional Certification Committee (MRCC)",
+      "State Certifications (e.g., the State of Missouri and other states)",
+      "National Minority Supplier Development Council (NMSDC)",
+      "Women Business Enterprise National Council (WBENC) and its affiliates"
+    ],
+    "manufacturer_exception": "For manufacturers,  certification by any state division of purchasing or the National Minority Supplier Development Council and its affiliates is also accepted."
+  },
+  "Subcontractor Utilization": {
+    "description": "Must subcontract with MBE/WBE firms, with specific goals for MBE (25%) and WBE (5%) participation.  A Subcontractor Utilization Form (Form A) must be submitted detailing subcontractors and amounts.",
+    "goals": {
+      "MBE": "25%",
+      "WBE": "5%"
+    }
+  },
+  "E-Verify": {
+    "description": "Businesses contracting for services exceeding $5,000 must provide affidavits affirming use of E-Verify and that they do not employ illegal workers.",
+    "threshold": "$5,000"
+  },
+  "OSHA Training": {
+    "description": "Contractors and subcontractors must provide a 10-hour OSHA construction safety program for on-site workers of public works projects. Documentation of completion is required if training has already been completed.",
+    "hours": "10"
+  },
+  "Client References": {
+    "description": "Must supply at least three client references for completed work in the last 1-2 years, including organization name, address, phone, contact person, project description, and contract amount.",
+    "minimum": "3"
+  },
+  "Business Entity Certification": {
+    "description": "Proposer must certify their current business status by completing Box A, B, or C on the provided form.  Details the definition of a business entity and exemptions.",
+    "forms": ["Box A", "Box B", "Box C"]
+  },
+  "Affidavit of Work Authorization": {
+    "description": "Consultants/contractors meeting the definition of a business entity must complete and return an Affidavit of Work Authorization."
+  }
+}
+```

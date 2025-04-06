@@ -1,0 +1,32 @@
+```json
+{
+  "submission_requirements": [
+    {
+      "description": "Proposals must be submitted through the District’s Vendor Registry online portal.",
+      "deadline": "10:00 a.m. CDT, February 25, 2025",
+      "url": "https://www.hazelwoodschools.org/Page/2238"
+    },
+    {
+      "description": "Sealed proposals must contain the following non-amended forms: HSD Form A – MBE/WBE Subcontractor Utilization Form, HSD Form B - MBE/WBE Subcontractor Solicitation Form, and Agreement for Contracted Services."
+    }
+  ],
+  "qualifications": [
+    {
+      "description": "Experienced firms",
+      "details": "The Hazelwood School District seeks proposals from experienced firms to conduct a comprehensive information technology audit."
+    }
+  ],
+  "other_requirements": [
+    {
+      "description": "The District may select a small number of companies to make a presentation/attend an interview at the company’s own expense.  This may be virtual at the district’s discretion.",
+      "details": "Notification will be given to qualified proposers."
+    },
+    {
+      "description": "Code Integrity Warranty: The Vendor warrants and represents that the Vendor’s software, other than the key software, does not and will not contain any program routine, device, code or instructions (including any code or instructions provided by third parties) or other undisclosed feature, including, without limitation, a time bomb, virus, software lock, drop-dead device, malicious logic, worm, Trojan horse, bug, error, defect or trap door that is capable of accessing, modifying, deleting, damaging, disabling, deactivating, interfering with or otherwise harming the software, any computers, networks, data or other electronically stored information, or computer programs or systems (collectively, \"disabling procedures\")."
+    },
+    {
+      "description": "If disabling procedures are discovered or reasonably suspected to be present in the Vendor’s software, the Vendor agrees to take action immediately, at its own expense, to identify and eradicate (or to equip the District to identify and eradicate) such procedures."
+    }
+  ]
+}
+```

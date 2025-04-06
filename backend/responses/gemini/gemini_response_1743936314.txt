@@ -1,0 +1,53 @@
+```json
+{
+  "Contract Terms and Conditions": {
+    "Negotiation and Award": [
+      {
+        "clause": "The District reserves the right to hold negotiations to clarify and qualify terms of any Proposal.",
+        "description": "The district can negotiate with any company, regardless of whether they were interviewed or submitted a best and final proposal."
+      },
+      {
+        "clause": "The District reserves the right to withdraw the award to a successful Company within 30 days of the award if, in the opinion of the District, the successful Company is unable or unwilling to enter into a form of contract satisfactory to the District.",
+        "description": "The district can withdraw the award without liability to the company."
+      },
+      {
+        "clause": "In the event of a conflict between the Proposal and the RFP, the District shall resolve any inconsistency in favor of the RFP.",
+        "description": "The RFP takes precedence in case of conflicts. The district will decide inconsistencies and disputes in good faith, and the company must abide by their decisions. Ambiguities in the proposal will be construed in favor of the District."
+      },
+      {
+        "clause": "The District reserves the right to enter into a contract with one firm or multiple firms to provide the services contemplated by this RFP.",
+        "description": "The district can choose to work with one or more companies."
+      },
+      {
+        "clause": "All terms and conditions of this RFP are deemed to be accepted by the Company and incorporated into the Company’s Proposal submission.",
+        "description": "The RFP's terms and conditions, along with the company's response, will be part of the final contract."
+      }
+    ],
+    "Termination": [
+      {
+        "clause": "Termination for Cause: In the event the successful proposer, through any cause, should fail to fulfill the agreed upon obligations in an effective and timely manner, the District shall have the right to terminate the contract for cause by specifying reasons and the date of termination in written notice to the selected vendor at least thirty (30) days prior to termination date.",
+        "description": "The district can terminate the contract with 30 days' notice if the company fails to meet its obligations.  The district can procure services elsewhere and hold the defaulting vendor responsible for costs."
+      }
+    ],
+    "Payment Terms": [],
+    "Liabilities": [
+      {
+        "clause": "The District shall be entitled to do so without any liability being incurred by the District to the Company.",
+        "description": "The district incurs no liability if it withdraws an award."
+      }
+    ],
+    "Warranties": [],
+    "IP Rights": [],
+    "Other Provisions": [
+      {
+        "clause": "Proposals must be concise and organized. Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+        "description": "Proposal length restrictions."
+      },
+       {
+        "clause": "The Company shall indicate whether, as a single entity or as a member of a joint venture, it has been the subject of any litigation through the discharge of its professional services.",
+        "description": "Companies must disclose any litigation related to their professional services."
+      }
+    ]
+  }
+}
+```

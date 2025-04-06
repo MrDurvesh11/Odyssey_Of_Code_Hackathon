@@ -1,0 +1,59 @@
+```json
+{
+  "E-Verify Requirements": {
+    "description": "Requirements related to the E-Verify program for work authorization.",
+    "items": [
+      {
+        "id": "1",
+        "type": "Process Requirement",
+        "description": "Enroll and participate in the E-Verify federal work authorization program for employees hired after enrollment who will work on the contract with the State of Missouri."
+      },
+      {
+        "id": "2",
+        "type": "Documentation Requirement",
+        "description": "Provide documentation affirming enrollment and participation in E-Verify.  This can be either the E-Verify Employment Eligibility Verification page or a page from the E-Verify Memorandum of Understanding (MOU) with the consultant/contractor's name and company ID, including the signed MOU signature page."
+      },
+      {
+        "id": "3",
+        "type": "Documentation Requirement",
+        "description": "Submit a completed, notarized Affidavit of Work Authorization."
+      }
+    ]
+  },
+  "Business Entity Requirements": {
+    "description": "Requirements related to the business entity's status and compliance.",
+    "items": [
+      {
+        "id": "1",
+        "type": "Compliance Requirement",
+        "description": "Business entity must meet the definition of a business entity as defined in section 285.525, RSMo, pertaining to section 285.530."
+      }
+    ]
+  },
+  "Contractual Requirements": {
+    "description": "Requirements related to the contract itself.",
+    "items": [
+      {
+        "id": "1",
+        "type": "Deliverables",
+        "description": "The contractor must provide services as defined in the scope of services section of the contract."
+      },
+      {
+        "id": "2",
+        "type": "Timeline",
+        "description": "Contract term starts on [Start Date] and terminates on [End Date]."
+      },
+      {
+        "id": "3",
+        "type": "Payment",
+        "description": "Compensation for services will not exceed $[Amount] per [Unit]."
+      },
+      {
+        "id": "4",
+        "type": "Documentation",
+        "description": "Proposal submittals must include: HSD Form A, HSD Form B, Proposal Response Sheet, E-Verify Affidavits, Completed W-9, Agreement for Contracted Services, and RFP Proposal."
+      }
+    ]
+  }
+}
+```

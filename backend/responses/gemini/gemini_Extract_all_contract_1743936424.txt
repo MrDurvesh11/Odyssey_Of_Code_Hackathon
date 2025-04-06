@@ -1,0 +1,40 @@
+```json
+{
+  "Payment terms": [],
+  "Liability clauses": [
+    "The District reserves the right to decline any or all Proposal submissions, or to cancel the RFP call, in whole or in part, at any time prior to making an award, for any reason, or no reason, without liability being incurred by the District to any Company for any expense, cost, loss or damage incurred or suffered by the Company as a result of such withdrawal.",
+    "The District assumes no liability for disclosure or use of unmarked technical data and may use or disclose the data for any purpose.",
+    "The Vendor, as its entire liability and District’s sole and exclusive remedy for the breach of the warranty agrees to take action immediately, at its own expense, to identify and eradicate (or to equip the District to identify and eradicate) such disabling procedures and carry out any recovery necessary to remedy any impact of such disabling procedures.",
+    "The District reserves the right to withdraw the award to a successful Company within 30 days of the award if, in the opinion of the District, the successful Company is unable or unwilling to enter into a form of contract satisfactory to the District. The District shall be entitled to do so without any liability being incurred by the District to the Company."
+  ],
+  "Termination conditions": [
+    "Termination for Cause: In the event the successful proposer, through any cause, should fail to fulfill the agreed upon obligations in an effective and timely manner, the District shall have the right to terminate the contract for cause by specifying reasons and the date of termination in written notice to the selected vendor at least thirty (30) days prior to termination date.",
+    "The Hazelwood School District also reserves the right to procure the articles or services from other sources and hold the defaulting vendor responsible for any cost incurred."
+  ],
+  "Intellectual property rights": [
+    "Proposals may contain data that the Company does not want used or disclosed for any purpose other than evaluation of the Proposal. The use and disclosure of such data may be so restricted, provided the Company marks the letter of transmittal of the Proposa l with the following statement: “Technical data contained on pages and______ in this Proposal furnished in connection with the Request for Proposal of the Hazelwood School District shall not be used nor disclosed except for evaluation purposes, provided that, if a Contract is awarded to this Company as a result of or in connection with the submission of this Proposal, Hazelwood School District shall have the right to use or disclose technical data to substantiate the award of a Contract.”"
+  ],
+  "Performance guarantees": [],
+  "SLAs and penalties": [],
+  "Insurance requirements": [],
+  "Other contractual obligations": [
+    "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+    "The District reserves the right to negotiate final contract terms with any Company, regardless of whether such Company was interviewed or submitted a best and final Proposal.",
+    "In the event of a conflict between the Proposal and the RFP, the District shall resolve any inconsistency in favor of the RFP.",
+    "The District shall in good faith decide all inconsistencies and/or disputes pertaining to the RFP and the Proposal. The Company agrees to abide by the decisions of the District.",
+    "Any ambiguity in the Proposal because of omission, error, lack of clarity or noncompliance by the Company with specifications, instructions and all conditions of bidding shall be construed in the favor of the District.",
+    "All of the terms and conditions of this RFP are deemed to be accepted by the Company and incorporated into the Company’s Proposal submission.",
+    "The terms and conditions stated in this RFP and the successful Company’s response to this RFP shall be incorporated into the contract between the District and the successful Company.",
+    "The Company warrants and represents that the Vendor’s software, other than the key software, does not and will not contain any program routine, device, code or instructions (including any code or instructions provided by third parties) or other undisclosed feature, including, without limitation, a time bomb, virus, software lock, drop- dead device, malicious logic, worm, Trojan horse, bug, error, defect or trap door that is capable of accessing, modifying, deleting, damaging, disabling, deactivating, interfering with or otherwise harming the software, any computers, networks, data or other electronically stored information, or computer programs or systems (collectively, \"disabling procedures\"). Such representation and warranty applies regardless of whether such disabling procedures are authorized by the Vendor to be included in the Vendor’s software.",
+    "The Vendor agrees to notify the District immediately upon discovery of any disabling procedures that are or may be included in the software, and, if disabling procedures are discovered or reasonably suspected to be present in the Vendor’s software.",
+     "Proposals must be concise and organized. Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+     "All proposals shall be deemed final, conclusive and irrevocable, and no proposal shall be subject to correction or amendment for any error or miscalculation. All proposals shall be considered valid for a minimum of 60 days.",
+    "The Company must complete Attachment 1, “Company Identification Form.”",
+    "The Company must complete Attachment 2, “References and Experience,” including a listing of all Missouri school districts for which the company has provided services.",
+    "Each Company must submit a minimum of five (5) references.",
+    "Each reference must be presently using services similar to those requested in this RFP.",
+    "No reference may be an affiliate of the Company or the Company’s officers, directors, shareholders or partners.",
+    "All proposals shall be considered valid for a minimum of 60 days."
+  ]
+}
+```

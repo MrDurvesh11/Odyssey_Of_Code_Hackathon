@@ -1,0 +1,9 @@
+This document chunk details an RFP for a school district technology audit.  Key requirements include a company introduction, detailed methodology (including data collection and analysis techniques), a proposed timeline, and a sample audit report from a previous client. Deliverables encompass a comprehensive report, executive summary, presentation, prioritized recommendations, and suggested KPIs.
+
+Important terms and conditions specify that proposals are deemed final and irrevocable, with a 60-day validity period. The district reserves the right to reject all proposals or award portions of the project.  No explanation of the evaluation process will be provided.  A conflict of interest disclosure is mandatory.
+
+Technically, proposers must describe their data acquisition methods and specify any areas for IT assessment or improvement beyond those listed.  They must also provide at least three client references with contact information from the last five years, and five total references for similar services.  
+
+Eligibility requires demonstrating experience auditing school districts' IT systems and providing a detailed understanding of the RFP’s requirements.  MBE/WBE participation is a favorable factor.
+
+Submission guidelines mandate including a completed company identification form, references, and adhering to proposal formatting instructions.  All information requested in the RFP must be provided for consideration. The proposal will be evaluated based on responsiveness, understanding of requirements, experience, cost, ability to provide services, project approach, and MBE/WBE participation.

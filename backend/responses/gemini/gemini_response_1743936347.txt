@@ -1,0 +1,84 @@
+```json
+{
+  "Proposal Requirements": {
+    "Format": [
+      {
+        "description": "Proposals must be concise and organized, limited to 12 pages (excluding transmittal letter, executive summary, required attachments, and resumes).",
+        "page_limit": "12 pages (excluding transmittal letter, executive summary, attachments, and resumes)"
+      },
+      {
+        "description": "Must include a transmittal letter introducing the company and expressing ability to meet RFP requirements, signed by a company officer.",
+        "component": "Transmittal Letter"
+      },
+      {
+        "description": "Must include an executive summary (no more than 3 pages) briefly describing the company's approach, unmet requirements, and major proposal features.  Should clearly indicate how well the proposal meets the District's requirements.",
+        "component": "Executive Summary",
+        "page_limit": "3 pages"
+      },
+      {
+        "description": "Must include names, titles, and responsibilities of team members, indicating prior experience in school district IT audits if applicable.",
+        "component": "Team Member Information"
+      },
+      {
+        "description": "Must provide the address of the office responsible for performing the work.",
+        "component": "Office Address"
+      },
+      {
+        "description": "Must list personnel qualifications by discipline, indicating prior experience in school district IT audits if applicable.",
+        "component": "Personnel Qualifications"
+      },
+      {
+        "description": "Must provide a narrative explaining the company's qualifications for the project and unique benefits to the District.",
+        "component": "Company Qualifications"
+      },
+      {
+        "description": "Must list recent examples (last 5 years) of school information technology audit experience, including school district name, contact person, and phone number.",
+        "component": "Project Experience",
+        "timeframe": "Last 5 years"
+      },
+      {
+        "description": "Must include references from other school districts (last 5 years) with contact person's name, address, and phone number.",
+        "component": "References",
+        "timeframe": "Last 5 years"
+      },
+      {
+        "description": "Must indicate if the company (or members of a joint venture) has been involved in litigation related to professional services, providing details if applicable.",
+        "component": "Litigation Disclosure"
+      },
+      {
+        "description": "Must complete Attachment 1, \"Company Identification Form.\"",
+        "component": "Attachment 1"
+      },
+      {
+        "description": "Must complete Attachment 2, \"References and Experience,\" including all Missouri school districts served and similar projects, with completion years.",
+        "component": "Attachment 2"
+      }
+    ]
+  },
+  "Scope of Work": {
+    "description": "A comprehensive audit including (but not limited to) the following areas. Proposals for all or specific items will be considered.  Firms must fill out the Bid Pricing sheet.",
+    "areas": [
+      "Current Technology Landscape Assessment",
+      "Device Management and Refresh Planning",
+      "Infrastructure and Network Evaluation",
+      "Professional Development and Training Assessment",
+      "Technical Support and Maintenance Evaluation"
+    ]
+  },
+  "Contractual Requirements": {
+    "negotiation": "The District reserves the right to negotiate final contract terms with any company.",
+    "withdrawal": "The District reserves the right to withdraw the award within 30 days if the successful company is unable or unwilling to enter a satisfactory contract.  The District incurs no liability.",
+    "conflict_resolution": "In case of conflict between the Proposal and the RFP, the RFP will prevail.  The District will resolve inconsistencies and disputes in good faith, and the Company agrees to abide by the District's decisions.",
+    "multiple_firms": "The District reserves the right to contract with one or multiple firms.",
+    "acceptance_of_terms": "All terms and conditions of the RFP are deemed accepted by the Company and incorporated into the Proposal and subsequent contract.",
+    "termination": "The District may terminate the contract for cause with 30 days written notice to the vendor, specifying reasons and termination date. The District may procure services elsewhere and hold the defaulting vendor responsible for incurred costs."
+  },
+  "Performance Metrics": [
+    "Effective and timely fulfillment of agreed-upon obligations"
+  ],
+  "Deliverables": [
+    "Comprehensive audit report covering specified areas of the scope of work"
+  ],
+  "Service Levels": [] 
+}
+```

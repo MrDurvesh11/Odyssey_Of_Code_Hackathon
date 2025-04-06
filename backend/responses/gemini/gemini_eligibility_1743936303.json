@@ -1,0 +1,218 @@
+{
+  "General Requirements": [
+    "Submit proposals through Vendor Registry via the district\u2019s website at https://www.hazelwoodschools.org/Page/2238 on or before 10:00 am on Tuesday, February 25, 2025.",
+    "Sealed proposals shall contain the following non-amended forms: HSD Form A \u2013 MBE/WBE Subcontractor Utilization Form, HSD Form B - MBE/WBE Subcontractor Solicitation Form, Agreement for Contracted Services.",
+    {
+      "description": "Introduction of your company, history, and qualifications for this project.",
+      "mandatory": true
+    },
+    {
+      "description": "Description of methods and processes to be used in acquiring data.",
+      "mandatory": true
+    },
+    {
+      "description": "Describe work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and email addresses of at least three (3) clients.",
+      "mandatory": true
+    },
+    {
+      "description": "Briefly describe the services the firm provides and how those services will benefit the District.",
+      "mandatory": true
+    },
+    {
+      "description": "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+      "mandatory": true
+    },
+    {
+      "description": "Detailed description of the audit process and methodology with data collection and analysis techniques",
+      "mandatory": true
+    },
+    {
+      "description": "Proposed timeline for completion of the audit",
+      "mandatory": true
+    },
+    {
+      "description": "A sample technology audit report from a previous client (with confidential information redacted)",
+      "mandatory": true
+    },
+    {
+      "description": "Each Company must submit a minimum of five (5) references. Each reference must be presently using services similar to those requested in this RFP. No reference may be an affiliate of the Company or the Company\u2019s officers, directors, shareholders or partners.",
+      "mandatory": true
+    },
+    {
+      "description": "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+      "mandatory": true
+    },
+    {
+      "description": "All Contracts terminated for default within the last five (5) years should be noted.  Submit full details of all terminations for default experienced.",
+      "mandatory": true
+    },
+    {
+      "description": "The cost of preparation of the proposal will not be reimbursed.",
+      "mandatory": false
+    },
+    {
+      "description": "Designate one individual as the Company\u2019s representative to the District during the term of the Agreement.",
+      "mandatory": true
+    },
+    {
+      "description": "The undersigned Company hereby agrees to be bound by the terms of the RFP and that the enclosed Proposal is submitted in accordance therewith.",
+      "mandatory": true
+    },
+    {
+      "description": "By signing this Company Identification Form, the Company certifies that there are no \u201cPARTIES OF INTEREST\u201d or \u201cCONFLICTS OF INTEREST\u201d, as defined by state and/or federal regulations, existing between the Company and the District or any of its employees, agents or Board of Education members.",
+      "mandatory": true
+    },
+    {
+      "description": "The terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals",
+      "mandatory": true
+    }
+  ],
+  "Experience Requirements": [
+    "Proposals are sought from experienced firms to conduct a comprehensive information technology audit."
+  ],
+  "Submission Requirements": [
+    "Responses must be submitted by the time and date listed above through the District\u2019s Vendor Registry online portal via the district\u2019s website at https://www.hazelwoodschools.org/Page/2238.",
+    "Proposals may contain data that the Company does not want used or disclosed for any purpose other than evaluation of the Proposal.  Specific statement required on letter of transmittal if data is restricted"
+  ],
+  "Other Requirements": {
+    "Information Ownership": "All submitted proposals become the property of the District.",
+    "Non-Participation": "Successful Proposer cannot participate in other bids or RFPs related to the project.",
+    "Information Confidentiality": "Information provided under the RFP must be kept confidential unless previously known or publicly released."
+  },
+  "Proposal Requirements": {
+    "Format": [
+      "Proposals must be concise and organized.",
+      "Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+      "The Proposal shall include a Letter of Transmittal that provides an introduction to the Company and includes an expression of the Company\u2019s ability and desire to meet the requirements of the RFP. The Letter of Transmittal should be under the signature of a Company officer.",
+      "The Proposal shall include an Executive Summary that briefly describes the Company\u2019s approach to meeting the District\u2019s requirements as outlined in the RFP, indicates any major requirements than cannot be met, and highlights the major features of the Proposal. The executive summary must be no longer than three (3) pages.",
+      "The Company shall indicate whether, as a single entity or as a member of a joint venture, it has been the subject of any litigation through the discharge of its professional services. If so, provide a detailed description of the litigants, the subject matter, and the disposition of the arbitration or lawsuit.",
+      "The Company must complete Attachment 1, \u201cCompany Identification Form.\u201d",
+      "The Company must complete Attachment 2, \u201cReferences and Experience,\u201d including a listing of all Missouri school districts for which the company has provided services. The Company should provide information on projects of a similar nature to that described in this RFP. Information on projects shall include the year the work was completed."
+    ]
+  },
+  "Organizational and Staffing Requirements": {
+    "Personnel": [
+      "Include names, titles and specific responsibilities of team members.",
+      "Clearly indicate the Company\u2019s prior experience in school district information technology audits, if applicable.",
+      "Give the address of the specific office which will have responsibility for performing the work.",
+      "List the qualifications of personnel by discipline presently employed, as of the date of this Proposal, at the office specified above. If personnel are qualified in several disciplines, list the personnel only once under their primary discipline. Clearly indicate prior experience in school district information technology audits, if applicable.",
+      "Through narrative discussion, show reason why the Company believes it is especially qualified to undertake this project. Discuss any unique qualifications that the Company possesses which would be of a benefit to the District in the execution of this project.",
+      "List recent examples of the Company\u2019s school information technology audit experience during the last five (5) years. For each project, indicate the name of school district, contact person, and phone number.",
+      "Include references from other School Districts with name, address and phone number of contact person. Only include references for which the Company has completed projects in the past five (5) years."
+    ]
+  },
+  "Deliverables": [
+    {
+      "description": "A comprehensive written report detailing findings and recommendations",
+      "mandatory": true
+    },
+    {
+      "description": "An executive summary for district leadership and school board",
+      "mandatory": true
+    },
+    {
+      "description": "A presentation of findings to district leadership (and school board if required)",
+      "mandatory": true
+    },
+    {
+      "description": "Prioritized recommendations that are broken into the areas covered in the scope of work.",
+      "mandatory": true
+    },
+    {
+      "description": "Suggested Key Performance Indicators (KPI) for measuring future success",
+      "mandatory": true
+    }
+  ],
+  "Insurance Requirements": {
+    "Comprehensive General Liability": {
+      "per person per occurrence": "$1,000,000",
+      "property damage per occurrence": "$1,000,000",
+      "aggregate all claims per occurrence": "$1,000,000"
+    },
+    "Workers' Compensation": "As required by applicable law",
+    "Employer's Liability": "$1,000,000 per occurrence",
+    "Automotive Liability": "$1,000,000 per occurrence",
+    "Professional Errors and Omissions": "$1,000,000 per occurrence"
+  },
+  "Contractual Requirements": {
+    "Contract Approval": "Hazelwood School Board of Education approval within 60 days of submission.",
+    "Contract Execution": "Return executed contract copies and required certificates within 7 working days of receipt.",
+    "Price": "No cost increase permitted during contract term.",
+    "District Policies": "Adherence to all District policies, including student record confidentiality.",
+    "Permits and Fees": "Vendor secures and pays for all necessary permits and governmental fees.",
+    "Compliance": "Full compliance with all applicable laws, ordinances, rules, regulations, and orders."
+  },
+  "Financial Requirements": {
+    "Taxes": "Do NOT include Federal Excise Tax, Transportation Tax, or State Retail Sales Tax.",
+    "Billing": "Invoices submitted to accountspayable@hazelwoodschools.org or mailed to 15955 New Halls Ferry Road, Florissant, MO 63031.  Invoices must include purchase order number, date of shipment, quantity, price, and item(s) shipped.",
+    "Payment Terms": "Net 45 days"
+  },
+  "MBE/WBE Certification": {
+    "description": "Must be certified by one or more of the following agencies on or before the proposal opening date:",
+    "agencies": [
+      "City of St. Louis (St. Louis Development Corporation/Airport Authority)",
+      "St. Louis Minority Supplier Development Council (SLMSDC)",
+      "Missouri Regional Certification Committee (MRCC)",
+      "State Certifications (e.g., the State of Missouri and other states)",
+      "National Minority Supplier Development Council (NMSDC)",
+      "Women Business Enterprise National Council (WBENC) and its affiliates"
+    ],
+    "manufacturer_exception": "For manufacturers,  certification by any state division of purchasing or the National Minority Supplier Development Council and its affiliates is also accepted."
+  },
+  "Subcontractor Utilization": {
+    "description": "Must subcontract with MBE/WBE firms, with specific goals for MBE (25%) and WBE (5%) participation.  A Subcontractor Utilization Form (Form A) must be submitted detailing subcontractors and amounts.",
+    "goals": {
+      "MBE": "25%",
+      "WBE": "5%"
+    }
+  },
+  "E-Verify": {
+    "description": "Businesses contracting for services exceeding $5,000 must provide affidavits affirming use of E-Verify and that they do not employ illegal workers.",
+    "threshold": "$5,000"
+  },
+  "OSHA Training": {
+    "description": "Contractors and subcontractors must provide a 10-hour OSHA construction safety program for on-site workers of public works projects. Documentation of completion is required if training has already been completed.",
+    "hours": "10"
+  },
+  "Client References": {
+    "description": "Must supply at least three client references for completed work in the last 1-2 years, including organization name, address, phone, contact person, project description, and contract amount.",
+    "minimum": "3"
+  },
+  "Business Entity Certification": {
+    "description": "Proposer must certify their current business status by completing Box A, B, or C on the provided form.  Details the definition of a business entity and exemptions.",
+    "forms": [
+      "Box A",
+      "Box B",
+      "Box C"
+    ]
+  },
+  "Affidavit of Work Authorization": {
+    "mandatory": true,
+    "description": "Submit a completed, notarized Affidavit of Work Authorization.",
+    "details": "If documentation is not already on file with the State of Missouri, a new affidavit is required.  If documentation *is* on file, the affidavit must have been completed within the last twelve months."
+  },
+  "E-Verify Participation": {
+    "mandatory": true,
+    "description": "Enroll and participate in the E-Verify federal work authorization program with respect to employees hired after enrollment who will work on the contract.  Provide documentation of enrollment and participation, including either the E-Verify Employment Eligibility Verification page or a page from the E-Verify Memorandum of Understanding (MOU) with signatures.",
+    "documentation": [
+      "E-Verify Employment Eligibility Verification page",
+      "E-Verify Memorandum of Understanding (MOU) signature page"
+    ]
+  },
+  "Business Entity Status": {
+    "mandatory": true,
+    "description": "Certify that the business entity meets the definition of a business entity as defined in section 285.525, RSMo, pertaining to section 285.530, RSMo."
+  },
+  "Additional Required Documents": {
+    "mandatory": true,
+    "description": "Submit the following documents with the proposal:",
+    "documents": [
+      "HSD FORM A \u2013 MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B \u2013 MBE/WBE Subcontractor Solicitation Form",
+      "Proposal Response Sheet",
+      "Completed W-9",
+      "Agreement for Contracted Services",
+      "RFP Proposal"
+    ]
+  }
+}

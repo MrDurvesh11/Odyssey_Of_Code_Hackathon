@@ -1,0 +1,76 @@
+```json
+{
+  "Ownership of Submittals": {
+    "terms": [
+      "All completed proposals submitted in response to this RFP become the property of the District upon submission.",
+      "The District may use the proposal for any purpose deemed appropriate.",
+      "The proposal material may become part of any contract between the successful Proposer and the District."
+    ]
+  },
+  "RFP Interpretation": {
+    "terms": [
+      "Interpretation of the wording of this RFP will be the responsibility of the District and that interpretation will be final and binding."
+    ]
+  },
+  "Price": {
+    "terms": [
+      "Services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated.",
+      "No increase in costs will be permitted during the term of the contract."
+    ]
+  },
+  "Contract": {
+    "terms": [
+      "The Hazelwood School Board of Education must formally approve the award of any contract(s) or agreement to purchase with approval anticipated to be within 60 days of proposed submission.",
+      "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein.",
+      "Vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt."
+    ]
+  },
+  "Billing & Payment": {
+    "terms": [
+      "Invoices shall be submitted directly to the Hazelwood School District via email at accountspayable@hazelwoodschools.org or mailed to the District’s Finance Office at 15955 New Halls Ferry Road, Florissant, MO 63031.",
+      "Each invoice should contain the District purchase order number, date of shipment, quantity, price and item(s) shipped.",
+      "Invoices will not become due and payable until all times listed on the invoice are received complete.",
+      "Hazelwood School District’s payment terms are Net 45 days."
+    ]
+  },
+  "Insurance": {
+    "terms": [
+      "Comprehensive General Liability $1,000,000 per person per occurrence (Including Contractual Liability)",
+      "$1,000,000 property damage per occurrence",
+      "$1,000,000 aggregate all claims per occurrence",
+      "Workers’ Compensation As required by applicable law",
+      "Employer’s Liability $1,000,000 per occurrence",
+      "Automotive Liability $1,000,000 per occurrence",
+      "Professional Errors and Omissions $1,000,000 per occurrence"
+    ]
+  },
+  "Taxes": {
+    "terms": [
+      "Proposers shall NOT INCLUDE FEDERAL EXCISE TAX, TRANSPORTATION TAX, or STATE RETAIL SALES TAX in their cost proposal, as these taxes do not apply to the District."
+    ]
+  },
+  "No Participation": {
+    "terms": [
+      "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP."
+    ]
+  },
+  "Use of Information": {
+    "terms": [
+      "Any specifications, drawings, sketches, models, samples, data, computer programs or documentation or other technical or business information (“Information”) furnished or disclosed to interested parties under this RFP, or as the result of this RFP, shall remain the property of the District and, when in tangible form, all copies of such information shall be returned to the District upon request.",
+      "Unless such information was previously known to a party, free of any obligation to keep it confidential, or has been or is subsequently made public by the District or third party, it shall be held in confidence by such party, shall be used only for the purposes of this RFP, and may not be used for other purposes except upon such terms and conditions as may be mutually agreed upon in writing.",
+      "No specifications, drawings, sketches, models, samples, tools, or other apparatus programs, technical information or data, written, oral or otherwise, furnished by any interested party to the District under this RFP shall be considered to be confidential or proprietary."
+    ]
+  },
+  "Policies and Confidentiality": {
+    "terms": [
+      "The successful Proposer shall be required to follow all District policies, including those regarding confidentiality of student records."
+    ]
+  },
+  "Permits and Fees": {
+    "terms": [
+      "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+      "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work."
+    ]
+  }
+}
+```

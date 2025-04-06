@@ -1,0 +1,45 @@
+```json
+{
+  "Standard Contract Terms": {
+    "description": "Based on the provided data, specific standard contract terms cannot be explicitly determined. However, the presence of a Director of Contracts and the services offered (staffing) suggest that contracts will be used. The data does not offer any further insight on the contract.",
+    "information_available": "Limited -  Existence of Director of Contracts suggests contract use. Further details require review of the contract itself."
+  },
+  "Payment Terms": {
+    "description": "Specific payment terms are not detailed within the provided data. ",
+    "information_available": "None"
+  },
+  "Liability Limitations": {
+    "description": "Liability limitations are not stated within the provided data. ",
+    "information_available": "None"
+  },
+  "IP Ownership Policies": {
+    "description": "IP ownership policies are not specified within the given data. The nature of the services (staffing) makes it probable that the IP generated belongs to the client.",
+    "information_available": "None - Likely determined on a per-contract basis and tied to the client."
+  },
+  "Insurance Coverage": {
+    "policies": [
+      {
+        "type": "Workers' Compensation",
+        "provider": "Travelers Insurance",
+        "policy_number": "TX-884529-A"
+      },
+      {
+        "type": "Liability",
+        "provider": "Travelers Insurance",
+        "policy_number": "TX-884529-A"
+      },
+      {
+        "type": "Auto",
+        "provider": "Travelers Insurance",
+        "policy_number": "TX-884529-A"
+      }
+    ]
+  },
+  "Red Lines/Non-Negotiable Points": {
+    "description": "The data provides limited insight into red lines. The lack of MBE certification *could* be considered a non-negotiable point for clients requiring MBE certification. This is dependent on client requirements. ",
+    "non_negotiables": [
+      "No MBE Certification"
+    ]
+  }
+}
+```

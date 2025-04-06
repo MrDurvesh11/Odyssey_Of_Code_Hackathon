@@ -1,1 +1,0 @@
-Okay, I'm ready. Please provide the contract clauses you want me to analyze. I will then analyze them, identify the risks to the vendor, and return the JSON as requested. I'll need the text of the clauses to do this.

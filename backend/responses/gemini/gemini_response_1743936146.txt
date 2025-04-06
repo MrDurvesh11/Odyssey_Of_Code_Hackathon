@@ -1,0 +1,33 @@
+```json
+{
+  "Proposal Requirements": {
+    "Format": [
+      "Proposals must be concise and organized.",
+      "Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+      "Include a Letter of Transmittal that provides an introduction to the Company and includes an expression of the Company’s ability and desire to meet the requirements of the RFP. The Letter of Transmittal should be under the signature of a Company officer.",
+      "Include an Executive Summary that briefly describes the Company’s approach to meeting the District’s requirements as outlined in the RFP, indicates any major requirements that cannot be met, and highlights the major features of the Proposal. The executive summary must be no longer than three (3) pages.",
+      "Must complete Attachment 1, “Company Identification Form.”",
+      "Must complete Attachment 2, “References and Experience,” including a listing of all Missouri school districts for which the company has provided services."
+    ],
+    "Content": [
+      "Include names, titles and specific responsibilities of team members. Clearly indicate the Company’s prior experience in school district information technology audits, if applicable.",
+      "Give the address of the specific office which will have responsibility for performing the work.",
+      "List the qualifications of personnel by discipline presently employed, as of the date of this Proposal, at the office specified above. If personnel are qualified in several disciplines, list the personnel only once under their primary discipline. Clearly indicate prior experience in school district information technology audits, if applicable.",
+      "Through narrative discussion, show reason why the Company believes it is especially qualified to undertake this project. Discuss any unique qualifications that the Company possesses which would be of a benefit to the District in the execution of this project.",
+      "List recent examples of the Company’s school information technology audit experience during the last five (5) years. For each project, indicate the name of school district, contact person, and phone number.",
+      "Include references from other School Districts with name, address and phone number of contact person. Only include references for which the Company has completed projects in the past five (5) years.",
+      "Indicate whether, as a single entity or as a member of a joint venture, it has been the subject of any litigation through the discharge of its professional services. If so, provide a detailed description of the litigants, the subject matter, and the disposition of the arbitration or lawsuit.",
+      "The Company should provide information on projects of a similar nature to that described in this RFP. Information on projects shall include the year the work was completed."
+    ]
+  },
+  "Company Experience and Qualifications": {
+    "General": [
+      "Prior experience in school district information technology audits"
+    ],
+    "Specific": [
+      "Recent examples of school information technology audit experience during the last five (5) years",
+      "References from other School Districts with which the Company has completed projects in the past five (5) years"
+    ]
+  }
+}
+```

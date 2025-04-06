@@ -1,1 +1,0 @@
-Okay, I need the RFP submission requirements to create the checklist.  Please provide the text of the RFP submission requirements.  Once you provide that text, I will generate the JSON output you requested, including the organized checklist, key deadlines, and any special instructions based on the information.

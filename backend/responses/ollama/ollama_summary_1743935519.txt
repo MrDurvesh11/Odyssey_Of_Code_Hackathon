@@ -1,0 +1,8 @@
+This is an RFP (Request for Proposal) document outlining the scope of work for a comprehensive information technology audit and refresh plan for a school district. The document provides detailed requirements and expectations for the contractor, including the following sections:
+
+1. Introduction: Provides background information on the district and the purpose of the RFP.
+2. Scope of Work: Outlines the areas to be assessed as part of the audit, including current technology landscape assessment, device management and refresh planning, infrastructure and network evaluation, professional development and training assessment, and technical support and maintenance evaluation.
+3. Other Information: Provides additional information on the district's current technology infrastructure, recent changes in state and federal regulations relevant to the audit, and a list of references for similar projects completed by the selected firm.
+4. Attachments: Includes several attachments, including a company identification form, pricing sheet, and a bid form.
+
+The document provides a comprehensive framework for the contractor to assess the district's current technology infrastructure and make recommendations for improvements. The scope of work outlined in the document covers various aspects of the district's technology infrastructure, including devices, networks, professional development, technical support, and maintenance. The document also includes attachments such as a company identification form and pricing sheet to gather additional information from the contractor.

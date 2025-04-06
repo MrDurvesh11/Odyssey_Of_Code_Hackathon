@@ -1,0 +1,226 @@
+```json
+{
+  "high_risk_clauses": [
+    {
+      "clause": "The District reserves the right to reject any or all Proposals and to waive informalities and minor irregularities in Proposals received.",
+      "reason": "This gives the District broad discretion to reject proposals for any reason, potentially disadvantaging the vendor. The 'waive informalities' clause adds to the vendor's uncertainty.",
+      "suggestion": "Clarify the reasons for rejection (e.g., non-compliance with mandatory requirements, lack of qualifications, etc.) and define 'informalities' and 'minor irregularities' to provide objective criteria."
+    },
+    {
+      "clause": "The District reserves the right to decline any or all Proposal submissions, or to cancel the RFP call, in whole or in part, at any time prior to making an award, for any reason, or no reason, without liability being incurred by the District to any Company for any expense, cost, loss or damage incurred or suffered by the Company as a result of such withdrawal.",
+      "reason": "This clause allows the District to cancel the RFP at any time without any recourse for the vendor's incurred costs and efforts. It places all the risk on the vendor.",
+      "suggestion": "Limit the District's right to cancel the RFP to specific, justifiable circumstances (e.g., significant changes in requirements, budget constraints). Consider reimbursing reasonable, documented costs to vendors if the RFP is canceled for reasons other than the vendor's fault."
+    },
+    {
+      "clause": "In the event of a conflict between the Proposal and the RFP, the District shall resolve any inconsistency in favor of the RFP. Additionally, the District shall in good faith decide all inconsistencies and/or disputes pertaining to the RFP and the Proposal. The Company agrees to abide by the decisions of the District. Any ambiguity in the Proposal because of omission, error, lack of clarity or noncompliance by the Company with specifications, instructions and all conditions of bidding shall be construed in the favor of the District.",
+      "reason": "This clause is heavily biased towards the District. It gives the District unilateral power to resolve conflicts and ambiguities in its favor. This eliminates any negotiation or compromise and places the vendor at a significant disadvantage.",
+      "suggestion": "The contract should specify a clear hierarchy of documents in case of conflict (e.g., specific order of precedence). Establish a fair process for dispute resolution, potentially including mediation or arbitration.  Ambiguities should be addressed by mutual agreement, not automatically in favor of the District."
+    },
+    {
+      "clause": "No increase in costs will be permitted during the term of the contract.",
+      "reason": "This is very risky if the contract is for a longer period. Unexpected events (e.g., inflation, material shortages) could significantly increase the vendor's costs, potentially leading to financial losses.  ",
+      "suggestion": "Allow for price adjustments based on pre-defined indices (e.g., CPI, relevant industry cost indices) or specific, documented changes in the scope of work. If price increases are not allowed, keep the contract term short."
+    },
+    {
+      "clause": "Interpretation of the wording of this RFP will be the responsibility of the District and that interpretation will be final and binding.",
+      "reason": "This clause grants the District absolute authority over the interpretation of the RFP language, which can be used to the detriment of the vendor, even if the vendor's interpretation is more reasonable. ",
+      "suggestion": "Remove this clause. RFP language should be clear and unambiguous. In case of disputes, the interpretation should be based on standard contract law principles or mutually agreed upon. Consider including a dispute resolution mechanism in the contract."
+    },
+    {
+      "clause": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+      "reason": "This means the vendor is bound by the proposal submitted which could be used to the disadvantage of the vendor. This means that any negotiation of terms after proposal is submitted would not be part of the contract.",
+      "suggestion": "The contract should be a separate written document that has been reviewed and agreed upon by both the vendor and the district to ensure fair and equitable terms. "
+    },
+    {
+      "clause": "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+      "reason": "This restricts future business opportunities for the vendor related to the project and limits their flexibility to work with other parties. It may also be seen as anti-competitive. ",
+      "suggestion": "Revise to only restrict the vendor from participating in proposals where there is a direct conflict of interest or that would compromise the integrity of the original contract. It should specifically define what constitutes a 'project contemplated by this RFP'."
+    },
+    {
+      "clause": "Invoices will not become due and payable until all times listed on the invoice are received complete.",
+      "reason": "This could lead to delayed payments, potentially straining the vendor's cash flow. ",
+      "suggestion": "Change the clause so that invoices become due and payable based on the District's typical payment schedule, regardless of whether all deliverables have been received. Stipulate a reasonable timeframe (e.g., 30-60 days) for payment after invoice submission."
+    },
+    {
+      "clause": "The District may reject any and all proposals that do not meet its program goals.",
+      "reason": "This gives the District broad discretion to reject proposals for any reason, potentially disadvantaging the vendor.",
+      "suggestion": "Clarify the program goals with specific, measurable criteria."
+    }
+  ],
+  "medium_risk_clauses": [
+    {
+      "clause": "The District may award a contract based upon the initial Proposals received without discussion of such Proposals.",
+      "reason": "This limits the vendor's ability to clarify or negotiate terms. It may prevent them from addressing minor issues that could result in rejection.",
+      "suggestion": "Allow for clarification or negotiation with the top-ranked bidders.  If not, be very specific about all the requirements and expectations in the RFP to prevent the need for future negotiation."
+    },
+    {
+      "clause": "The District reserves the right to hold negotiations in an attempt to clarify and qualify terms of any Proposal.",
+      "reason": "While the District reserves the right to negotiate, it is not obligated to do so.  This is a potential disadvantage because the District may decline to negotiate.",
+      "suggestion": "Allow for clarification or negotiation with the top-ranked bidders. "
+    },
+    {
+      "clause": "The District reserves the right to withdraw the award to a successful Company within 30 days of the award if, in the opinion of the District, the successful Company is unable or unwilling to enter into a form of contract satisfactory to the District.",
+      "reason": "This allows the District to rescind the award even after it has been granted, if it believes the contract terms are unsatisfactory.  This can delay the vendor's project and be frustrating. ",
+      "suggestion": "The 'form of contract' should be provided or available before the proposal is submitted, so that the terms and conditions are already known."
+    },
+    {
+      "clause": "Proposals shall be considered valid for a minimum of 60 days.",
+      "reason": "This locks in the vendor's pricing for a period of time, which is acceptable, but with the current inflationary environment, this can be a disadvantage. ",
+      "suggestion": "Consider a shorter period (e.g., 30 days) or allow for price adjustments if the contract award is delayed significantly."
+    },
+    {
+      "clause": "Proposers are cautioned that services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated.",
+      "reason": "This reinforces the 'no price increase' clause and places the risk of unexpected cost increases on the vendor.",
+      "suggestion": "Consider a shorter period (e.g., 30 days) or allow for price adjustments if the contract award is delayed significantly, with specific exceptions, as well as an avenue to negotiate during the term of the contract."
+    },
+    {
+      "clause": "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein.",
+      "reason": "This clause does not specify exactly what is in the contract. ",
+      "suggestion": "Include the full contract with the RFP so that the vendor knows what they are agreeing to."
+    },
+    {
+      "clause": "Vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt.",
+      "reason": "The timeframe is short, potentially leading to penalties. ",
+      "suggestion": "Allow more time, or include a penalty clause in the contract if not done by a certain timeframe."
+    },
+    {
+      "clause": "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work.",
+      "reason": "This places a broad obligation on the vendor to be compliant. ",
+      "suggestion": "Clarify that the vendor is only responsible for compliance if related to work, unless required by a specific law. The district and vendor should be equally responsible for compliance."
+    },
+    {
+      "clause": "Termination for Cause: In the event the successful proposer, through any cause, should fail to fulfill the agreed upon obligations in an effective and timely manner, the District shall have the right to terminate the contract for cause by specifying reasons and the date of termination in written notice to the selected vendor at least thirty (30) days prior to termination date. The Hazelwood School District also reserves the right to procure the articles or services from other sources and hold the defaulting vendor responsible for any cost incurred.",
+      "reason": "While the clause allows for termination for cause and requires notice, the vendor may still face significant liabilities.",
+      "suggestion": "Define 'failure to fulfill obligations' with specific, measurable performance criteria. Consider a cure period, and specify the process for determining vendor liability."
+    },
+    {
+      "clause": "Hazelwood School District’s payment terms are Net 45 days.",
+      "reason": "These are standard terms, but represent a risk if the vendor depends on cash flow.",
+      "suggestion": "Negotiate shorter payment terms."
+    },
+    {
+      "clause": "The proposal material may become part of any contract between the successful Proposer and the District.",
+      "reason": "This is a general statement, but if proposal materials become part of the contract, this may subject the vendor to liability if the material contains errors.",
+      "suggestion": "Limit the scope of the proposal to only certain components and state they are not part of the contract if there is an error."
+    },
+    {
+      "clause": "The successful Proposer shall be required to follow all District policies, including those regarding confidentiality of student records.",
+      "reason": "This places a broad obligation on the vendor to be compliant.",
+      "suggestion": "Provide the relevant District policies to the vendor upfront, so that the vendor is not responsible for knowledge that is not available."
+    },
+     {
+      "clause": "The successful Proposer will be expected to provide the following types of insurance with the described limits:",
+      "reason": "This is a standard requirement, but the high limits of insurance can be expensive.",
+      "suggestion": "The limits are high, but could be standard for the work, and the vendor may have no recourse. If the limits are too high, they may not be able to bid on the project."
+    },
+    {
+      "clause": "The District will pay MBE/WBE contractors every two weeks for labor cost upon presentation of required documentation.",
+      "reason": "This is not a standard practice and puts the burden on the vendor to be a MBE/WBE contractor.",
+      "suggestion": "If the vendor cannot qualify for this status, the bid should not be accepted."
+    }
+  ],
+  "low_risk_clauses": [
+    {
+      "clause": "The District may award a contract based upon the initial Proposals received without discussion of such Proposals.",
+      "reason": "This clause is low risk. It specifies that the District may award based on the initial proposal. However, it is a medium risk because it restricts the vendor's ability to negotiate.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The terms and conditions stated in this RFP and the successful Company\u2019s response to this RFP shall be incorporated into the contract between the District and the successful Company.",
+      "reason": "This clause clarifies the foundation of the contract and is standard language.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The use and disclosure of such data may be so restricted, provided the Company marks the letter of transmittal of the Proposa l with the following statement: \u201cTechnical data contained on pages and______ in this Proposal furnished in connection with the Request for Proposal of the Hazelwood School District shall not be used nor disclosed except for evaluation purposes, provided that, if a Contract is awarded to this Company as a result of or in connection with the submission of this Proposal, Hazelwood School District shall have the right to use or disclose technical data to substantiate the award of a Contract.\u201d",
+      "reason": "The clause allows the vendor to protect their intellectual property. ",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "Responsibility for preparing and submitting a response to this RFP will be assumed solely by each Proposer, whether or not any agreement is signed as a result of the RFP.",
+      "reason": "This is a standard clause that clarifies the financial responsibility for the vendor's bid preparation.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+      "reason": "This is a standard clause that defines the vendor's responsibility. ",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "All completed proposals submitted in response to this RFP become the property of the District upon submission. The District may use the proposal for any purpose deemed appropriate.",
+      "reason": "This is a standard clause that defines the ownership of the proposal. ",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "Any specifications, drawings, sketches, models, samples, data, computer programs or documentation or other technical or business information (\u201cInformation\u201d) furnished or disclosed to interested parties under this RFP, or as the result of this RFP, shall remain the property of the District and, when in tangible form, all copies of such information shall be returned to the District upon request.",
+      "reason": "This is a standard clause that defines the ownership of the property. ",
+      "suggestion": "N/A"
+    },
+     {
+      "clause": "The District is not responsible for late or incorrect proposals.",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The Company must complete Attachment 1, \u201cCompany Identification Form.\u201d",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The Company must complete Attachment 2, \u201cReferences and Experience,\u201d including a listing of all Missouri school districts for which the company has provided services.",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The undersigned hereby acknowledges that the Company has read and agrees to the terms and conditions set forth in the RFP, and that the terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The Hazelwood School Board of Education must formally approve the award of any contract(s) or agreement to purchase with approval anticipated to be within 60 days of proposed submission.",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "Proposers shall NOT INCLUDE FEDERAL EXCISE TAX, TRANSPORTATION TAX, or STATE RETAIL SALES TAX in their cost proposal, as these taxes do not apply to the District.",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "Note: Regarding governmental entities, business entity includes Missouri schools, Missouri universities (other than stated in Box C), out of state agencies, out of state schools, out of state universities, and political subdivisions. A business entity does not include Missouri state agencies and federal government entities.",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+      "reason": "This is a standard clause. This is a medium risk because it is important that the vendor clarify the terms of the agreement. ",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The successful Proposer will be expected to provide the following types of insurance with the described limits: Comprehensive General Liability $1,000,000 per person per occurrence (Including Contractual Liability) i. $1,000,000 property damage per occurrence ii. $1,000,000 aggregate all claims per occurrence Workers’ Compensation As required by applicable law Employer’s Liability $1,000,000 per occurrence Automotive Liability $1,000,000 per occurrence Professional Errors and Omissions $1,000,000 per occurrence",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "\u00a7292.675, RSMo., requires contractors and subcontractors to provide a ten (10) hour OSHA construction safety program for on-site workers of public works projects. If employees/workers/laborers of the contractor or subcontractor have already completed the training program, they must have documentation of completing the program. They do not need to retake this training.",
+      "reason": "This is a standard clause.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The vendor warrants and represents that the Vendor\u2019s software, other than the key software, does not and will not contain any program routine, device, code or instructions (including any code or instructions provided by third parties) or other undisclosed feature, including, without limitation, a time bomb, virus, software lock, drop- dead device, malicious logic, worm, Trojan horse, bug, error, defect or trap door that is capable of accessing, modifying, deleting, damaging, disabling, deactivating, interfering with or otherwise harming the software, any computers, networks, data or other electronically stored information, or computer programs or systems (collectively, \"disabling procedures\"). Such representation and warranty applies regardless of whether such disabling procedures are authorized by the Vendor to be included in the Vendor\u2019s software. If the Vendor incorporates into the software programs or routines supplied by other vendors, licensors or contractors (other than the key software), the Vendor shall obtain comparable warranties from such providers or the Vendor shall take appropriate action to ensure that such programs or routines are free of disabling procedures.",
+      "reason": "This is a standard clause and protects the district. ",
+      "suggestion": "N/A"
+    },
+     {
+      "clause": "Contractors must supply at least three (3) client references for completed work in the last 1-2years.",
+      "reason": "This is a standard clause and the references are not a liability.",
+      "suggestion": "N/A"
+    },
+    {
+      "clause": "The District may reject any and all proposals that do not meet its program goals.",
+      "reason": "The is a standard clause.",
+      "suggestion": "N/A"
+    }
+  ],
+  "summary": "Overall, this RFP contains several clauses that significantly favor the District and place undue risk and liability on the vendor. The 'high-risk' clauses grant the District broad discretion, limit vendor recourse, and create a potentially unbalanced contractual relationship. The vendor should carefully review and negotiate these clauses to mitigate their exposure. Many clauses are favorable to the district."
+}
+```

@@ -1,0 +1,153 @@
+```json
+{
+  "Vague requirements or specifications": [
+    {
+      "text": "The District may use the proposal for any purpose deemed appropriate.",
+      "clarification": "The phrase 'any purpose deemed appropriate' is overly broad. It is unclear what specific purposes the district intends to use the proposal for. It is necessary to specify how the proposal material may be used."
+    },
+    {
+      "text": "The proposal material may become part of any contract between the successful Proposer and the District.",
+      "clarification": "This statement is vague. It isn't clear which parts of the proposal will become part of the contract. Details need to be specified to manage expectations and avoid future conflicts."
+    },
+    {
+      "text": "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein.",
+      "clarification": "This sentence is too broad. What specific 'contract provisions' will be included needs to be clearly stated. 'Scope of services' is mentioned earlier, but the detail needed for the final contract is still lacking."
+    },
+    {
+      "text": "Each invoice should contain the District purchase order number, date of shipment, quantity, price and item(s) shipped.",
+      "clarification": "This is a partial list of information needed. Are there other items that need to be included on the invoice? (e.g., period of services, contract number)"
+    },
+    {
+      "text": "Invoices will not become due and payable until all times listed on the invoice are received complete.",
+      "clarification": "The statement is vague. It isn't clear what 'times' are being referred to. The language needs to be clarified to avoid payment delays."
+    },
+    {
+      "text": "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+      "clarification": "This clause restricts participation in other bids. But what "projects contemplated by this RFP" encompasses is not defined. Is it a specific project, or any similar project the district may issue RFPs for?"
+    },
+    {
+      "text": "Upon request and verification of need by the Hazelwood School District, the District will pay MBE/WBE contractors every two weeks for labor cost upon presentation of required documentation.",
+      "clarification": "The phrase 'verification of need' is vague. What constitutes 'verification of need' for bi-weekly payments? The process and documentation required need to be clearly outlined."
+    },
+    {
+      "text": "The School District reserves the right to reject any and all Proposals, to waive informalities therein to determine the lowest and best proposal, and to approve the Bond.",
+      "clarification": "The phrase 'to waive informalities therein' is ambiguous. What types of informalities can be waived? The criteria should be defined. What kind of 'bond' is being referred to?"
+    },
+    {
+      "text": "In the case of a manufacturer, the District will also accept MBE/WBE certification by any state division of purchasing or the National Minority Supplier Development Council and its affiliates.",
+      "clarification": "How does the District define a manufacturer?"
+    },
+     {
+      "text": "If applicable, indicate combined price of full scope to address complete audit $ ______________",
+      "clarification": "The use of "if applicable" is too vague and could lead to confusion. The RFP should define more specifically if this part is indeed applicable."
+    },
+    {
+      "text": "1. Scope of Services: CONTRACTOR, in exchange for the compensation paid by DISTRICT under this contract, agrees to provide the following services: ",
+      "clarification": "This does not provide any real scope. The statement should list all the services required in the audit."
+    },
+    {
+      "text": "3. Compensation: DISTRICT will pay for the services provided by CONTRACTOR under this contract an amount not to exceed $ per .",
+      "clarification": "This section is not complete. What is the 'per' representing (e.g. per hour, per project, per deliverable?)."
+    }
+  ],
+  "Undefined terms or metrics": [
+     {
+      "text": "No increase in costs will be permitted during the term of the contract.",
+      "clarification": "Is this referring to the fixed cost, or the total cost of the project? It needs clarification."
+    },
+    {
+      "text": "The vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt.",
+      "clarification": "The word 'properly' is subjective. Is it meant to have a legal meaning? The specific requirements to execute the contract should be explained."
+    },
+    {
+      "text": "Assess organizational effectiveness, application support and business continuity management",
+      "clarification": "What specific metrics or criteria will be used to assess 'organizational effectiveness,' 'application support,' and 'business continuity management'?"
+    },
+    {
+      "text": "Review special program technology needs (e.g., PLTW, broadcasting, Innovation teams)",
+      "clarification": "What does the District mean by 'special program technology needs'?"
+    },
+    {
+      "text": "Provide recommendations for a 4- year device refresh plan",
+      "clarification": "What specific metrics or criteria will be used to assess device refresh plan?"
+    },
+    {
+      "text": "No Proposal may be withdrawn for a period of 60 days subsequent to the specified time for receipt of proposals.",
+      "clarification": "What happens if a proposal is withdrawn after this date? Is there a penalty?"
+    },
+    {
+      "text": "Assess classroom and administrative office technology integration, including devices, interactive whiteboards, and other educational technology tools, including the Student Information System (SIS)",
+      "clarification": "What constitutes successful technology integration? What specific integration factors must the vendor assess?"
+    },
+    {
+      "text": "The term “ business entity ” shall include but not be limited to self - employed individuals, partnerships, corporations, contractors, and subcontractors. The term “ business entity ” shall include any business entity that possesses a business permit, license, or tax certificate issued by the state, any business entity that is exempt by law from obtaining such a business permit, and any business entity that is operating unlawfully without such a business permit.",
+      "clarification": "This definition is a bit confusing, and creates a lot of ambiguity and open interpretations. The definition could be clearer by explicitly defining the scope, and defining all the requirements that needs to be met."
+    },
+      {
+      "text": "For example, a detailed plan for ongoing coaching and support. Does this support also include training for new employees? What is the process, and expected timeline?",
+      "clarification": "What are the expectations for 'ongoing coaching'?"
+    }
+    
+    
+  ],
+  "Conflicting information": [
+     {
+      "text": "Comprehensive General Liability $1,000,000 per person per occurrence\n(Including Contractual Liability)\ni. $1,000,000 property damage per occurrence\nii. $1,000,000 aggregate all claims per occurrence",
+      "clarification": "The policy details are a bit confusing. The $1,000,000 is defined differently for 'per person', 'property damage', and 'aggregate all claims'. This could be clarified with a single, clear definition of the overall policy limit and how it applies."
+    },
+    {
+      "text": "Professional Errors and Omissions $1,000,000 per occurrence",
+      "clarification": "Does this also have an aggregate value? The RFP should explicitly clarify the limits."
+    },
+     {
+      "text": "7.1 Current Technology Landscape Assessment",
+      "clarification": "The "proposal price sheet" does not match the order that the items were presented in the RFP."
+    }
+    
+  ],
+  "Missing critical details": [
+    {
+      "text": "The term of this contract commences on the day of , 20 , and terminates on the day of , 20 .",
+      "clarification": "The specific dates for the beginning and end of the contract are missing."
+    },
+     {
+      "text": "Provide documentation affirming said company’s/individual’s enrollment and participation in the E- Verify federal work authorization program. Documentation shall include EITHER the E -Verify Employment Eligibility Verification page listing the consultant’s/c ontractor’s name and company ID OR a page from the E -Verify Memorandum of Understanding (MOU) listing the consultant’s/contractor’s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security – Verification Division. If the signature page of the MOU lists the consultant’s/contractor’s name and company ID, then no additional pages of the MOU must be submitted; AND",
+      "clarification": "The process of the E-verify documentation is not completely clear. What is the process for providing documentation?"
+    },
+    {
+      "text": "The District may reject any and all proposals that do not meet its program goals.",
+      "clarification": "What are the exact program goals? The RFP mentions the Supplier Diversity Program goals but doesn't explicitly state the metrics or thresholds for MBE/WBE participation."
+    },
+    {
+      "text": "Client References",
+      "clarification": "Is there any information missing here?  For example, must the references have worked in a certain environment (e.g., education).  Also, what happens if references are not received?"
+    },
+       {
+      "text": "  7.  PROPOSAL  PRICE  SHEET ",
+      "clarification": "Is there a requirement to include a price sheet? The table on the page is not very clear."
+    }
+  ],
+  "Unclear expectations or deliverables": [
+    {
+      "text": "No increase in costs will be permitted during the term of the contract.",
+      "clarification": "Are there allowances made for a change in the scope of work that might be necessary? If so, what is the process for requesting and getting approval for those changes?"
+    },
+     {
+      "text": "7.  PRICE  a. Proposers are cautioned that services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated.",
+      "clarification": "Is a fixed price expected? If there are variable costs, or if costs are hourly, more detail is needed. The language 'unless otherwise stated' is ambiguous."
+    },
+    {
+      "text": "The District may use the proposal for any purpose deemed appropriate.",
+      "clarification": "If the District uses the proposal, what is the expectation for the vendor? For example, is it expected that the vendor makes a presentation about the proposal to the district?"
+    },
+    {
+      "text": "Recommend improvements for ongoing coaching and support mechanisms",
+      "clarification": "What are the expectations for 'ongoing coaching'?"
+    },
+     {
+      "text": "If applicable, indicate combined price of full scope to address complete audit $ ______________",
+      "clarification": "Is a comprehensive audit mandatory, or is it an optional offering? The deliverable is unclear."
+    }
+  ]
+}
+```

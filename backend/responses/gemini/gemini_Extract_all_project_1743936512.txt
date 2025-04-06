@@ -1,0 +1,59 @@
+```json
+{
+  "Technical requirements": [
+    "Evaluate the existing information technology infrastructure, hardware, software, and network capabilities (Current Technology Landscape Assessment)",
+    "Assess organizational effectiveness, application support, and business continuity management (Current Technology Landscape Assessment)",
+    "Assess classroom and administrative office technology integration, including devices, interactive whiteboards, and other educational technology tools, including the Student Information System (SIS) (Current Technology Landscape Assessment)",
+    "Review special program technology needs (e.g., PLTW, broadcasting, Innovation teams) (Current Technology Landscape Assessment)",
+    "Assess current device inventory and management for both staff and students (Device Management and Refresh Planning)",
+    "Evaluate the existing device refresh cycle and recommend improvements (Device Management and Refresh Planning)",
+    "Analyze total cost of ownership (TCO) for various device options (Device Management and Refresh Planning)",
+    "Provide recommendations for a 4-year device refresh plan (Device Management and Refresh Planning)",
+    "Assess current network infrastructure, including wired and wireless networks (Infrastructure and Network Evaluation)",
+    "Evaluate bandwidth capacity and internet connectivity (Infrastructure and Network Evaluation)",
+    "Review network security measures and data protection strategies (Infrastructure and Network Evaluation)",
+    "Assess systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management (Infrastructure and Network Evaluation)",
+    "Cybersecurity readiness and compliance review for data security and compliance with FERPA and other state policies"
+  ],
+  "Service delivery expectations": [
+    "Services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated. No increase in costs will be permitted during the term of the contract.",
+    "Successful Proposer will be required to enter into a written contract with the District.",
+    "Vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt.",
+    "Invoices should contain the District purchase order number, date of shipment, quantity, price and item(s) shipped.",
+    "Invoices will not become due and payable until all times listed on the invoice are received complete.",
+    "Hazelwood School District’s payment terms are Net 45 days.",
+    "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+    "The successful Proposer shall be required to follow all District policies, including those regarding confidentiality of student records.",
+    "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+    "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work."
+  ],
+  "Expertise required": [
+    "Expertise in evaluating information technology infrastructure, hardware, software, and network capabilities.",
+    "Expertise in assessing organizational effectiveness, application support, and business continuity management.",
+    "Expertise in assessing classroom and administrative office technology integration, including devices, interactive whiteboards, and other educational technology tools, including the Student Information System (SIS).",
+    "Expertise in reviewing special program technology needs.",
+    "Expertise in device management and refresh planning.",
+    "Expertise in network infrastructure evaluation.",
+    "Expertise in network security measures and data protection strategies.",
+    "Expertise in systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management.",
+    "Expertise in professional development and training assessment (Review current technology-related professional development offerings, Assess the effectiveness of existing training programs, and Recommend improvements for ongoing coaching and support mechanisms).",
+    "Expertise in technical support and maintenance evaluation (Analyze current IT support structure and staffing levels, Assess help desk operations and service delivery, Evaluate existing maintenance and repair processes for devices)."
+  ],
+  "Industry-specific knowledge needed": [
+    "Knowledge of educational technology tools and their integration.",
+    "Knowledge of Student Information Systems (SIS).",
+    "Knowledge of industry standards for data security and privacy in educational settings.",
+    "Knowledge of FERPA compliance.",
+    "Understanding of the technology needs of special programs (e.g., PLTW, broadcasting, Innovation teams).",
+    "Knowledge of the existing device refresh cycle and recommend improvements.",
+    "Knowledge of total cost of ownership (TCO) for various device options.",
+    "Knowledge of network security measures and data protection strategies",
+     "Knowledge of systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management."
+  ],
+  "Scale and scope of work": [
+    "Complete assessments of current technology landscape, device management and refresh planning, infrastructure and network evaluation, professional development and training assessment, and technical support and maintenance evaluation.",
+    "Provide recommendations for a 4-year device refresh plan.",
+    "Perform a Cybersecurity rediness and compliance review for data security and compliance with FERPA  and other state policies."
+  ]
+}
+```

@@ -47,66 +47,47 @@ class SharedContext:
 
 class DocumentProcessor:
     """Processes documents and creates chunks for efficient processing"""
-    def __init__(self, ollama_model=None):
-        # Default to None, will detect available models when calling
-        self.ollama_model = ollama_model
-        self.responses_dir = os.path.join(os.path.dirname(__file__), "responses", "ollama")
+    def __init__(self, model="gemini-1.5-flash"):
+        self.model = model
+        self.gemini_api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+        self.responses_dir = os.path.join(os.path.dirname(__file__), "responses", "gemini")
         os.makedirs(self.responses_dir, exist_ok=True)
         
-    async def chunk_document(self, document_text: str, chunk_size: int = 4000) -> List[str]:
-        """Split document into semantic chunks using Ollama"""
+    async def chunk_document(self, document_text: str, chunk_size: int = 8000) -> List[str]:
+        """Split document into semantic chunks"""
         chunks = []
-        # Use Ollama to split the document into semantic chunks
+        # Simple chunking method based on character count
         for i in range(0, len(document_text), chunk_size):
             chunk = document_text[i:i+chunk_size]
             chunks.append(chunk)
         return chunks
     
     async def extract_sections(self, document_text: str) -> Dict[str, str]:
-        """Extract main sections from document using Ollama"""
+        """Extract main sections from document using Gemini"""
         prompt = "Extract the main sections from this document. Return a JSON with section names as keys and their content as values."
         
-        # Call Ollama API to extract sections
-        response = await self._call_ollama(prompt, document_text)
+        # Call Gemini API to extract sections
+        response = await self.call_gemini(prompt, document_text)
         
         try:
-            sections = json.loads(response)
+            # Try to parse JSON from the response
+            import re
+            json_pattern = r"```json\n([\s\S]*?)\n```"
+            match = re.search(json_pattern, response)
+            
+            if match:
+                json_str = match.group(1)
+            else:
+                json_str = response
+                
+            sections = json.loads(json_str)
             return sections
         except json.JSONDecodeError:
-            # Fallback to basic section extraction if Ollama doesn't return valid JSON
+            # Fallback to basic section extraction
             return {"full_document": document_text}
     
-    async def summarize_document(self, document_text: str, max_length: int = 2000) -> str:
-        """Summarize document using Ollama to reduce token usage when calling Gemini"""
-        prompt = f"""
-        Summarize this document in detail. Focus on:
-        1. Key requirements and specifications
-        2. Important terms and conditions
-        3. Technical details
-        4. Eligibility criteria
-        5. Submission guidelines
-        
-        Keep all critical information that would be necessary for a bid/no-bid decision.
-        Maximum length: {max_length} words.
-        """
-        
-        # Call Ollama API to summarize document
-        summary = await self._call_ollama(prompt, document_text)
-        
-        # Save the summary to a file for reference
-        timestamp = int(time.time())
-        filename = f"ollama_summary_{timestamp}.txt"
-        filepath = os.path.join(self.responses_dir, filename)
-        
-        with open(filepath, 'w', encoding='utf-8') as f:
-            f.write(summary)
-            
-        print(f"Saved document summary to {filepath}")
-        
-        return summary
-    
     async def extract_key_information(self, document_text: str, info_type: str) -> Dict[str, Any]:
-        """Extract specific type of information from document using Ollama"""
+        """Extract specific type of information from document using Gemini"""
         prompts = {
             "eligibility": """
                 Extract all eligibility criteria and requirements from this document.
@@ -133,111 +114,116 @@ class DocumentProcessor:
         if info_type not in prompts:
             return {"error": f"Unknown information type: {info_type}"}
         
-        # Call Ollama API to extract information
+        # Call Gemini API to extract information
         prompt = prompts[info_type]
-        response = await self._call_ollama(prompt, document_text)
         
-        try:
-            # Try to parse JSON response
-            extracted_info = json.loads(response)
-            return extracted_info
-        except json.JSONDecodeError:
-            # If JSON parsing fails, return the text response in a simple structure
-            return {"text_response": response}
-    
-    async def _call_ollama(self, prompt: str, context: str) -> str:
-        """Call Ollama API"""
-        try:
-            # Try to detect available model on first call if none specified
-            if not self.ollama_model:
-                model = await self._get_available_model()
-                if model:
-                    self.ollama_model = model
-                    print(f"Using available Ollama model: {self.ollama_model}")
-                else:
-                    return "Error: No Ollama models available. Please install a model with 'ollama pull mistral' or similar."
+        # For large documents, break into chunks and combine results
+        if len(document_text) > 30000:
+            chunks = await self.chunk_document(document_text)
+            all_extracted_info = {}
             
-            # Ensure context isn't too large to avoid timeout/memory issues
-            if len(context) > 32000:  # Limit context to 32K characters
-                context = context[:32000] + "...[content truncated]"
+            for i, chunk in enumerate(chunks):
+                chunk_prompt = f"""
+                {prompt}
                 
-            try:
-                async with httpx.AsyncClient(timeout=60.0) as client:  # Increase timeout to 60 seconds
-                    response = await client.post(
-                        "http://localhost:11434/api/generate",
-                        json={
-                            "model": self.ollama_model,
-                            "prompt": f"{prompt}\n\nDocument:\n{context}",
-                            "stream": False
-                        }
-                    )
+                This is chunk {i+1} of {len(chunks)} from a larger document.
+                Extract only the information present in this chunk.
+                """
+                
+                response = await self.call_gemini(chunk_prompt, chunk)
+                
+                try:
+                    # Try to extract JSON from the response
+                    json_pattern = r"```json\n([\s\S]*?)\n```"
+                    match = re.search(json_pattern, response)
                     
-                    if response.status_code != 200:
-                        # If model not found, try to use any available model
-                        if "model not found" in response.text.lower():
-                            print(f"Model '{self.ollama_model}' not found. Trying another available model...")
-                            self.ollama_model = None  # Reset model to force re-detection
-                            return await self._call_ollama(prompt, context)
-                        else:
-                            error_text = f"Ollama API error: {response.status_code} - {response.text}"
-                            print(error_text)
-                            return f"Error: {error_text}"
-                    
-                    json_response = response.json()
-                    
-                    # Save the raw response to a file for debugging
-                    timestamp = int(time.time())
-                    filename = f"ollama_response_{timestamp}.json"
-                    filepath = os.path.join(self.responses_dir, filename)
-                    
-                    with open(filepath, 'w', encoding='utf-8') as f:
-                        json.dump(json_response, f, indent=2)
+                    if match:
+                        json_str = match.group(1)
+                    else:
+                        json_str = response
                         
-                    print(f"Saved Ollama response to {filepath}")
+                    chunk_info = json.loads(json_str)
                     
-                    return json_response.get("response", "")
-            except httpx.ReadTimeout:
-                print("Ollama request timed out. Trying with smaller context...")
-                # If timeout occurs, try again with smaller context
-                if len(context) > 16000:
-                    return await self._call_ollama(prompt, context[:16000] + "...[content truncated]")
-                else:
-                    return "Error: Ollama request timed out even with reduced context."
-                
-        except Exception as e:
-            error_msg = f"Error calling Ollama: {str(e)}"
-            print(error_msg)
-            # If we've already tried detecting a model, don't try again
-            if self.ollama_model is None:
-                # Check if a model is manually specified in the error message
-                if "using available ollama model:" in error_msg.lower():
-                    model_match = re.search(r"Using available Ollama model: (\S+)", error_msg)
-                    if model_match:
-                        self.ollama_model = model_match.group(1)
-                        print(f"Found model in error message: {self.ollama_model}. Retrying...")
-                        return await self._call_ollama(prompt, context)
-            
-            # If we can't recover, fall back to returning a simple text response
-            return f"Could not process with Ollama due to error: {str(e)}"
-    
-    async def _get_available_model(self) -> str:
-        """Get the first available Ollama model"""
-        try:
-            async with httpx.AsyncClient(timeout=5.0) as client:
-                response = await client.get("http://localhost:11434/api/tags")
-                if response.status_code == 200:
-                    models = response.json().get('models', [])
-                    if models and len(models) > 0:
-                        # Return the name of the first available model
-                        model_name = models[0].get('name')
-                        if ":" in model_name:  # Model has a version tag
-                            return model_name
+                    # Merge with existing information
+                    for category, items in chunk_info.items():
+                        if category in all_extracted_info:
+                            # Avoid duplicates if dealing with lists
+                            if isinstance(items, list) and isinstance(all_extracted_info[category], list):
+                                # Check for duplicates before adding
+                                for item in items:
+                                    if item not in all_extracted_info[category]:
+                                        all_extracted_info[category].append(item)
+                            else:
+                                all_extracted_info[category] = items
                         else:
-                            return model_name  # Return just the model name without version
-                return None
+                            all_extracted_info[category] = items
+                except json.JSONDecodeError:
+                    print(f"Failed to parse JSON from chunk {i+1}")
+            
+            extracted_info = all_extracted_info
+        else:
+            # Document is small enough to process directly
+            response = await self.call_gemini(prompt, document_text)
+            
+            try:
+                # Try to extract JSON from the response
+                json_pattern = r"```json\n([\s\S]*?)\n```"
+                match = re.search(json_pattern, response)
+                
+                if match:
+                    json_str = match.group(1)
+                else:
+                    json_str = response
+                    
+                extracted_info = json.loads(json_str)
+            except json.JSONDecodeError:
+                # If JSON parsing fails, return the text response in a simple structure
+                return {"text_response": response}
+        
+        # Save the extracted information to a file for reference
+        timestamp = int(time.time())
+        filename = f"gemini_{info_type}_{timestamp}.json"
+        filepath = os.path.join(self.responses_dir, filename)
+        
+        with open(filepath, 'w', encoding='utf-8') as f:
+            json.dump(extracted_info, f, indent=2)
+            
+        print(f"Saved {info_type} information to {filepath}")
+        
+        return extracted_info
+    
+    async def call_gemini(self, prompt: str, context: str) -> str:
+        """Call Gemini API with prompt and context"""
+        try:
+            if not self.gemini_api_key:
+                return "Error: No Gemini API key configured. Please set GEMINI_API_KEY environment variable."
+            
+            # Ensure context isn't too large to avoid token limits
+            if len(context) > 30000:
+                context = context[:30000] + "...[content truncated]"
+            
+            # Create the full prompt
+            full_prompt = f"{prompt}\n\nDocument:\n{context}"
+            
+            # Call Gemini API
+            model = genai.GenerativeModel(self.model)
+            response = model.generate_content(full_prompt)
+            
+            # Save the raw response to a file for debugging
+            timestamp = int(time.time())
+            filename = f"gemini_response_{timestamp}.txt"
+            filepath = os.path.join(self.responses_dir, filename)
+            
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(response.text)
+                
+            print(f"Saved Gemini response to {filepath}")
+            
+            return response.text
         except Exception as e:
-            print(f"Error getting available models: {e}")
-            return None
+            error_msg = f"Error calling Gemini: {str(e)}"
+            print(error_msg)
+            return f"Error: {error_msg}"
 
 class BaseAgent:
     """Base class for all AI agents"""
@@ -1416,29 +1402,25 @@ class RFPManager:
             }
         
         print("Documents loaded successfully. Starting analysis...")
-        print("Using Ollama to preprocess and summarize documents...")
+        print("Using Gemini to extract key information from documents...")
         
-        # Use Ollama to extract key information and summarize documents
-        rfp_summary = await self.document_processor.summarize_document(rfp_text)
-        company_summary = await self.document_processor.summarize_document(company_data)
-        
-        # Extract key information using Ollama
+        # Skip summarization and directly extract key information using Gemini
         rfp_eligibility = await self.document_processor.extract_key_information(rfp_text, "eligibility")
         rfp_contract_terms = await self.document_processor.extract_key_information(rfp_text, "contract_terms")
         rfp_tech_reqs = await self.document_processor.extract_key_information(rfp_text, "technical_requirements")
         rfp_submission_reqs = await self.document_processor.extract_key_information(rfp_text, "submission_requirements")
         
         # Store extracted information in shared context
-        self.shared_context.add_extracted_data("rfp_summary", rfp_summary)
-        self.shared_context.add_extracted_data("company_summary", company_summary)
+        self.shared_context.add_extracted_data("rfp_text", rfp_text)
+        self.shared_context.add_extracted_data("company_data", company_data)
         self.shared_context.add_extracted_data("rfp_eligibility", rfp_eligibility)
         self.shared_context.add_extracted_data("rfp_contract_terms", rfp_contract_terms)
         self.shared_context.add_extracted_data("rfp_technical_requirements", rfp_tech_reqs)
         self.shared_context.add_extracted_data("rfp_submission_requirements", rfp_submission_reqs)
         
-        # Create smaller, focused chunks for more efficient processing
-        rfp_chunks = await self.document_processor.chunk_document(rfp_summary)
-        company_data_chunks = await self.document_processor.chunk_document(company_summary)
+        # Create chunks directly from the original documents for more efficient processing
+        rfp_chunks = await self.document_processor.chunk_document(rfp_text)
+        company_data_chunks = await self.document_processor.chunk_document(company_data)
         
         # Store chunks in shared context
         self.shared_context.add_document_chunks("rfp", rfp_chunks)
@@ -1446,7 +1428,7 @@ class RFPManager:
         
         print("Documents preprocessed. Running analysis agents...")
         
-        # Run agents in parallel using the preprocessed data
+        # Run agents in parallel using the chunked data
         tasks = [
             self.eligibility_agent.run(rfp_chunks, company_data_chunks),
             self.dealbreaker_agent.run(rfp_chunks, company_data_chunks),

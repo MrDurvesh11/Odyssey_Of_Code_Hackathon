@@ -1,0 +1,99 @@
+```json
+{
+  "Competitive Factors": {
+    "Explicit Evaluation Criteria and Weights": [
+      {
+        "Factor": "Responsiveness and completeness of the vendor’s proposal",
+        "Description": "Includes all information requested in the RFP.",
+        "Importance": "Explicitly mentioned as a factor."
+      },
+      {
+        "Factor": "Proposers understanding of and ability to address the RFP requirements",
+        "Importance": "Explicitly mentioned as a factor."
+      },
+      {
+        "Factor": "Proposers experience and reference of similar sized school district clients",
+        "Importance": "Explicitly mentioned as a factor."
+      },
+      {
+        "Factor": "Cost",
+        "Importance": "Explicitly mentioned as a factor."
+      },
+      {
+        "Factor": "Proposers ability to provide the requested services",
+        "Importance": "Explicitly mentioned as a factor."
+      },
+      {
+        "Factor": "Project approach: Logical, organized, innovative understanding, and experience with similar projects",
+        "Importance": "Explicitly mentioned as a factor."
+      },
+       {
+        "Factor": "MBE/WBE participation",
+        "Importance": "Explicitly mentioned as a factor."
+      }
+    ],
+    "Implicit Preferences or Requirements": [
+      {
+        "Factor": "Experience with school districts",
+        "Description": "The RFP emphasizes experience with school districts in the organization, staffing and qualifications sections.",
+        "Influence": "Firms with existing experience in school districts will have an advantage."
+      },
+      {
+        "Factor": "Ability to provide services",
+        "Description": "The RFP specifies the scope of work and deliverables.",
+        "Influence": "Vendors must be able to provide these as requested."
+      },
+       {
+        "Factor": "Local Office",
+        "Description": "Address of the specific office that will perform work.",
+        "Influence": "May favor vendors with a local office."
+      },
+       {
+        "Factor": "MBE/WBE participation.",
+        "Influence": "May favor vendors who include MBE/WBE subcontractors."
+      }
+    ],
+    "Past Contract Awards": [
+      {
+        "Factor": "References and Experience",
+        "Description": "Each Company must submit a minimum of five (5) references. Each reference must be presently using services similar to those requested in this RFP.",
+        "Influence": "Firms with past contract awards may have an advantage."
+      }
+    ],
+    "Key Differentiators": [
+      {
+        "Factor": "Experience and Qualifications",
+        "Description": "The RFP requests specific school district experience (Organization, Staffing and Qualifications sections).",
+        "Influence": "Experience in school district information technology audits is a differentiator."
+      },
+       {
+        "Factor": "Innovative Solutions",
+        "Description": "Proposers are expected to indicate any areas where, in their assessment, the district’s information technology could be assessed or improved through an audit process.",
+        "Influence": "Suggesting innovative solutions is a differentiator."
+      },
+      {
+        "Factor": "MBE/WBE participation",
+        "Description": "The RFP specifically mentions MBE/WBE participation.",
+        "Influence": "MBE/WBE participation is a differentiator."
+      },
+       {
+        "Factor": "Company Experience and History",
+        "Description": "History of the company is requested to be submitted.",
+        "Influence": "Companies with a longer history may have an advantage."
+      }
+    ],
+    "Price Sensitivity and Budget Considerations": [
+      {
+        "Factor": "Cost",
+        "Description": "Cost is explicitly listed as an award criterion.",
+        "Influence": "Proposals should be competitive in price."
+      },
+      {
+        "Factor": "Willingness to provide the requested services at the provided price",
+        "Description": "Must fill out the Bid Pricing Sheet, Firms can submit a proposal for auditing all items or specific items individually.",
+        "Influence": "Proposals that are competitively priced."
+      }
+    ]
+  }
+}
+```

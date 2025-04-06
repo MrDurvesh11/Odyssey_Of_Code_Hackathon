@@ -1,0 +1,64 @@
+```json
+{
+  "Supplier Diversity Requirements": {
+    "MBE/WBE Goals": {
+      "description": "All construction projects must include 25% MBE and 5% WBE participation.  A workforce goal of 25% minority and 5% women is also encouraged.",
+      "consequence": "Proposals not meeting these goals may be rejected."
+    },
+    "MBE/WBE Certification": {
+      "acceptable_certifiers": [
+        "City of St. Louis (St. Louis Development Corporation/Airport Authority)",
+        "St. Louis Minority Supplier Development Council (SLMSDC)",
+        "Missouri Regional Certification Committee (MRCC)",
+        "State Certifications (e.g., State of Missouri and other states)",
+        "National Minority Supplier Development Council (NMSDC)",
+        "Women Business Enterprise National Council (WBENC) and its affiliates"
+      ],
+      "manufacturer_exception": "For manufacturers, state division of purchasing or NMSDC and its affiliates are also acceptable."
+    },
+    "Payment Terms": {
+      "description": "Upon request and verification of need, MBE/WBE contractors will be paid every two weeks for labor costs with required documentation."
+    },
+    "Program Access": {
+      "location": "www.hazelwoodschools.org (click 'Proposals and Proposals', then 'Documentation')"
+    },
+    "Subcontractor Utilization": {
+      "form": "Form A (Subcontractor Utilization Form)",
+      "requirements": "Prime contractors must use Form A to list MBE/WBE subcontractors and their respective contract amounts.",
+      "joint_venture_note": "A MBE or WBE subcontractor may be included as a Joint Venture with a Non-Certified MBE/WBE on Form A.  However, only the portion of work managed and performed by the Certified MBE/WBE may be counted towards the goal."
+    },
+    "MBE/WBE Solicitation Reporting": {
+      "form": "Form B (MBE/WBE Subcontractor Solicitation Report)",
+      "requirements": "Prime contractors must use Form B to report on MBE/WBE firms contacted but not utilized, including reasons for non-utilization."
+    }
+  },
+  "General Contract Requirements": {
+    "Proposal Withdrawal": {
+      "period": "Proposals cannot be withdrawn for 60 days after the proposal deadline."
+    },
+    "Proposal Evaluation": {
+      "description": "The District reserves the right to reject any and all proposals, waive informalities, determine the lowest and best proposal, and approve the bond."
+    },
+    "E-Verify": {
+      "description": "Contractors with contracts exceeding $5,000 must provide affidavits confirming E-Verify use and that they do not employ illegal workers.",
+      "legal_basis": "Section 285.530, RSMo"
+    },
+    "OSHA Training": {
+      "description": "Contractors and subcontractors must provide 10-hour OSHA construction safety training for on-site workers (or provide documentation of completion).",
+      "legal_basis": "§292.675, RSMo"
+    },
+    "Client References": {
+      "number": "3",
+      "timeframe": "Last 1-2 years",
+      "information_required": "Organization name, address, phone, contact person, project description, and contract amount."
+    },
+    "Business Entity Certification": {
+      "description": "Proposer must certify their current business status using Form A, B or C based on the business entity definition and their E-Verify status."
+    },
+    "Affidavit of Work Authorization": {
+      "description": "Required for business entities meeting the section 285.525, RSMo, definition."
+    }
+
+  }
+}
+```

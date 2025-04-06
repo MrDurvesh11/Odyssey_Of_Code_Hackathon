@@ -1,0 +1,115 @@
+```json
+{
+  "has_dealbreakers": true,
+  "dealbreakers": [
+    {
+      "contract_term": "The District assumes no liability for disclosure or use of unmarked technical data and may use or disclose the data for any purpose.",
+      "problem": "This clause allows the District to use and disclose the company's technical data without any restrictions, potentially compromising the company's intellectual property and competitive advantage.",
+      "risk_level": "High",
+      "potential_alternative": "Negotiate to limit the District's use of unmarked technical data to the evaluation process only, and require them to protect the confidentiality of such data. Clarify that the company retains all rights to the data."
+    },
+    {
+      "contract_term": "The District reserves the right to withdraw the award to a successful Company within 30 days of the award if, in the opinion of the District, the successful Company is unable or unwilling to enter into a form of contract satisfactory to the District.",
+      "problem": "This clause allows the District to revoke the contract award without any recourse for the company, even if they have already met the terms of the RFP. It introduces significant uncertainty and financial risk.",
+      "risk_level": "High",
+      "potential_alternative": "Negotiate to clarify the conditions under which the District can withdraw the award, such as specifying that withdrawal is only permitted if the final contract negotiations reveal a material disagreement or if the company cannot meet the terms of the RFP. Also, establish a timeline/deadlines for contract negotiation."
+    },
+     {
+      "contract_term": "The District reserves the right to negotiate final contract terms with any Company, regardless of whether such Company was interviewed or submitted a best and final Proposal.",
+      "problem": "This clause allows the District to go back to any company and negotiate terms regardless of previous performance. It is particularly problematic for those who have not advanced to the final stage.",
+      "risk_level": "High",
+      "potential_alternative": "Negotiate to limit District’s ability to renegotiate the contract terms, particularly if the company has been selected."
+    },
+        {
+      "contract_term": "The District shall in good faith decide all inconsistencies and/or disputes pertaining to the RFP and the Proposal. The Company agrees to abide by the decisions of the District.",
+      "problem": "This clause grants the District sole authority to resolve all disputes without any external arbitration or negotiation. This heavily favors the District and prevents a fair process to address disputes.",
+      "risk_level": "High",
+      "potential_alternative": "Negotiate a clause that specifies dispute resolution through mediation or arbitration, perhaps with the support of a third party."
+    }
+  ],
+  "concerns": [
+    {
+      "contract_term": "The Vendor, as its entire liability and District\u2019s sole and exclusive remedy for the breach of the warranty agrees to take action immediately, at its own expense, to identify and eradicate (or to equip the District to identify and eradicate) such disabling procedures and carry out any recovery necessary to remedy any impact of such disabling procedures.",
+      "problem": "This clause may unduly burden the company with unlimited liability for potential issues within the software and systems used in the staffing process.",
+      "risk_level": "Medium",
+      "potential_alternative": "Negotiate to limit the scope of the vendor's liability or define the boundaries of the disabling procedures more clearly. Add a liability cap."
+    },
+     {
+      "contract_term": "In the event of a conflict between the Proposal and the RFP, the District shall resolve any inconsistency in favor of the RFP.",
+      "problem": "This puts the company at a disadvantage as any differences between the RFP and the company's proposal are automatically decided in the District’s favor.",
+      "risk_level": "Medium",
+      "potential_alternative": "Negotiate to include a clause detailing the importance of negotiating a contract based on mutually agreed terms and conditions. The company can propose a clause in which conflicting terms be negotiated or resolved by the contract to be drafted."
+    },
+    {
+      "contract_term": "Any ambiguity in the Proposal because of omission, error, lack of clarity or noncompliance by the Company with specifications, instructions and all conditions of bidding shall be construed in the favor of the District.",
+      "problem": "This clause puts the company at a disadvantage as any ambiguity in their proposal is automatically decided in the District’s favor.",
+      "risk_level": "Medium",
+      "potential_alternative": "Negotiate to include a clause detailing the importance of negotiating a contract based on mutually agreed terms and conditions. The company can propose a clause in which conflicting terms be negotiated or resolved by the contract to be drafted."
+    },
+    {
+      "contract_term": "The Company warrants and represents that the Vendor\u2019s software, other than the key software, does not and will not contain any program routine, device, code or instructions (including any code or instructions provided by third parties) or other undisclosed feature, including, without limitation, a time bomb, virus, software lock, drop- dead device, malicious logic, worm, Trojan horse, bug, error, defect or trap door that is capable of accessing, modifying, deleting, damaging, disabling, deactivating, interfering with or otherwise harming the software, any computers, networks, data or other electronically stored information, or computer programs or systems (collectively, \"disabling procedures\"). Such representation and warranty applies regardless of whether such disabling procedures are authorized by the Vendor to be included in the Vendor\u2019s software.",
+      "problem": "This is a broad warranty, which is particularly concerning as the proposal relates to staffing. The vendor is responsible for the software used in staffing and is required to take immediate action at its own expense. This is overly broad and will require more resources.",
+      "risk_level": "Medium",
+      "potential_alternative": "The company can negotiate to have the scope of the warranty limited. This will result in better resource management if the vendor is responsible for fewer issues."
+    },
+       {
+      "contract_term": "Termination for Cause: In the event the successful proposer, through any cause, should fail to fulfill the agreed upon obligations in an effective and timely manner, the District shall have the right to terminate the contract for cause by specifying reasons and the date of termination in written notice to the selected vendor at least thirty (30) days prior to termination date. The Hazelwood School District also reserves the right to procure the articles or services from other sources and hold the defaulting vendor responsible for any cost incurred.",
+      "problem": "This clause exposes the company to potential costs and disruption due to termination. There is a possibility of a dispute where the company is held responsible for costs beyond the contract.",
+      "risk_level": "Medium",
+      "potential_alternative": "Negotiate for more specific definitions for \"failure to fulfill obligations\" and limit the company's financial responsibility in case of termination for cause."
+    },
+     {
+      "contract_term": "The District reserves the right to decline any or all Proposal submissions, or to cancel the RFP call, in whole or in part, at any time prior to making an award, for any reason, or no reason, without liability being incurred by the District to any Company for any expense, cost, loss or damage incurred or suffered by the Company as a result of such withdrawal.",
+      "problem": "This clause allows the District to cancel the RFP without bearing any responsibility for costs incurred by the company. This creates a risk that the company will incur considerable cost with no guarantee of selection. There is no compensation for time/resources used for the RFP.",
+      "risk_level": "Medium",
+      "potential_alternative": "It may not be possible to change this but the company can be more careful and manage time and resources by submitting a less-exhaustive proposal. The company can also include the time spent on the project as part of the cost to mitigate some of the financial risk. "
+    },
+    {
+      "contract_term": "All proposals shall be considered valid for a minimum of 60 days.",
+      "problem": "If the company is not selected within 60 days, it is forced to maintain the proposal's terms or renegotiate, possibly resulting in significant market changes. It may be necessary to adjust costs based on market conditions.",
+      "risk_level": "Low",
+      "potential_alternative": "The company may reduce the time to make the contract valid (30 days) or limit the clauses to the time period. The company can also put a clause for a rate adjustment in case of delays."
+    },
+    {
+      "contract_term": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+      "problem": "This clause creates risk as it means the company is subject to the proposal submitted, which may have inaccuracies or omissions. It also states that the proposal is the contractual agreement if it has not been otherwise communicated. The contract is not drafted by the company.",
+      "risk_level": "Low",
+      "potential_alternative": "The company can propose a more comprehensive contract to be signed. The company can also carefully document its offer."
+    },
+       {
+      "contract_term": "Proposals must be concise and organized. Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+      "problem": "This clause may make it difficult for the company to cover critical items due to the proposal page limitations.",
+      "risk_level": "Low",
+      "potential_alternative": "Carefully plan how to meet the requirement of the proposal. Consider submitting additional material if the limitations are too restrictive. "
+    },
+     {
+      "contract_term": "The Company must complete Attachment 1, \u201cCompany Identification Form.\u201d, The Company must complete Attachment 2, \u201cReferences and Experience,\u201d including a listing of all Missouri school districts for which the company has provided services., Each Company must submit a minimum of five (5) references., Each reference must be presently using services similar to those requested in this RFP., No reference may be an affiliate of the Company or the Company\u2019s officers, directors, shareholders or partners.",
+      "problem": "The company will be required to meet all requirements or risk disqualification from the proposal. The Company may or may not be able to do so. ",
+      "risk_level": "Low",
+      "potential_alternative": "The company should ensure they have the required items for all attachments prior to any submission. They can also seek assistance to find references who meet the specified requirements."
+    }
+  ],
+  "recommendations": {
+    "High": [
+      "For the clauses marked as \"dealbreakers\", the company should strongly consider a 'no bid' decision. If the company wants to continue with the process, the company should negotiate for the clauses listed in the alternatives.",
+       "Limit the scope of the vendor's liability or define the boundaries of the disabling procedures more clearly. Add a liability cap.",
+        "Negotiate to limit District’s ability to renegotiate the contract terms, particularly if the company has been selected.",
+         "Negotiate to specify dispute resolution through mediation or arbitration, perhaps with the support of a third party."
+    ],
+    "Medium": [
+      "Negotiate for a more specific definition of \"failure to fulfill obligations\" and limit the company's financial responsibility in case of termination for cause.",
+      "Negotiate to include a clause detailing the importance of negotiating a contract based on mutually agreed terms and conditions. The company can propose a clause in which conflicting terms be negotiated or resolved by the contract to be drafted.",
+      "Negotiate to include a clause detailing the importance of negotiating a contract based on mutually agreed terms and conditions. The company can propose a clause in which conflicting terms be negotiated or resolved by the contract to be drafted.",
+      "The company can negotiate to have the scope of the warranty limited. This will result in better resource management if the vendor is responsible for fewer issues.",
+      "Negotiate for a more specific definition of \"failure to fulfill obligations\" and limit the company's financial responsibility in case of termination for cause.",
+      "It may not be possible to change this but the company can be more careful and manage time and resources by submitting a less-exhaustive proposal. The company can also include the time spent on the project as part of the cost to mitigate some of the financial risk. "
+    ],
+    "Low": [
+      "The company may reduce the time to make the contract valid (30 days) or limit the clauses to the time period. The company can also put a clause for a rate adjustment in case of delays.",
+      "The company can propose a more comprehensive contract to be signed. The company can also carefully document its offer.",
+      "Carefully plan how to meet the requirement of the proposal. Consider submitting additional material if the limitations are too restrictive. ",
+      "The company should ensure they have the required items for all attachments prior to any submission. They can also seek assistance to find references who meet the specified requirements."
+    ]
+  }
+}
+```

@@ -1,0 +1,33 @@
+```json
+{
+  "E-Verify Participation": {
+    "mandatory": true,
+    "description": "Enroll and participate in the E-Verify federal work authorization program with respect to employees hired after enrollment who will work on the contract.  Provide documentation of enrollment and participation, including either the E-Verify Employment Eligibility Verification page or a page from the E-Verify Memorandum of Understanding (MOU) with signatures.",
+    "documentation": [
+      "E-Verify Employment Eligibility Verification page",
+      "E-Verify Memorandum of Understanding (MOU) signature page"
+    ]
+  },
+  "Affidavit of Work Authorization": {
+    "mandatory": true,
+    "description": "Submit a completed, notarized Affidavit of Work Authorization.",
+    "details": "If documentation is not already on file with the State of Missouri, a new affidavit is required.  If documentation *is* on file, the affidavit must have been completed within the last twelve months."
+  },
+  "Business Entity Status": {
+    "mandatory": true,
+    "description": "Certify that the business entity meets the definition of a business entity as defined in section 285.525, RSMo, pertaining to section 285.530, RSMo."
+  },
+  "Additional Required Documents": {
+    "mandatory": true,
+    "description": "Submit the following documents with the proposal:",
+    "documents":[
+      "HSD FORM A – MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B – MBE/WBE Subcontractor Solicitation Form",
+      "Proposal Response Sheet",
+      "Completed W-9",
+      "Agreement for Contracted Services",
+      "RFP Proposal"
+    ]
+  }
+}
+```

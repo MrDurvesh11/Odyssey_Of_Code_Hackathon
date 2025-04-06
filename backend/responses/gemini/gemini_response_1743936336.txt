@@ -1,0 +1,33 @@
+```json
+{
+  "Contract Terms and Conditions": {
+    "Scope of Services": [
+      "CONTRACTOR, in exchange for the compensation paid by DISTRICT under this contract, agrees to provide the following services:"
+    ],
+    "Term of Contract": [
+      "The term of this contract commences on the day of  , 20 , and terminates on the day of , 20 ."
+    ],
+    "Compensation": [
+      "DISTRICT will pay for the services provided by CONTRACTOR under this contract an amount not to exceed $ per ."
+    ],
+    "Execution of Contract": [
+      "This contract is not effective until fully executed by both parties."
+    ],
+    "E-Verify Participation": [
+      "The successful contractor will be required to enter into a contract with the Owner per the proposal specifications and proposal submission.",
+      "Enroll and participate in the E-Verify federal work authorization program with respect to the employees hired after enrollment in the program who are proposed to work in connection with the services required herein; AND",
+      "Provide documentation affirming said company’s/individual’s enrollment and participation in the E-Verify federal work authorization program. Documentation shall include EITHER the E-Verify Employment Eligibility Verification page listing the consultant’s/contractor’s name and company ID OR a page from the E-Verify Memorandum of Understanding (MOU) listing the consultant’s/contractor’s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security – Verification Division.",
+      "Submit a completed, notarized Affidavit of Work Authorization."
+    ],
+    "Required Submittals": [
+      "HSD FORM A – MBE/WBE Subcontractor Utilization Form",
+      "HSD FORM B – MBE/WBE Subcontractor Solicitation Form",
+      "Proposal Response Sheet",
+      "E-Verify Affidavits",
+      "Completed W-9",
+      "Agreement for Contracted Services",
+      "RFP Proposal"
+    ]
+  }
+}
+```

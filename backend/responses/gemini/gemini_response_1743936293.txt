@@ -1,0 +1,92 @@
+```json
+{
+  "General Requirements": [
+    {
+      "description": "Introduction of your company, history, and qualifications for this project.",
+      "mandatory": true
+    },
+    {
+      "description": "Description of methods and processes to be used in acquiring data.",
+      "mandatory": true
+    },
+    {
+      "description": "Describe work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and email addresses of at least three (3) clients.",
+      "mandatory": true
+    },
+    {
+      "description": "Briefly describe the services the firm provides and how those services will benefit the District.",
+      "mandatory": true
+    },
+    {
+      "description": "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+      "mandatory": true
+    },
+    {
+      "description": "Detailed description of the audit process and methodology with data collection and analysis techniques",
+      "mandatory": true
+    },
+    {
+      "description": "Proposed timeline for completion of the audit",
+      "mandatory": true
+    },
+    {
+      "description": "A sample technology audit report from a previous client (with confidential information redacted)",
+      "mandatory": true
+    },
+    {
+      "description": "Each Company must submit a minimum of five (5) references. Each reference must be presently using services similar to those requested in this RFP. No reference may be an affiliate of the Company or the Company’s officers, directors, shareholders or partners.",
+      "mandatory": true
+    },
+    {
+      "description": "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+      "mandatory": true
+    },
+    {
+      "description": "All Contracts terminated for default within the last five (5) years should be noted.  Submit full details of all terminations for default experienced.",
+      "mandatory": true
+    },
+    {
+      "description": "The cost of preparation of the proposal will not be reimbursed.",
+      "mandatory": false
+    },
+    {
+      "description": "Designate one individual as the Company’s representative to the District during the term of the Agreement.",
+      "mandatory": true
+    },
+    {
+      "description": "The undersigned Company hereby agrees to be bound by the terms of the RFP and that the enclosed Proposal is submitted in accordance therewith.",
+      "mandatory": true
+    },
+    {
+      "description": "By signing this Company Identification Form, the Company certifies that there are no “PARTIES OF INTEREST” or “CONFLICTS OF INTEREST”, as defined by state and/or federal regulations, existing between the Company and the District or any of its employees, agents or Board of Education members.",
+      "mandatory": true
+    },
+    {
+      "description": "The terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals",
+      "mandatory": true
+    }
+  ],
+  "Deliverables": [
+    {
+      "description": "A comprehensive written report detailing findings and recommendations",
+      "mandatory": true
+    },
+    {
+      "description": "An executive summary for district leadership and school board",
+      "mandatory": true
+    },
+    {
+      "description": "A presentation of findings to district leadership (and school board if required)",
+      "mandatory": true
+    },
+    {
+      "description": "Prioritized recommendations that are broken into the areas covered in the scope of work.",
+      "mandatory": true
+    },
+    {
+      "description": "Suggested Key Performance Indicators (KPI) for measuring future success",
+      "mandatory": true
+    }
+  ]
+}
+```

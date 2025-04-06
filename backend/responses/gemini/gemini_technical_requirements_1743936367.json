@@ -1,0 +1,308 @@
+{
+  "General Requirements": [
+    {
+      "description": "Conduct a comprehensive information technology audit for the Hazelwood School District (HSD).",
+      "details": "The audit will collect and evaluate evidence of HSD\u2019s information technology systems, practices, and operations to determine if changes are needed in the existing structure to meet current and future needs."
+    },
+    {
+      "description": "Proposal Submission",
+      "details": "Proposals must be submitted through the District\u2019s Vendor Registry online portal by 10:00 am on Tuesday, February 25, 2025.  Late or incorrect proposals will not be considered. The Hazelwood School District reserves the right to accept or reject any and all proposals. The Proposal Submission will represent the contractual agreement unless otherwise communicated."
+    },
+    {
+      "description": "Required Forms",
+      "details": "Proposals must include HSD Form A \u2013 MBE/WBE Subcontractor Utilization Form, HSD Form B - MBE/WBE Subcontractor Solicitation Form, and Agreement for Contracted Services."
+    },
+    {
+      "description": "Contract Award",
+      "details": "The District may award a contract based on initial proposals received, or may select a small number of companies for presentations/interviews at their own expense."
+    },
+    {
+      "description": "Data Restriction",
+      "details": "Companies can restrict the use and disclosure of specific data by marking the proposal transmittal letter with a designated statement. The District assumes no liability for disclosure or use of unmarked technical data."
+    },
+    {
+      "description": "Code Integrity Warranty",
+      "details": "The Vendor warrants that their software does not contain any disabling procedures (viruses, malware, etc.).  The vendor must notify the district immediately upon discovery of any such procedures and take action to remove them at their own expense."
+    }
+  ],
+  "Deliverables": [
+    {
+      "description": "Comprehensive Information Technology Audit Report",
+      "details": "The report should identify areas needing improvement and suggest changes to the existing IT structure to meet current and future needs."
+    },
+    "Comprehensive audit report covering specified areas of the scope of work",
+    "A comprehensive written report detailing findings and recommendations",
+    "An executive summary for district leadership and school board",
+    "A presentation of findings to district leadership (and school board if required)",
+    "Prioritized recommendations that are broken into the areas covered in the scope of work",
+    "Suggested Key Performance Indicators (KPI) for measuring future success"
+  ],
+  "Service Levels": [
+    "Proposal to remain open for at least 90 days from the submission deadline",
+    "All proposals shall be deemed final, conclusive and irrevocable, and no proposal shall be subject to correction or amendment for any error or miscalculation",
+    "All proposals shall be considered valid for a minimum of 60 days"
+  ],
+  "Performance Metrics": [
+    "Effective and timely fulfillment of agreed-upon obligations",
+    "Key Performance Indicators (KPIs) for measuring future success (to be suggested by the firm)"
+  ],
+  "Proposal Requirements": {
+    "Format": [
+      {
+        "description": "Proposals must be concise and organized, limited to 12 pages (excluding transmittal letter, executive summary, required attachments, and resumes).",
+        "page_limit": "12 pages (excluding transmittal letter, executive summary, attachments, and resumes)"
+      },
+      {
+        "description": "Must include a transmittal letter introducing the company and expressing ability to meet RFP requirements, signed by a company officer.",
+        "component": "Transmittal Letter"
+      },
+      {
+        "description": "Must include an executive summary (no more than 3 pages) briefly describing the company's approach, unmet requirements, and major proposal features.  Should clearly indicate how well the proposal meets the District's requirements.",
+        "component": "Executive Summary",
+        "page_limit": "3 pages"
+      },
+      {
+        "description": "Must include names, titles, and responsibilities of team members, indicating prior experience in school district IT audits if applicable.",
+        "component": "Team Member Information"
+      },
+      {
+        "description": "Must provide the address of the office responsible for performing the work.",
+        "component": "Office Address"
+      },
+      {
+        "description": "Must list personnel qualifications by discipline, indicating prior experience in school district IT audits if applicable.",
+        "component": "Personnel Qualifications"
+      },
+      {
+        "description": "Must provide a narrative explaining the company's qualifications for the project and unique benefits to the District.",
+        "component": "Company Qualifications"
+      },
+      {
+        "description": "Must list recent examples (last 5 years) of school information technology audit experience, including school district name, contact person, and phone number.",
+        "component": "Project Experience",
+        "timeframe": "Last 5 years"
+      },
+      {
+        "description": "Must include references from other school districts (last 5 years) with contact person's name, address, and phone number.",
+        "component": "References",
+        "timeframe": "Last 5 years"
+      },
+      {
+        "description": "Must indicate if the company (or members of a joint venture) has been involved in litigation related to professional services, providing details if applicable.",
+        "component": "Litigation Disclosure"
+      },
+      {
+        "description": "Must complete Attachment 1, \"Company Identification Form.\"",
+        "component": "Attachment 1"
+      },
+      {
+        "description": "Must complete Attachment 2, \"References and Experience,\" including all Missouri school districts served and similar projects, with completion years.",
+        "component": "Attachment 2"
+      }
+    ]
+  },
+  "Scope of Work": {
+    "description": "A comprehensive audit including (but not limited to) the following areas. Proposals for all or specific items will be considered.  Firms must fill out the Bid Pricing sheet.",
+    "areas": [
+      "Current Technology Landscape Assessment",
+      "Device Management and Refresh Planning",
+      "Infrastructure and Network Evaluation",
+      "Professional Development and Training Assessment",
+      "Technical Support and Maintenance Evaluation"
+    ]
+  },
+  "Contractual Requirements": {
+    "description": "Requirements related to the contract itself.",
+    "items": [
+      {
+        "id": "1",
+        "type": "Deliverables",
+        "description": "The contractor must provide services as defined in the scope of services section of the contract."
+      },
+      {
+        "id": "2",
+        "type": "Timeline",
+        "description": "Contract term starts on [Start Date] and terminates on [End Date]."
+      },
+      {
+        "id": "3",
+        "type": "Payment",
+        "description": "Compensation for services will not exceed $[Amount] per [Unit]."
+      },
+      {
+        "id": "4",
+        "type": "Documentation",
+        "description": "Proposal submittals must include: HSD Form A, HSD Form B, Proposal Response Sheet, E-Verify Affidavits, Completed W-9, Agreement for Contracted Services, and RFP Proposal."
+      }
+    ]
+  },
+  "Other Requirements": [
+    "Description of methods and processes to be used in acquiring data",
+    "Description of data that will need to be provided by the District to assist in the analysis and projections",
+    "Detailed description of the audit process and methodology with data collection and analysis techniques",
+    "Proposed timeline for completion of the audit",
+    "A sample technology audit report from a previous client (with confidential information redacted)",
+    "Minimum of five (5) references, each presently using services similar to those requested in this RFP. No reference may be an affiliate of the Company or the Company\u2019s officers, directors, shareholders or partners.",
+    "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+    "All Contracts terminated for default within the last five (5) years should be noted. Termination for default is defined as notice to stop performance due to Company\u2019s nonperformance or poor performance. Submit full details of all terminations for default experienced."
+  ],
+  "Award Criteria": [
+    "Responsiveness and completeness of the vendor\u2019s proposal",
+    "Proposer\u2019s understanding of and ability to address the RFP requirements",
+    "Proposer\u2019s experience and reference of similar sized school district clients",
+    "Cost",
+    "Proposer\u2019s ability to provide the requested services",
+    "Project approach: Logical, organized, innovative understanding, and experience with similar projects",
+    "MBE/WBE participation"
+  ],
+  "Financial Requirements": {
+    "Payment Terms": "Net 45 days",
+    "Invoice Submission": "accountspayable@hazelwoodschools.org or 15955 New Halls Ferry Road, Florissant, MO 63031.  Include purchase order number, date of shipment, quantity, price, and item(s) shipped.",
+    "Price Increase": "No increase in costs will be permitted during the term of the contract.",
+    "Taxes": "Proposers shall NOT INCLUDE FEDERAL EXCISE TAX, TRANSPORTATION TAX, or STATE RETAIL SALES TAX in their cost proposal.",
+    "Contract Approval": "Hazelwood School Board of Education approval anticipated within 60 days of submission.",
+    "Contract Execution": "Vendor shall return properly executed contract copies and required certificates within seven (7) working days of receipt."
+  },
+  "Insurance Requirements": {
+    "Comprehensive General Liability": "$1,000,000 per person per occurrence (Including Contractual Liability), $1,000,000 property damage per occurrence, $1,000,000 aggregate all claims per occurrence",
+    "Workers' Compensation": "As required by applicable law",
+    "Employer's Liability": "$1,000,000 per occurrence",
+    "Automotive Liability": "$1,000,000 per occurrence",
+    "Professional Errors and Omissions": "$1,000,000 per occurrence"
+  },
+  "Technical Requirements and Deliverables": {
+    "Deliverables": [
+      {
+        "Name": "Current Technology Landscape Assessment",
+        "Description": "Evaluate existing IT infrastructure, hardware, software, network capabilities; assess organizational effectiveness, application support, business continuity; assess classroom and administrative office technology integration; review special program technology needs",
+        "Price": "$12,000"
+      },
+      {
+        "Name": "Device Management and Refresh Planning",
+        "Description": "Assess current device inventory and management; evaluate device refresh cycle and recommend improvements; analyze total cost of ownership (TCO); provide recommendations for a 4-year device refresh plan",
+        "Price": "$9,000"
+      },
+      {
+        "Name": "Infrastructure and Network Evaluation",
+        "Description": "Assess current network infrastructure; evaluate bandwidth capacity and internet connectivity; review network security measures and data protection strategies; assess systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management",
+        "Price": "$11,780"
+      },
+      {
+        "Name": "Professional Development and Training Assessment",
+        "Description": "Review current technology-related professional development offerings; assess effectiveness of existing training programs; recommend improvements for ongoing coaching and support mechanisms",
+        "Price": "$2,410"
+      },
+      {
+        "Name": "Technical Support and Maintenance Evaluation",
+        "Description": "Analyze current IT support structure and staffing levels; assess help desk operations and service delivery; evaluate existing maintenance and repair processes for devices",
+        "Price": "$6,960"
+      },
+      {
+        "Name": "Cybersecurity Readiness and Compliance Review",
+        "Description": "Review for data security and compliance with FERPA and other state policies",
+        "Price": "$6,350"
+      }
+    ],
+    "Total Estimated Cost": "$48,500"
+  },
+  "Legal and Compliance Requirements": {
+    "Confidentiality": "Information furnished or disclosed under this RFP remains the property of the District.  Unless previously known, it shall be held in confidence and used only for the purposes of this RFP.",
+    "Proprietary Information": "Information furnished by interested parties to the District is not considered confidential or proprietary.",
+    "District Policies": "Successful Proposer shall follow all District policies, including those regarding confidentiality of student records.",
+    "Permits and Fees": "Vendor shall secure and pay for all permits and governmental fees.",
+    "Compliance with Laws": "Vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority.",
+    "Non-Participation": "Successful Proposer shall not participate as a proposer, bidder, or subcontractor on any bids or RFPs related to the projects contemplated by this RFP."
+  },
+  "Ownership of Submittal": {
+    "Ownership": "All proposals submitted become the property of the District upon submission."
+  },
+  "Supplier Diversity Requirements": {
+    "MBE/WBE Goals": {
+      "description": "All construction projects must include 25% MBE and 5% WBE participation.  A workforce goal of 25% minority and 5% women is also encouraged.",
+      "consequence": "Proposals not meeting these goals may be rejected."
+    },
+    "MBE/WBE Certification": {
+      "acceptable_certifiers": [
+        "City of St. Louis (St. Louis Development Corporation/Airport Authority)",
+        "St. Louis Minority Supplier Development Council (SLMSDC)",
+        "Missouri Regional Certification Committee (MRCC)",
+        "State Certifications (e.g., State of Missouri and other states)",
+        "National Minority Supplier Development Council (NMSDC)",
+        "Women Business Enterprise National Council (WBENC) and its affiliates"
+      ],
+      "manufacturer_exception": "For manufacturers, state division of purchasing or NMSDC and its affiliates are also acceptable."
+    },
+    "Payment Terms": {
+      "description": "Upon request and verification of need, MBE/WBE contractors will be paid every two weeks for labor costs with required documentation."
+    },
+    "Program Access": {
+      "location": "www.hazelwoodschools.org (click 'Proposals and Proposals', then 'Documentation')"
+    },
+    "Subcontractor Utilization": {
+      "form": "Form A (Subcontractor Utilization Form)",
+      "requirements": "Prime contractors must use Form A to list MBE/WBE subcontractors and their respective contract amounts.",
+      "joint_venture_note": "A MBE or WBE subcontractor may be included as a Joint Venture with a Non-Certified MBE/WBE on Form A.  However, only the portion of work managed and performed by the Certified MBE/WBE may be counted towards the goal."
+    },
+    "MBE/WBE Solicitation Reporting": {
+      "form": "Form B (MBE/WBE Subcontractor Solicitation Report)",
+      "requirements": "Prime contractors must use Form B to report on MBE/WBE firms contacted but not utilized, including reasons for non-utilization."
+    }
+  },
+  "General Contract Requirements": {
+    "Proposal Withdrawal": {
+      "period": "Proposals cannot be withdrawn for 60 days after the proposal deadline."
+    },
+    "Proposal Evaluation": {
+      "description": "The District reserves the right to reject any and all proposals, waive informalities, determine the lowest and best proposal, and approve the bond."
+    },
+    "E-Verify": {
+      "description": "Contractors with contracts exceeding $5,000 must provide affidavits confirming E-Verify use and that they do not employ illegal workers.",
+      "legal_basis": "Section 285.530, RSMo"
+    },
+    "OSHA Training": {
+      "description": "Contractors and subcontractors must provide 10-hour OSHA construction safety training for on-site workers (or provide documentation of completion).",
+      "legal_basis": "\u00a7292.675, RSMo"
+    },
+    "Client References": {
+      "number": "3",
+      "timeframe": "Last 1-2 years",
+      "information_required": "Organization name, address, phone, contact person, project description, and contract amount."
+    },
+    "Business Entity Certification": {
+      "description": "Proposer must certify their current business status using Form A, B or C based on the business entity definition and their E-Verify status."
+    },
+    "Affidavit of Work Authorization": {
+      "description": "Required for business entities meeting the section 285.525, RSMo, definition."
+    }
+  },
+  "E-Verify Requirements": {
+    "description": "Requirements related to the E-Verify program for work authorization.",
+    "items": [
+      {
+        "id": "1",
+        "type": "Process Requirement",
+        "description": "Enroll and participate in the E-Verify federal work authorization program for employees hired after enrollment who will work on the contract with the State of Missouri."
+      },
+      {
+        "id": "2",
+        "type": "Documentation Requirement",
+        "description": "Provide documentation affirming enrollment and participation in E-Verify.  This can be either the E-Verify Employment Eligibility Verification page or a page from the E-Verify Memorandum of Understanding (MOU) with the consultant/contractor's name and company ID, including the signed MOU signature page."
+      },
+      {
+        "id": "3",
+        "type": "Documentation Requirement",
+        "description": "Submit a completed, notarized Affidavit of Work Authorization."
+      }
+    ]
+  },
+  "Business Entity Requirements": {
+    "description": "Requirements related to the business entity's status and compliance.",
+    "items": [
+      {
+        "id": "1",
+        "type": "Compliance Requirement",
+        "description": "Business entity must meet the definition of a business entity as defined in section 285.525, RSMo, pertaining to section 285.530."
+      }
+    ]
+  }
+}

@@ -1,0 +1,93 @@
+```json
+{
+  "general_requirements": [
+    {
+      "description": "Introduction of your company, history, and qualifications for this project.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Description of methods and processes to be used in acquiring data.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Description of work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and e-mail addresses of at least three (3) clients.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Briefly describe the services the firm provides and how those services will benefit the District.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Detailed description of the audit process and methodology with data collection and analysis techniques",
+      "type": "mandatory"
+    },
+    {
+      "description": "Proposed timeline for completion of the audit",
+      "type": "mandatory"
+    },
+    {
+      "description": "A sample technology audit report from a previous client (with confidential information redacted)",
+      "type": "mandatory"
+    },
+    {
+      "description": "Submission of a minimum of five (5) references. Each reference must be presently using services similar to those requested in this RFP. No reference may be an affiliate of the Company or the Company’s officers, directors, shareholders or partners.",
+      "type": "mandatory"
+    },
+    {
+      "description": "List as primary references any current contracts for demographer services currently in force with public school districts; include contacts and telephone numbers for each reference.",
+      "type": "mandatory"
+    },
+    {
+      "description": "All Contracts terminated for default within the last five (5) years should be noted.  Submit full details of all terminations for default experienced.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Designation of one individual as the Company’s representative to the District during the term of the Agreement.",
+      "type": "mandatory"
+    },
+    {
+      "description": "Certification that there are no “PARTIES OF INTEREST” or “CONFLICTS OF INTEREST”, as defined by state and/or federal regulations, existing between the Company and the District or any of its employees, agents or Board of Education members.",
+      "type": "mandatory"
+    },
+
+    {
+      "description": "The terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals",
+      "type": "mandatory"
+    }
+  ],
+  "award_criteria": [
+    {
+      "description": "Responsiveness and completeness of the vendor’s proposal, including whether or not the vendor has provided all information requested in the RFP.",
+      "type": "evaluation"
+    },
+    {
+      "description": "Proposers understanding of and ability to address the RFP requirements.",
+      "type": "evaluation"
+    },
+    {
+      "description": "Proposers experience and reference of similar sized school district clients",
+      "type": "evaluation"
+    },
+    {
+      "description": "Cost",
+      "type": "evaluation"
+    },
+    {
+      "description": "Proposers ability to provide the requested services.",
+      "type": "evaluation"
+    },
+    {
+      "description": "Project approach: Logical, organized, innovative understanding, and experience with similar projects.",
+      "type": "evaluation"
+    },
+    {
+      "description": "MBE/WBE participation.",
+      "type": "evaluation"
+    }
+  ]
+}
+```

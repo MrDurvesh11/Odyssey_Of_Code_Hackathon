@@ -1,0 +1,45 @@
+```json
+{
+  "Explicit Evaluation Criteria and Their Weights": {
+    "No weights are specified in the RFP, however this would likely be considered": [
+      "Ability to provide each service deliverable (Current Technology Landscape Assessment, Device Management and Refresh Planning, Infrastructure and Network Evaluation, Professional Development and Training Assessment, Technical Support and Maintenance Evaluation, Cybersecurity rediness and compliance review)",
+      "Combined price of full scope to address complete audit (listed in the price sheet)",
+      "Compliance with supplier diversity program goals (25% MBE, 5% WBE)"
+    ]
+  },
+  "Implicit Preferences or Requirements That Favor Certain Vendors": {
+    "Requirements That Favor Local or Established Vendors": [
+      "District requires the vendor to follow all District policies, including those regarding confidentiality of student records.",
+      "Requirement of  OSHA construction safety program for on-site workers"
+    ],
+    "Requirements for established vendors": [
+      "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein."
+    ]
+  },
+  "Past Contract Awards for Similar Work": {
+    "No specific mention of past contract awards is provided."
+  },
+  "Key Differentiators That Would Set Vendors Apart": {
+    "Differentiators based on proposal scope and value": [
+      "Ability to provide each service deliverable in the proposal",
+      "Ability to provide a comprehensive audit",
+       "Supplier Diversity participation",
+      "Quality of client references"
+    ],
+    "Differentiators for compliance and risk management": [
+      "Compliance with E-Verify",
+      "Compliance with the Supplier Diversity Program's goals",
+      "Comprehensive insurance coverage"
+    ]
+  },
+  "Price Sensitivity and Budget Considerations": {
+    "Specific Budget Considerations": [
+      "No increase in costs will be permitted during the term of the contract.",
+      "The price sheet provides a structured method to provide pricing for individual deliverables and a combined price for a full scope audit."
+    ],
+    "Payment Terms": [
+      "Hazelwood School District’s payment terms are Net 45 days."
+    ]
+  }
+}
+```

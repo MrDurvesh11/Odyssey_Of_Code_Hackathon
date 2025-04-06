@@ -1,0 +1,117 @@
+```json
+{
+  "high_priority_questions": [
+    {
+      "question": "Could you please clarify the specific criteria or parameters that will be used to evaluate 'current and future needs' in the audit of IT systems, practices, and operations?",
+      "reason": "This directly addresses the broad scope of the audit objective, ensuring alignment with the district's expectations."
+    },
+    {
+      "question": "Are there specific examples of 'minor irregularities' that the District would overlook in a proposal? This would help ensure that proposals aren't rejected due to insignificant issues.",
+      "reason": "This directly addresses the ambiguity of 'minor irregularities', ensuring proposal compliance."
+    },
+    {
+      "question": "What are the non-amended forms that must be included in the sealed proposals?",
+      "reason": "This is critical for compliance with submission requirements, preventing disqualification."
+    },
+    {
+      "question": "Please clarify the exact time zone for the proposal due date (February 25, 2025, at 10:00 a.m.). Is this CDT?",
+      "reason": "Clarifying the time zone is essential to ensure timely submission."
+    },
+    {
+      "question": "Please confirm the date and time when vendors can expect to receive a response to their questions submitted through the Vendor Registry online question submission process.",
+      "reason": "This ensures adequate time to receive and incorporate answers into the proposal."
+    },
+    {
+      "question": "Where can the Bid Pricing sheet be found?",
+      "reason": "This is a critical document, and failure to include it would likely result in proposal disqualification."
+    },
+     {
+      "question": "Please clarify the format for the Executive Summary, as well as the level of detail expected, as the provided requirements do not include guidelines or an outline.",
+      "reason": "This is critical for compliance with submission requirements, ensuring the proposal meets the district's expectations. "
+    },
+    {
+      "question": "Please confirm whether interviews are mandatory for all proposers or if they are at the district's discretion.",
+      "reason": "This is important for resource allocation and planning for the proposal process."
+    }
+  ],
+  "medium_priority_questions": [
+    {
+      "question": "Could you provide specific examples of the types of data the District anticipates providing to support the analysis and projections?",
+      "reason": "This helps in understanding the data dependency of the analysis, and how to format the deliverable."
+    },
+    {
+      "question": "Can you provide more detail on the level of depth and specific topics expected to be included in the 4-year device refresh plan?",
+      "reason": "This aids in scoping the project appropriately, and developing a plan that meets the district's expectations."
+    },
+    {
+      "question": "What key elements or specific topics should be included in the comprehensive written report detailing findings and recommendations?",
+      "reason": "This ensures the report's coverage aligns with the District's needs."
+    },
+    {
+      "question": "What specific factors or criteria will be used to assess 'organizational effectiveness,' 'application support,' and 'business continuity management'?",
+      "reason": "This clarifies the evaluation criteria, aiding in the development of a stronger proposal."
+    },
+    {
+      "question": "Are email addresses an acceptable method of contact for the contact person?",
+      "reason": "Clarifying this ensures the proposal meets all requirements."
+    },
+    {
+      "question": "Can the District please provide a specific definition or examples of what constitutes an 'incorrect' proposal?",
+      "reason": "This helps in understanding compliance requirements, and avoiding rejection."
+    },
+    {
+      "question": "Regarding the District's pledge of 'absolute confidentiality,' are there any exceptions or limitations to this pledge?",
+      "reason": "This clarifies the expectations surrounding the confidentiality agreement."
+    },
+    {
+      "question": "What are the minimum number of KPIs the District would like to see suggested? What factors should be considered when choosing the KPIs?",
+      "reason": "This clarifies the expectations surrounding the deliverables."
+    },
+    {
+      "question": "What specific parts of the Proposal Submission would constitute the contractual agreement? Is there any type of contract document or addendum expected?",
+      "reason": "This ensures clarity on the terms and conditions of the contract."
+    }
+  ],
+  "low_priority_questions": [
+    {
+      "question": "If the District chooses to conduct interviews, are they expected to be virtual or in-person?",
+      "reason": "This helps with planning and resource allocation for the proposal process, but isn't critical."
+    },
+    {
+      "question": "For the selection process, what is the approximate weighting or prioritization of the stated evaluation factors (overall content, cost, experience, and quality)?",
+      "reason": "This can help to inform the proposal's content emphasis, though it may be intentionally vague."
+    },
+    {
+      "question": "Are the forms referenced (HSD Form A, HSD Form B) available, and if so, where can they be found?",
+      "reason": "This helps to ensure all necessary components are addressed, but may be supplied as a separate document."
+    }
+  ],
+  "question_categories": {
+    "Scope and Deliverables": [
+      0,
+      1,
+      7,
+      8,
+      9,
+      10
+    ],
+    "Submission Requirements": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      12
+    ],
+    "Evaluation Criteria": [
+      11,
+      13,
+      14
+    ],
+    "Data and Support": [
+      15
+    ]
+  },
+  "submission_advice": "1.  **Submit Questions Early:** Submit all questions before the deadline to allow the district ample time to respond.  \n2.  **Consolidate Questions:** Group related questions together for clarity. \n3.  **Follow the RFP Instructions:** Use the District's Vendor Registry online question submission process as described in the RFP. \n4. **Be Professional and Concise:**  Maintain a professional tone in your inquiries and ask questions directly. \n5. **Reference Specific Sections:** If your question relates to a particular section of the RFP, mention the section or page number for clarity."
+}
+```

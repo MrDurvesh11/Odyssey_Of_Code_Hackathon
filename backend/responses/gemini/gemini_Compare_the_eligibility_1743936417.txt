@@ -1,0 +1,195 @@
+```json
+{
+  "overall_eligible": false,
+  "criteria_analysis": [
+    {
+      "criterion": "Sealed proposals shall contain the following non- amended forms: Proposal Forms including: • HSD Form A – MBE/WBE Subcontractor Utilization Form • HSD Form B - MBE/WBE Subcontractor Solicitation Form • Agreement for Contracted Services",
+      "meets_requirement": "No",
+      "evidence": "Company data does not mention any of the forms required.",
+      "needed_to_become_eligible": "Obtain and include the specified HSD forms (A & B) and the Agreement for Contracted Services with the proposal."
+    },
+    {
+      "criterion": "Each Company must submit a minimum of five (5) references.",
+      "meets_requirement": "No",
+      "evidence": "The company data does not provide any client references.",
+      "needed_to_become_eligible": "Compile and submit a list of at least five client references, including contact information and project details."
+    },
+    {
+      "criterion": "Each reference must be presently using services similar to those requested in this RFP.",
+      "meets_requirement": "No",
+      "evidence": "Company data does not contain information about references.",
+      "needed_to_become_eligible": "Ensure that at least five references provide similar services requested in this RFP."
+    },
+    {
+      "criterion": "All Contracts terminated for default within the last five (5) years should be noted below.",
+      "meets_requirement": "No",
+      "evidence": "The company data has no information about contracts terminated for default.",
+      "needed_to_become_eligible": "If any contracts were terminated for default in the last five years, the company must disclose them in the proposal. Otherwise, the proposal should explicitly state that no contracts were terminated for default."
+    },
+    {
+      "criterion": "Proposals must be submitted by the time and date listed above through the District’s Vendor Registry online portal via the district’s website at https://www.hazelwoodschools.org/Page/2238.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Follow the specific instructions on the RFP and submit the proposal through the online portal by the deadline."
+    },
+    {
+      "criterion": "Proposals shall not contain any restrictive language different from the above statement.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Review the proposal to ensure compliance."
+    },
+    {
+      "criterion": "Proposals must be concise and organized. Proposals shall be limited to twelve (12) pages; not including the letter of transmittal, executive summary, attachments required by the District or personnel resumes.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Prepare a concise and organized proposal, adhering to the page limit."
+    },
+    {
+      "criterion": "The Company must complete Attachment 1, “Company Identification Form.”",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Complete and include the required Company Identification Form (Attachment 1) with the proposal."
+    },
+    {
+      "criterion": "The Company must complete Attachment 2, “References and Experience,” including a listing of all Missouri school districts for which the company has provided services.",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Complete and include the required References and Experience form (Attachment 2) with the proposal."
+    },
+    {
+      "criterion": "All proposals shall be considered valid for a minimum of 60 days.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Ensure that the proposal clearly states the validity period (minimum 60 days)."
+    },
+    {
+      "criterion": "Vendor shall return properly executed prescribed copies of contract along with all required certificates of insurance, bonds, etc., required by these documents to the Owner within seven (7) working days after their receipt.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Be prepared to fulfill the requirements if the proposal is selected."
+    },
+    {
+      "criterion": "The vendor shall secure and pay for all permits and governmental fees necessary for the proper execution and completion of the work.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Be prepared to fulfill the requirements if the proposal is selected."
+    },
+    {
+      "criterion": "The vendor shall comply fully with all laws, ordinances, rules, regulations, and orders of any public authority bearing on the performance of the work.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Be prepared to fulfill the requirements if the proposal is selected."
+    },
+    {
+      "criterion": "Business entity, as defined in section 285.525, RSMo, pertaining to section 285.530, RSMo, is any person or group of persons performing or engaging in any activity, enterprise, profession, or occupation for gain, benefit, advantage, or livelihood.",
+      "meets_requirement": "Yes",
+      "evidence": "The company is an LLC, and by nature of business, would be considered a business entity.",
+      "needed_to_become_eligible": "No further action needed."
+    },
+    {
+      "criterion": "The consultant/contractor who meets the section 285.525, RSMo, definition of a business entity must complete and return the following Affidavit of Work Authorization.",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Complete and return the required Affidavit of Work Authorization."
+    },
+    {
+      "criterion": "The District will accept, as prospective MBE/WBE participants for these projects, only those MBE/WBE firms which have been certified by one or more of the following agencies on or before the date of the proposal opening:",
+      "meets_requirement": "No",
+      "evidence": "The company is not an MBE or WBE certified firm.",
+      "needed_to_become_eligible": "Obtain MBE/WBE certification from a recognized agency (this might not be feasible given the time constraints)."
+    },
+    {
+      "criterion": "The successful Proposer will be expected to provide the following types of insurance with the described limits",
+      "meets_requirement": "Yes",
+      "evidence": "The company holds a Certificate of Insurance that includes Workers' Comp, Liability, and Auto coverage.",
+      "needed_to_become_eligible": "No further action needed, provided the policy limits meet the RFP requirements."
+    },
+    {
+      "criterion": "Contractors must supply at least three (3) client references for completed work in the last 1-2 years. Please provide the organizations name, address, phone, contact person, project description and contract amount.",
+      "meets_requirement": "No",
+      "evidence": "The company data does not provide any client references.",
+      "needed_to_become_eligible": "Compile and submit a list of at least three client references, including contact information and project details for work completed in the last 1-2 years."
+    },
+    {
+      "criterion": "Proposers are cautioned that services must be furnished at the fees, costs and/or rates submitted and proposed unless otherwise stated.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Ensure compliance with the pricing requirements."
+    },
+    {
+      "criterion": "No increase in costs will be permitted during the term of the contract.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Ensure compliance with the pricing requirements."
+    },
+    {
+      "criterion": "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Ensure compliance with the restrictions on participation."
+    },
+    {
+      "criterion": "The successful Proposer shall be required to follow all District policies, including those regarding confidentiality of student records.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Be prepared to adhere to all District policies, particularly those concerning student record confidentiality."
+    },
+    {
+      "criterion": "The successful Proposer will be required to enter into a written contract with the District which will include, but not limited to, the scope of services described herein and the contract provisions included herein.",
+      "meets_requirement": "Unknown",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Be prepared to enter into a written contract."
+    },
+    {
+      "criterion": "The Proposer must certify their current business status by completing either Box A or Box B or Box C on this Exhibit.",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Complete the appropriate business status certification exhibit."
+    },
+    {
+      "criterion": "The consultant/contractor should check each to verify completion/submission of all of the following:",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Verify completion/submission of the listed items if not already covered."
+    },
+    {
+      "criterion": "Enroll and participate in the E -Verify federal work authorization program (Website: www.e -verify.gov ; Phone: 888-464-4218; Email: e-verify@dhs.gov ) with respect to the employees hired after enrollment in the program who are proposed to work in connection with the services required herein; AND",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Enroll and participate in the E-Verify program, or provide proof of current enrollment and compliance."
+    },
+    {
+      "criterion": "Provide documentation affirming said company’s/individual’s enrollment and participation in the E- Verify federal work authorization program. Documentation shall include EITHER the E -Verify Employment Eligibility Verification page listing the consultant’s/c ontractor’s name and company ID OR a page from the E -Verify Memorandum of Understanding (MOU) listing the consultant’s/contractor’s name and the MOU signature page completed and signed, at minimum, by the consultant/contractor and the Department of Homeland Security – Verification Division. If the signature page of the MOU lists the consultant’s/contractor’s name and company ID, then no additional pages of the MOU must be submitted; AND",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Provide documentation of E-Verify participation."
+    },
+    {
+      "criterion": "Submit a completed, notarized Affidavit of Work Authorization provided on the next page of this document.",
+      "meets_requirement": "No",
+      "evidence": "Cannot be determined from the provided data.",
+      "needed_to_become_eligible": "Submit a completed, notarized Affidavit of Work Authorization."
+    }
+  ],
+  "missing_requirements": [
+    "HSD Forms A & B, Agreement for Contracted Services",
+    "Five client references",
+    "Completion of Company Identification Form",
+    "Completion of References and Experience Form",
+    "MBE/WBE Certification",
+    "Compliance with online portal submission requirements",
+    "Compliance with page limits and proposal organization requirements",
+    "Affidavit of Work Authorization",
+    "Proof of E-Verify participation",
+    "Completion of the business status certification exhibit",
+    "Submission of three client references from the past 1-2 years."
+  ],
+  "recommendations": [
+    "Immediately gather and prepare the required HSD Forms, company identification and reference materials to include with the proposal.",
+    "Ensure the company meets all the criteria listed above and is prepared to sign the contract.",
+    "If possible, explore the possibility of obtaining MBE/WBE certification (though this is likely not feasible with time constraints).",
+    "Complete all required forms, certifications, and attachments as specified in the RFP.",
+    "Thoroughly review the RFP to understand all requirements and ensure full compliance."
+  ]
+}
+```

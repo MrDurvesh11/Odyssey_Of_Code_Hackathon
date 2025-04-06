@@ -1,0 +1,48 @@
+```json
+{
+  "Submission Requirements": {
+    "Format Requirements": [
+      "A sample technology audit report from a previous client (with confidential information redacted)",
+      "Attachment 1: Company Identification Form (completed and returned)",
+      "Attachment 2: References and Experience (minimum of five references, details on terminated contracts)"
+    ],
+    "Required Sections": [
+      "Introduction of your company, history, and qualifications for this project",
+      "Description of methods and processes to be used in acquiring data",
+      "Description of work experience with school districts and information technology audits in the last five (5) years; provide contact names, phone numbers, and e-mail addresses of at least three (3) clients",
+      "Brief description of the services the firm provides and how those services will benefit the District",
+      "Description of data that will need to be provided by the District to assist in the analysis and projections",
+      "Detailed description of the audit process and methodology with data collection and analysis techniques",
+      "Proposed timeline for completion of the audit",
+      "A comprehensive written report detailing findings and recommendations",
+      "An executive summary for district leadership and school board",
+      "A presentation of findings to district leadership (and school board if required)",
+      "Prioritized recommendations that are broken into the areas covered in the scope of work",
+      "Suggested Key Performance Indicators (KPI) for measuring future success"
+
+    ],
+    "Content Requirements": [
+      "Indication of any areas where the district’s information technology could be assessed or improved through an audit process (including items not specified in sections 7.1 through 7.5).  Pricing for any such items should be indicated as a separate line item(s) on the pricing page if not already included elsewhere.",
+      "All proposals shall be deemed final, conclusive and irrevocable, and no proposal shall be subject to correction or amendment for any error or miscalculation. All proposals shall be considered valid for a minimum of 60 days."
+    ],
+    "Other Requirements": [
+      "Designate one individual as the Company’s representative to the District during the term of the Agreement.",
+      "The Company certifies that there are no “PARTIES OF INTEREST” or “CONFLICTS OF INTEREST”, as defined by state and/or federal regulations, existing between the Company and the District or any of its employees, agents or Board of Education members.",
+      "The terms and conditions set forth in the Proposal will remain open for at least 90 days from the deadline for submission of Proposals"
+    ]
+  },
+  "Submission Process": {
+    "Submission Deadline": "Not specified in this chunk",
+    "Additional Information": "The District may request additional information and/or an interview with some or all Proposers as part of the selection process."
+  },
+  "Award Criteria": [
+    "Responsiveness and completeness of the vendor’s proposal",
+    "Proposer’s understanding of and ability to address the RFP requirements",
+    "Proposer’s experience and reference of similar sized school district clients",
+    "Cost",
+    "Proposer’s ability to provide the requested services",
+    "Project approach: Logical, organized, innovative understanding, and experience with similar projects",
+    "MBE/WBE participation"
+  ]
+}
+```

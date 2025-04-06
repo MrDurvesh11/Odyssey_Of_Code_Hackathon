@@ -1,0 +1,39 @@
+```json
+{
+  "Document Format": {
+    "Font Type/Size": "Not specified",
+    "Line Spacing": "Not specified",
+    "Page Limit": "Not specified"
+  },
+  "Required Sections and Content": {
+    "Proposal Response Sheet": "Includes deliverable and bid amount, Company Name, Address, City/Zip, Fax, Phone, Federal Tax ID, Print Name: Authorized Company Official, Signature: Authorized Company Official, E-mail Address.",
+    "HSD FORM A – MBE/WBE Subcontractor Utilization Form": "Includes project name, prime contractor name, and details of subcontracting with MBE/WBE firms (work/trade, firm name, subcontract amount).",
+    "HSD FORM B – MBE/WBE Subcontractor Solicitation Form": "Includes project name, prime contractor, firm name, contact person, mailing address, reason not utilized.",
+    "E-Verify Affidavits": "Must be completed based on business entity status",
+    "Completed W-9": "Must be completed",
+    "Agreement for Contracted Services": "Includes Contractor and District details, scope of services, term of contract, compensation",
+    "RFP Proposal": "Details not specified in the provided text, but this is a core required element",
+     "Client References": "Contractors must supply at least three (3) client references for completed work in the last 1-2 years. Please provide the organizations name, address, phone, contact person, project description and contract amount."
+  },
+  "Specific Attachments or Forms": {
+    "HSD FORM A": "MBE/WBE Subcontractor Utilization Form",
+    "HSD FORM B": "MBE/WBE Subcontractor Solicitation Form",
+    "Proposal Response Sheet": "Including deliverable and bid amount, Company Name, Address, City/Zip, Fax, Phone, Federal Tax ID, Print Name: Authorized Company Official, Signature: Authorized Company Official, E-mail Address.",
+    "W-9": "Completed",
+    "E-Verify Affidavits": "Based on business entity status; includes Affidavit of Work Authorization (notarized)",
+    "Agreement for Contracted Services": "Hazelwood School District contract template"
+  },
+  "Submission Deadlines and Method": {
+    "Submission Deadline": "Not specified",
+    "Submission Method": "Not specified"
+  },
+  "Other Submission Instructions": {
+    "Supplier Diversity Program": "The District has a Supplier Diversity Program with goals for MBE/WBE participation (25% and 5% respectively). The District may reject proposals that do not meet these goals. Download the program from www.hazelwoodschools.org under “Proposals and Proposals,” then go to the section labeled “Documentation.”",
+    "MBE/WBE Certification": "MBE/WBE firms must be certified by specific agencies on or before the proposal opening date.",
+    "No Participation": "The successful Proposer shall not directly or indirectly participate as a proposer, bidder, or subcontractor to a proposer or bidder on any bids or request for proposals to be designed, or services to be provided, as part of the projects contemplated by this RFP.",
+     "E-Verify Requirements": "Businesses contracting for services exceeding $5,000 must provide affidavits affirming E-Verify use and non-employment of illegal workers.",
+      "OSHA Training": "Contractors and subcontractors must provide a ten (10) hour OSHA construction safety program for on-site workers of public works projects.",
+      "Taxes": "Proposers shall NOT include Federal Excise Tax, Transportation Tax, or State Retail Sales Tax in their cost proposal."
+  }
+}
+```

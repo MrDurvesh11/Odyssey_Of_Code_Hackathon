@@ -1,0 +1,130 @@
+```json
+{
+  "Vague requirements or specifications": [
+    {
+      "text": "This audit will collect and evaluate evidence of HS D’s information technology systems, practices, and operations to determine if changes are needed in the existing structure to meet current and future needs.",
+      "unclear_reason": "The phrase 'current and future needs' is broad and lacks specific criteria. What specific needs is the audit meant to address?"
+    },
+    {
+      "text": "This may be virtual at the district’s discretion.",
+      "unclear_reason": "This offers flexibility but doesn't provide clarity on the circumstances or the criteria the district will use to decide. For example, under which conditions would a presentation be virtual vs. in-person?"
+    },
+    {
+      "text": "The District, in its sole discretion, will determine whether an irregularity is minor.",
+      "unclear_reason": "The term 'minor irregularity' is subjective and undefined. What are some examples of minor irregularities that the district would be willing to overlook?"
+    },
+    {
+      "text": "Provide recommendations for a 4- year device refresh plan",
+      "unclear_reason": "The level of detail expected for the 4-year device refresh plan is not clearly stated. How in-depth should this plan be?"
+    },
+    {
+      "text": "Proposals must be concise and organized.",
+      "unclear_reason": "The terms 'concise' and 'organized' are subjective and provide no specific guidance. How much detail is expected in the proposal?"
+    },
+    {
+      "text": "The executive summary must be no longer than three (3) pages.",
+      "unclear_reason": "This is a length requirement, but it doesn't provide any guidance on the content that must be included in the executive summary."
+    },
+    {
+      "text": "The reader should be able to determine generally how well the Proposal meets the District’s requirements by reading the Executive Summary.",
+      "unclear_reason": "The term 'generally' is vague and open to interpretation. What level of detail should be included in the executive summary?"
+    },
+    {
+      "text": "For each project, indicate the name of school district, contact person, and phone number.",
+      "unclear_reason": "Are email addresses also allowed?"
+    },
+    {
+      "text": "Describe data that will need to be provided by the District to assist in the analysis and projections.",
+      "unclear_reason": "This is vague and doesn't specify what 'data' means. Be more specific about the types of data the district is expected to provide."
+    },
+     {
+      "text": "The selected ﬁrm will provide:  ● A comprehensive  written  report  detailing  ﬁndings  and recommendations",
+      "unclear_reason": "The term 'comprehensive' is vague and open to interpretation. What information does the report need to include?"
+    },
+     {
+      "text": "suggested Key Performance Indicator s (KPI) for measuring  future success",
+      "unclear_reason": "How many KPIs? How should they be selected?"
+    },
+    {
+      "text": "The proposal evaluation committee shall choose the proposer who is deemed to be in the best interest of the District based on, but not limited to, the following factors",
+      "unclear_reason": "This provides a list of factors but doesn't specify how they will be weighted or prioritized in the evaluation. "
+    },
+     {
+      "text": "taking into account overall content of the proposal, cost, overall proposal, experience and qualifications of the firm and staff assigned and quality and content of the manner in which the services are proposed to be performed.",
+      "unclear_reason": "The weighting of these factors is not provided."
+    },
+    {
+      "text": "The District may request additional information and/or an interview with some or all Proposers as part of the selection process.",
+      "unclear_reason": "Does an interview happen with everyone?"
+    }
+  ],
+  "Undefined terms or metrics": [
+    {
+      "text": "HSD Form A – MBE/WBE Subcontractor Utilization Form\nHSD Form B - MBE/WBE Subcontractor Solicitation Form\nAgreement for Contracted Services",
+      "unclear_reason": "These forms are referenced, but not included in the RFP. The content or availability of these forms is not described. It's unclear where to obtain them."
+    },
+    {
+      "text": "The District is not responsible for late or incorrect proposals.",
+      "unclear_reason": "The definition of 'incorrect' is unclear. What specific errors or omissions would make a proposal 'incorrect'?"
+    },
+    {
+      "text": "Sealed proposals shall contain the following non- amended forms:",
+      "unclear_reason": "What are the non-amended forms?"
+    },
+    {
+      "text": "Assess organizational effectiveness, application support and business continuity management",
+      "unclear_reason": "The specific criteria for evaluating 'organizational effectiveness,' 'application support,' and 'business continuity management' are not provided."
+    },
+    {
+      "text": "The District pledges absolute confidentiality on all litigation disclosed.",
+      "unclear_reason": "What does 'absolute confidentiality' entail in practice? Are there any exceptions, or limitations on this pledge?"
+    },
+    {
+      "text": "8.0 Proposal Requirements",
+      "unclear_reason": "This section references the inclusion of specific information in the proposal (e.g. description of methods), but without specific instructions on how to include the information. "
+    }
+  ],
+  "Conflicting information": [
+    {
+      "text": "Responses must be submitted by the time and date listed above through the District’s Vendor Registry online portal",
+      "unclear_reason": "This statement claims that proposal must be submitted through Vendor Registry, but the title of the document says it's a Request for Proposal. "
+    },
+    {
+      "text": "The District may award a contract based upon the initial Proposals received without discussion of such Proposals. However, the District may select a small number of Companies to make a presentation/attend an interview at the Company’s own expense.",
+      "unclear_reason": "This indicates that the district may award a contract without an interview, while also indicating that it *may* require an interview. It's unclear if this is optional or a potential requirement."
+    }
+  ],
+  "Missing critical details": [
+    {
+      "text": "Due: February 25 , 2025",
+      "unclear_reason": "The year is included but not the day and month of the deadline."
+    },
+    {
+      "text": "Time: 10:00 a.m. CDT",
+      "unclear_reason": "Is this time Central Daylight Time?"
+    },
+    {
+      "text": "Any questions regarding the specifications are to be directed to Danielle Thomas, Director of Purchasing & Supplier Diversity no later than 2:00 pm on Tuesday , February 18 , 2025 through the Vendor Registry online question submission process via the district’s website at https://www.hazelwoodschools.org/Page/2238.",
+      "unclear_reason": "While a date and time are provided for questions, it's not clear when vendors should expect an answer."
+    },
+        {
+      "text": "Once the Hazelwood School District has awarded the Proposal, the Proposal Submission will represent as the contractual agreement unless otherwise communicated.",
+      "unclear_reason": "What specific parts of the Proposal Submission would constitute the contractual agreement? Is there any type of contract document or addendum expected?"
+    },
+     {
+      "text": "Indicate any major requirements than cannot be met, and highlights the major features of the Proposal.",
+      "unclear_reason": "This indicates what should be included in an Executive Summary, but the page count requirements have no guidance as to how the format of the Summary should be. Is there an outline that is expected?"
+    },
+    {
+      "text": "The selected ﬁrm will conduct a comprehensive audit that includes, but is not limited to, the following areas. Firms can submit a proposal for auditing all items or speciﬁc items individually, both proposals will be considered. Firms must ﬁll out the Bid Pricing sheet.",
+      "unclear_reason": "Where is the Bid Pricing sheet?"
+    }
+  ],
+  "Unclear expectations or deliverables": [
+    {
+      "text": "Suggest Key Performance Indicator s (KPI) for measuring future success",
+      "unclear_reason": "What is the expected format or detail level for the KPIs? How many should be suggested?"
+    }
+  ]
+}
+```

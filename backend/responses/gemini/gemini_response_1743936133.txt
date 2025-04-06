@@ -1,0 +1,59 @@
+## Hazelwood School District IT Audit RFP Summary: Bid/No-Bid Decision Guide
+
+This document summarizes the key requirements for the Hazelwood School District (HSD) Request for Proposals (RFP) for a comprehensive information technology audit, providing information crucial for a bid/no-bid decision.
+
+**1. Key Requirements & Specifications:**
+
+The HSD seeks a comprehensive IT audit evaluating its systems, practices, and operations to identify improvements for current and future needs.  The audit must encompass the entire IT infrastructure supporting approximately 16,500 students and 2,300 employees. Specific areas of assessment include:
+
+* **Technology Landscape:** Hardware, software, network, classroom technology integration, special programs.
+* **Device Management & Refresh Planning:** Inventory, refresh cycles, Total Cost of Ownership (TCO).
+* **Infrastructure & Network Evaluation:** Security, data protection, lifecycle.
+* **Professional Development Assessment:** Training effectiveness, support mechanisms.
+* **Technical Support & Maintenance Evaluation:** Help desk, repair processes.
+* **Cybersecurity Readiness & Compliance:**  FERPA and relevant state policies.
+* **Four-Year Device Refresh Plan:** Development of a comprehensive plan for device replacement.
+
+The audit must result in a comprehensive report, executive summary, presentation, prioritized recommendations, and suggested Key Performance Indicators (KPIs).  A sample audit report from a previous client is required.  The methodology, including data collection and analysis techniques, must be clearly detailed.  The proposer must also specify any areas for IT assessment or improvement beyond those listed in the RFP.  The proposer must describe their data acquisition methods.
+
+
+**2. Important Terms & Conditions:**
+
+* **Proposal Submission:** Proposals are considered final and irrevocable with a 60-day validity period.  Late submissions will not be considered.  Proposals must be submitted electronically via the District's Vendor Registry online portal by February 25, 2025, at 10:00 a.m. CDT.
+* **Award Process:** HSD may award a contract based solely on initial proposals, potentially followed by presentations/interviews (at the bidder's expense).  The District reserves the right to reject any or all proposals, award portions of the project, or cancel the RFP at any time without liability. No explanation of the evaluation process will be provided.  The District's interpretation of the RFP is final.
+* **Contract Terms:**  The contract can be terminated for cause with 30 days written notice.  All RFP terms are binding.  Prices submitted are fixed and cannot be increased during the contract term. A formal contract must be signed within seven business days of receipt, including required insurance certificates.  Payment terms are Net 45 days. The successful proposer is prohibited from participating in related bids or proposals.  The District retains ownership of all submitted proposals.
+* **Confidentiality:**  Specific data confidentiality restrictions can be applied if clearly marked in the proposal. A code integrity warranty is required, guaranteeing the absence of malicious code in the vendor's software.  The vendor must immediately notify HSD and rectify any discovered malicious code at their own expense.
+* **Liability:** HSD bears no responsibility for proposal preparation costs.
+
+
+**3. Technical Details:**
+
+The audit scope encompasses the entire HSD IT infrastructure.  Proposers must detail their data acquisition methods and specify any additional areas for IT assessment or improvement beyond those outlined.  Specific insurance requirements include General Liability, Workers’ Compensation, Employer’s Liability, Automotive Liability, and Professional Errors & Omissions.
+
+
+**4. Eligibility Criteria:**
+
+* **Experience:** Significant experience in conducting comprehensive IT audits, particularly within school districts, is crucial. Demonstrated understanding of the RFP's requirements is essential.
+* **MBE/WBE Participation:**  A minimum of 25% MBE and 5% WBE participation is required. MBE/WBE firms must be certified by specified agencies (City of St. Louis, SLMSDC, MRCC, state certifications, NMSDC, WBENC, and affiliates) by the proposal opening date.  MBE/WBE participation is a favorable factor and failure to meet these goals may result in proposal rejection.
+* **E-Verify Compliance:**  Compliance with Missouri's E-Verify program (www.e-verify.gov) and submission of relevant documentation (Employment Eligibility Verification page or MOU), a notarized Affidavit of Work Authorization, and potentially a completed Box B certification are mandatory.  Compliance with Section 285.530, RSMo, regarding illegal worker employment is also required.  False statements are subject to penalties under section 575.040, RSMo.
+* **OSHA Compliance:**  Documentation of OSHA 10-hour construction safety training is required for construction-related aspects of the project.
+
+
+**5. Submission Guidelines:**
+
+Proposals must be concise (maximum 12 pages excluding attachments and resumes), including a transmittal letter and a 3-page executive summary.  Required attachments include:
+
+* HSD Forms A (MBE/WBE Subcontractor Utilization) and B (MBE/WBE Subcontractor Solicitation).
+* Agreement for Contracted Services.
+* Company Identification Form (Attachment 1).
+* References and Experience, including all Missouri school districts served (Attachment 2).
+* Completed Bid Pricing sheet.
+* E-Verify affidavits.
+* Completed W-9.
+* Disclosure of any litigation involving the company's professional services.
+* Proposal response sheet.
+
+
+Failure to comply with specifications will negatively impact the evaluation.  All required forms and information must be included for consideration.  Proposals must adhere to specified formatting and content requirements, and all information requested in the RFP must be provided.  The proposal will be evaluated based on responsiveness, understanding of requirements, experience, cost, ability to provide services, project approach, and MBE/WBE participation.  Invoices must include the purchase order number, date of shipment, quantity, price, and items shipped.  The proposer must supply the requested information on the provided proposal price sheet.
+
+**Bid/No-Bid Decision:**  A no-bid decision should be considered if the firm lacks sufficient experience in school district IT audits, fails to meet the MBE/WBE participation goals, cannot demonstrate E-Verify and OSHA compliance, or fails to meet the submission guidelines and formatting requirements.  Careful consideration of the costs associated with meeting the MBE/WBE requirements is also essential.

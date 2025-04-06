@@ -1,0 +1,52 @@
+```json
+{
+  "Submission Requirements": {
+    "Format": [
+      {
+        "description": "Proposals must be concise and organized, limited to twelve (12) pages (excluding letter of transmittal, executive summary, required attachments, and resumes).",
+        "details": "Pages should be concise and well organized"
+      },
+      {
+        "description": "Include a Letter of Transmittal introducing the company and expressing its ability and desire to meet RFP requirements.  Must be signed by a company officer.",
+        "details": "Letter of Transmittal must be included and signed by a company officer"
+      },
+      {
+        "description": "Include an Executive Summary (no more than three pages) briefly describing the company's approach, unmet requirements, and major proposal features.  It should allow readers to determine how well the proposal meets the District's requirements.",
+        "details": "Executive Summary should be no more than 3 pages and highlight approach, unmet requirements and features"
+      }
+    ],
+    "Sections": [
+      {
+        "description": "Organization, Staffing, and Qualifications:  Include names, titles, and responsibilities of team members; prior experience in school district IT audits; address of the responsible office; qualifications of personnel by discipline; reasons for the company's qualifications; examples of recent school IT audit experience (last 5 years); and references from other school districts (last 5 years).",
+        "details": "Sections on organization, staffing and qualifications should be thorough and inclusive of prior experience"
+      },
+      {
+        "description": "Other Information: Indicate any litigation involving the company's professional services; complete Attachment 1, “Company Identification Form”; and complete Attachment 2, “References and Experience,” including Missouri school districts served and similar projects.",
+        "details": "Attachments 1 and 2 should be completed"
+      },
+      {
+        "description": "Scope of Work:  The proposal must address all or some of the outlined areas for a comprehensive audit. Firms must fill out the Bid Pricing sheet.",
+        "details": "Bid Pricing sheet must be completed"
+      }
+    ],
+    "Attachments": [
+      "Attachment 1, “Company Identification Form”",
+      "Attachment 2, “References and Experience”"
+    ],
+    "Other": [
+      "All terms and conditions of the RFP are deemed accepted and incorporated into the proposal submission.",
+      "Any ambiguity in the proposal will be construed in favor of the District."
+    ]
+  },
+  "Deadlines": {
+    "general": [
+      "No specific deadlines are mentioned in this section of the document."
+    ]
+  },
+  "Submission Process": {
+    "general": [
+      "No specific submission process is mentioned in this section of the document."
+    ]
+  }
+}
+```

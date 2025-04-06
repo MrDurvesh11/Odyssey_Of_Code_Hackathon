@@ -1,0 +1,36 @@
+```json
+{
+  "Legal Status": [
+    "Registered as FirstStaff Workforce Solutions, LLC",
+    "State of Incorporation: Delaware",
+    "Texas Employment Agency License #TXEA-34892",
+    "State Registration Number: SRN-DE-0923847",
+    "Registered in SAM.gov (03/01/2022)"
+  ],
+  "Certifications Held": [
+    "Certificate of Insurance: Travelers Insurance, Policy #TX-884529-A; includes Workers' Comp, Liability, and Auto"
+  ],
+  "Past Performance": [
+    "Not explicitly stated in the data"
+  ],
+  "Financial Information": [
+    "DUNS Number: 07-842-1490",
+    "W-9 Form attached (TIN: 47-6392011)",
+    "Bank Letter of Creditworthiness: Not Available"
+  ],
+  "Other Qualifications and Capabilities": [
+    "9 years of company existence",
+    "7 years of experience in temporary staffing",
+    "Services Provided: Administrative, IT, Legal & Credentialing Staffing",
+    "Business Structure: Limited Liability Company (LLC)",
+    "NAICS Codes: 561320 – Temporary Help Services; 541611 – Admin Management",
+    "Key Personnel - Project Manager: Ramesh Iyer",
+    "Key Personnel - Technical Lead: Sarah Collins",
+    "Key Personnel - Security Auditor: James Wu"
+  ],
+  "Limitations": [
+    "No MBE Certification",
+    "Not certified as a Historically Underutilized Business/DBE"
+  ]
+}
+```

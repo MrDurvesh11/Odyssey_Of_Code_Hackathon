@@ -1,0 +1,58 @@
+```json
+{
+  "Technical Requirements": [
+    "Evaluate the existing information technology infrastructure (hardware, software, and network capabilities).",
+    "Assess organizational effectiveness, application support, and business continuity management.",
+    "Assess classroom and administrative office technology integration (devices, interactive whiteboards, and other educational technology tools, including the Student Information System (SIS)).",
+    "Review special program technology needs (e.g., PLTW, broadcasting, Innovation teams).",
+    "Assess current device inventory and management for both staff and students.",
+    "Evaluate the existing device refresh cycle and recommend improvements.",
+    "Analyze total cost of ownership (TCO) for various device options.",
+    "Provide recommendations for a 4-year device refresh plan.",
+    "Assess current network infrastructure, including wired and wireless networks.",
+    "Evaluate bandwidth capacity and internet connectivity.",
+    "Review network security measures and data protection strategies.",
+    "Assess systems lifecycles, data management, system implementation, data loss prevention, data privacy, identity access management."
+  ],
+  "Service Delivery Expectations": [
+    "Conduct a comprehensive information technology audit.",
+    "Collect and evaluate evidence of HSD’s information technology systems, practices, and operations to determine if changes are needed to meet current and future needs.",
+    "Proposals must be concise and organized, limited to 12 pages (excluding specified attachments).",
+    "The audit process must be described in detail, including methodology with data collection and analysis techniques.",
+    "Provide a comprehensive written report detailing findings and recommendations.",
+    "Provide an executive summary for district leadership and school board.",
+    "Provide a presentation of findings to district leadership (and school board if required).",
+    "Offer prioritized recommendations broken into the areas covered in the scope of work.",
+    "Suggest Key Performance Indicators (KPIs) for measuring future success.",
+    "The selected firm will conduct a comprehensive audit that includes, but is not limited to, the areas in Section 7.0.",
+    "Firms can submit a proposal for auditing all items or specific items individually, both proposals will be considered.",
+    "The selected firm will provide:  A comprehensive written report detailing findings and recommendations, An executive summary for district leadership and school board, A presentation of findings to district leadership (and school board if required), Prioritized recommendations that are broken into the areas covered in the scope of work , and Suggested Key Performance Indicators (KPI) for measuring future success."
+  ],
+  "Expertise Required": [
+    "Experience in conducting comprehensive information technology audits.",
+    "Knowledge of school district information technology systems and operations.",
+    "Expertise in evaluating IT infrastructure, hardware, software, and network capabilities.",
+    "Knowledge of device management and refresh planning.",
+    "Expertise in network infrastructure evaluation, including wired and wireless networks.",
+    "Knowledge of network security measures and data protection strategies.",
+    "Familiarity with professional development and training assessment.",
+    "Knowledge of IT support structure and staffing levels.",
+    "Experience in help desk operations and service delivery.",
+    "Expertise in maintenance and repair processes for devices.",
+    "The selected firm will conduct a comprehensive audit that includes, but is not limited to, the areas in Section 7.0."
+  ],
+  "Industry-Specific Knowledge Needed": [
+    "Knowledge of school district IT environments.",
+    "Understanding of educational technology tools (devices, interactive whiteboards, SIS, etc.).",
+    "Familiarity with special program technology needs (e.g., PLTW, broadcasting, Innovation teams).",
+    "Understanding of data privacy and security requirements specific to educational institutions.",
+    "Experience with similar sized school district clients."
+  ],
+  "Scale and Scope of Work": [
+    "Conduct a comprehensive information technology audit for the Hazelwood School District (HSD).",
+    "The audit will cover a wide range of areas including the current technology landscape, device management, infrastructure and network evaluation, professional development and training assessment, and technical support and maintenance evaluation.",
+    "The district comprises 78 square miles, and currently services approximately 16,500 students in grades PK-12 and employs 2,300 full-time personnel. The District’s physical plant includes three high schools, six middle schools, twenty elementary schools, three early childhood education centers, and administration building and support services facility.",
+    "Firms can submit a proposal for auditing all items or specific items individually, both proposals will be considered."
+  ]
+}
+```
